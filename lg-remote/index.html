@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Mando TV</title>
+<style>
+:root{--bg:#0f1115;--card:#1a1d24;--key:#262a33;--key2:#313643;--txt:#eef1f6;--mut:#9aa3b2;--acc:#e6007e;--ok:#2ecc71;--err:#ff5c5c;--r:16px}
+:root[data-theme="light"]{--bg:#f2f3f6;--card:#fff;--key:#e6e8ee;--key2:#d6d9e1;--txt:#14161a;--mut:#5d6573}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--txt);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overscroll-behavior:none}
+body{display:flex;flex-direction:column;max-width:480px;margin:0 auto;padding:env(safe-area-inset-top) 16px calc(76px + env(safe-area-inset-bottom))}
+header{display:flex;align-items:center;gap:10px;padding:12px 0}
+header h1{font-size:18px;margin:0;flex:1}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--err);flex:none}
+.dot.on{background:var(--ok)}.dot.wait{background:#f5b301}
+#status{color:var(--mut);font-size:13px}
+button{font:inherit;color:inherit;border:0;cursor:pointer;user-select:none;-webkit-user-select:none}
+.k{background:var(--key);border-radius:var(--r);min-height:52px;display:flex;align-items:center;justify-content:center;gap:6px;font-weight:600;transition:transform .06s,background .1s;touch-action:manipulation}
+.k:active,.k.pressed{transform:scale(.94);background:var(--key2)}
+.k small{font-weight:500;color:var(--mut);font-size:12px}
+.k svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.grid{display:grid;gap:10px}
+.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g2{grid-template-columns:1fr 1fr}
+.power{background:#c0392b;color:#fff}
+section{display:none;flex-direction:column;gap:14px}
+section.active{display:flex}
+.card{background:var(--card);border-radius:20px;padding:16px}
+.dpad{position:relative;width:min(78vw,300px);aspect-ratio:1;margin:4px auto;border-radius:50%;background:var(--key)}
+.dpad button{position:absolute;background:transparent;display:flex;align-items:center;justify-content:center;color:var(--txt)}
+.dpad button:active{background:var(--key2)}
+.dpad .u{top:0;left:30%;width:40%;height:30%;border-radius:50% 50% 0 0}
+.dpad .d{bottom:0;left:30%;width:40%;height:30%;border-radius:0 0 50% 50%}
+.dpad .l{left:0;top:30%;width:30%;height:40%;border-radius:50% 0 0 50%}
+.dpad .r{right:0;top:30%;width:30%;height:40%;border-radius:0 50% 50% 0}
+.dpad .ok{top:30%;left:30%;width:40%;height:40%;border-radius:50%;background:var(--key2);font-weight:700}
+.dpad svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.rocker{display:flex;flex-direction:column;background:var(--key);border-radius:var(--r);overflow:hidden}
+.rocker button{background:transparent;height:56px;font-size:22px;font-weight:700}
+.rocker button:active{background:var(--key2)}
+.rocker span{text-align:center;font-size:12px;color:var(--mut)}
+.colors button{height:34px;border-radius:10px}
+#pad{height:min(56vh,440px);border-radius:24px;background:var(--card);border:2px dashed var(--key2);touch-action:none;position:relative;display:flex;align-items:center;justify-content:center;color:var(--mut);text-align:center;padding:20px;user-select:none}
+#scrollbar{position:absolute;right:6px;top:12px;bottom:12px;width:38px;border-radius:19px;background:var(--key);touch-action:none;display:flex;align-items:center;justify-content:center;font-size:12px;writing-mode:vertical-rl}
+input,textarea,select{font:inherit;color:var(--txt);background:var(--key);border:2px solid transparent;border-radius:12px;padding:12px;width:100%}
+input:focus,textarea:focus{outline:none;border-color:var(--acc)}
+textarea{min-height:110px;resize:vertical}
+label{font-size:13px;color:var(--mut);display:block;margin:0 0 6px}
+.row{display:flex;gap:10px;align-items:center}
+.primary{background:var(--acc);color:#fff}
+.hint{font-size:13px;color:var(--mut)}
+.hint a{color:var(--acc)}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;background:var(--card);border-top:1px solid var(--key);padding-bottom:env(safe-area-inset-bottom);z-index:5}
+nav div{display:flex;width:100%;max-width:480px}
+nav button{flex:1;background:none;padding:10px 0 8px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:12px;color:var(--mut)}
+nav button.active{color:var(--acc)}
+nav svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#apps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+#apps button{background:var(--key);border-radius:14px;padding:10px 6px;display:flex;flex-direction:column;align-items:center;gap:6px;font-size:12px;min-height:96px}
+#apps img{width:48px;height:48px;object-fit:contain;border-radius:10px}
+#toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#000c;color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw;z-index:9}
+#toast.show{opacity:1}
+#log{font:12px ui-monospace,monospace;color:var(--mut);max-height:140px;overflow:auto;white-space:pre-wrap;word-break:break-all}
+</style>
+</head>
+<body>
+<header>
+  <span class="dot" id="dot"></span>
+  <h1>Mando TV <span id="status">Desconectado</span></h1>
+  <button class="k" style="min-height:40px;padding:0 12px" id="btnConnTab" aria-label="Conexión">⚙︎</button>
+</header>
+
+<!-- MANDO -->
+<section id="tab-remote" class="active">
+  <div class="grid g4">
+    <button class="k power" data-ssap="ssap://system/turnOff" aria-label="Apagar"><svg viewBox="0 0 24 24"><path d="M12 3v9M6.3 6.3a8 8 0 1 0 11.4 0"/></svg></button>
+    <button class="k" data-btn="MUTE" aria-label="Silencio"><svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4zM22 9l-6 6M16 9l6 6"/></svg></button>
+    <button class="k" id="btnInput"><small>Entrada</small></button>
+    <button class="k" data-btn="MENU"><small>Ajustes</small></button>
+  </div>
+
+  <div class="dpad">
+    <button class="u" data-btn="UP" aria-label="Arriba"><svg viewBox="0 0 24 24"><path d="m6 15 6-6 6 6"/></svg></button>
+    <button class="l" data-btn="LEFT" aria-label="Izquierda"><svg viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg></button>
+    <button class="ok" data-btn="ENTER">OK</button>
+    <button class="r" data-btn="RIGHT" aria-label="Derecha"><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></button>
+    <button class="d" data-btn="DOWN" aria-label="Abajo"><svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button>
+  </div>
+
+  <div class="grid g3">
+    <button class="k" data-btn="BACK"><svg viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg><small>Atrás</small></button>
+    <button class="k" data-btn="HOME"><svg viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v10h-6v-6H9v6H3z"/></svg><small>Inicio</small></button>
+    <button class="k" data-btn="EXIT"><small>Salir</small></button>
+  </div>
+
+  <div class="grid" style="grid-template-columns:1fr 1.4fr 1fr">
+    <div class="rocker"><button data-ssap="ssap://audio/volumeUp" data-repeat aria-label="Subir volumen">+</button><span>VOL <b id="vol">–</b></span><button data-ssap="ssap://audio/volumeDown" data-repeat aria-label="Bajar volumen">−</button></div>
+    <div class="grid g2" style="align-content:center">
+      <button class="k" data-btn="INFO"><small>Info</small></button>
+      <button class="k" data-btn="GUIDE"><small>Guía</small></button>
+      <button class="k" data-btn="QMENU"><small>Q.Menú</small></button>
+      <button class="k" data-btn="ASTERISK"><small>✱</small></button>
+    </div>
+    <div class="rocker"><button data-ssap="ssap://tv/channelUp" aria-label="Canal siguiente">⌃</button><span>CH</span><button data-ssap="ssap://tv/channelDown" aria-label="Canal anterior">⌄</button></div>
+  </div>
+
+  <div class="grid g4 colors">
+    <button style="background:#e53935" data-btn="RED" aria-label="Rojo"></button>
+    <button style="background:#43a047" data-btn="GREEN" aria-label="Verde"></button>
+    <button style="background:#fdd835" data-btn="YELLOW" aria-label="Amarillo"></button>
+    <button style="background:#1e88e5" data-btn="BLUE" aria-label="Azul"></button>
+  </div>
+
+  <div class="grid" style="grid-template-columns:repeat(5,1fr)">
+    <button class="k" data-ssap="ssap://media.controls/rewind" aria-label="Rebobinar">⏪</button>
+    <button class="k" data-ssap="ssap://media.controls/play" aria-label="Play">▶</button>
+    <button class="k" data-ssap="ssap://media.controls/pause" aria-label="Pausa">⏸</button>
+    <button class="k" data-ssap="ssap://media.controls/stop" aria-label="Stop">⏹</button>
+    <button class="k" data-ssap="ssap://media.controls/fastForward" aria-label="Avanzar">⏩</button>
+  </div>
+
+  <div class="grid g3" id="numpad"></div>
+</section>
+
+<!-- PUNTERO -->
+<section id="tab-pointer">
+  <div id="pad">Desliza para mover el puntero<br>Toca para hacer clic<br>Dos dedos o la barra derecha para desplazar
+    <div id="scrollbar">desplazar</div>
+  </div>
+  <div class="grid g3">
+    <button class="k" data-btn="BACK"><small>Atrás</small></button>
+    <button class="k" id="clickBtn"><small>Clic</small></button>
+    <button class="k" data-btn="HOME"><small>Inicio</small></button>
+  </div>
+  <div class="row"><label style="margin:0;flex:none">Velocidad</label><input type="range" id="speed" min="0.5" max="4" step="0.1" value="1.8" style="padding:0"></div>
+</section>
+
+<!-- TECLADO -->
+<section id="tab-keyboard">
+  <div class="card">
+    <label for="kbText">Escribe aquí y se manda a la tele (abre antes un campo de texto en la TV, p. ej. el buscador de YouTube)</label>
+    <textarea id="kbText" placeholder="Texto…" autocomplete="off" autocapitalize="off" spellcheck="false"></textarea>
+    <div class="row" style="margin-top:10px">
+      <input type="checkbox" id="live" checked style="width:auto"><label for="live" style="margin:0">Enviar mientras escribo</label>
+    </div>
+  </div>
+  <div class="grid g3">
+    <button class="k primary" id="kbSend">Enviar</button>
+    <button class="k" id="kbDel" data-repeat>⌫ Borrar</button>
+    <button class="k" id="kbEnter">↵ Intro</button>
+  </div>
+  <button class="k" id="kbClear">Limpiar mi texto</button>
+  <p class="hint">En el PC también puedes usar el teclado físico: flechas, Intro, Esc (atrás) y Retroceso funcionan como el mando cuando no estás escribiendo.</p>
+</section>
+
+<!-- APPS -->
+<section id="tab-apps">
+  <div class="row"><button class="k" style="flex:1" id="loadApps">Cargar apps de la TV</button></div>
+  <div id="apps"></div>
+  <div class="card">
+    <label for="toastMsg">Mostrar un mensaje en la tele</label>
+    <div class="row"><input id="toastMsg" placeholder="¡Hola!"><button class="k" style="padding:0 16px" id="sendToast">Enviar</button></div>
+  </div>
+</section>
+
+<!-- CONEXIÓN -->
+<section id="tab-conn">
+  <div class="card">
+    <label for="ip">IP de la tele (Ajustes › Red › Wi-Fi › Avanzado)</label>
+    <input id="ip" inputmode="decimal" placeholder="192.168.1.50">
+    <div class="row" style="margin-top:12px">
+      <input type="checkbox" id="secure" checked style="width:auto"><label for="secure" style="margin:0">Conexión segura (puerto 3001, teles de 2018 en adelante)</label>
+    </div>
+    <div class="grid g2" style="margin-top:14px">
+      <button class="k primary" id="connect">Conectar</button>
+      <button class="k" id="disconnect">Desconectar</button>
+    </div>
+    <button class="k" id="forget" style="margin-top:10px;width:100%"><small>Olvidar emparejamiento</small></button>
+  </div>
+  <div class="card hint">
+    <b>Primera vez:</b><br>
+    1. Móvil/PC y tele en la <b>misma Wi-Fi</b>. Tele encendida.<br>
+    2. En la tele: Ajustes › General › Dispositivos › <i>LG Connect Apps</i> / <i>Mobile TV On</i> activado.<br>
+    3. Si usas conexión segura, abre <a id="certLink" href="#" target="_blank" rel="noopener">https://IP:3001</a>, acepta el aviso de certificado ("Avanzado › Continuar") y vuelve aquí.<br>
+    4. Pulsa Conectar y acepta el aviso que sale en la tele. Solo se pide una vez.<br>
+    5. Si el navegador pregunta por "acceso a la red local", dale a Permitir.
+  </div>
+  <div class="row"><label style="margin:0">Tema</label>
+    <select id="theme"><option value="">Automático</option><option value="dark">Oscuro</option><option value="light">Claro</option></select></div>
+  <div class="card"><label>Registro</label><div id="log"></div></div>
+</section>
+
+<nav><div>
+  <button data-tab="remote" class="active"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="3"/><circle cx="12" cy="8" r="2"/><path d="M10 14h4M10 17h4"/></svg>Mando</button>
+  <button data-tab="pointer"><svg viewBox="0 0 24 24"><path d="m4 3 7 17 2-7 7-2z"/></svg>Puntero</button>
+  <button data-tab="keyboard"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h0M10 10h0M14 10h0M18 10h0M7 14h10"/></svg>Teclado</button>
+  <button data-tab="apps"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Apps</button>
+</div></nav>
+<div id="toast"></div>
+
+<script>
+'use strict';
+const PAIRING = {"forcePairing":false,"pairingType":"PROMPT","manifest":{"manifestVersion":1,"appVersion":"1.1","signed":{"created":"20140509","appId":"com.lge.test","vendorId":"com.lge","localizedAppNames":{"":"LG Remote App","ko-KR":"리모컨 앱","zxx-XX":"ЛГ Rэмotэ AПП"},"localizedVendorNames":{"":"LG Electronics"},"permissions":["TEST_SECURE","CONTROL_INPUT_TEXT","CONTROL_MOUSE_AND_KEYBOARD","READ_INSTALLED_APPS","READ_LGE_SDX","READ_NOTIFICATIONS","SEARCH","WRITE_SETTINGS","WRITE_NOTIFICATION_ALERT","CONTROL_POWER","READ_CURRENT_CHANNEL","READ_RUNNING_APPS","READ_UPDATE_INFO","UPDATE_FROM_REMOTE_APP","READ_LGE_TV_INPUT_EVENTS","READ_TV_CURRENT_TIME"],"serial":"2f930e2d2cfe083771f68e4fe7bb07"},"permissions":["LAUNCH","LAUNCH_WEBAPP","APP_TO_APP","CLOSE","TEST_OPEN","TEST_PROTECTED","CONTROL_AUDIO","CONTROL_DISPLAY","CONTROL_INPUT_JOYSTICK","CONTROL_INPUT_MEDIA_RECORDING","CONTROL_INPUT_MEDIA_PLAYBACK","CONTROL_INPUT_TV","CONTROL_POWER","READ_APP_STATUS","READ_CURRENT_CHANNEL","READ_INPUT_DEVICE_LIST","READ_NETWORK_STATE","READ_RUNNING_APPS","READ_TV_CHANNEL_LIST","WRITE_NOTIFICATION_TOAST","READ_POWER_STATE","READ_COUNTRY_INFO","READ_SETTINGS","CONTROL_TV_SCREEN","CONTROL_TV_STANBY","CONTROL_FAVORITE_GROUP","CONTROL_USER_INFO","CHECK_BLUETOOTH_DEVICE","CONTROL_BLUETOOTH","CONTROL_TIMER_INFO","STB_INTERNAL_CONNECTION","CONTROL_RECORDING","READ_RECORDING_STATE","WRITE_RECORDING_LIST","READ_RECORDING_LIST","READ_RECORDING_SCHEDULE","WRITE_RECORDING_SCHEDULE","READ_STORAGE_DEVICE_LIST","READ_TV_PROGRAM_INFO","CONTROL_BOX_CHANNEL","READ_TV_ACR_AUTH_TOKEN","READ_TV_CONTENT_STATE","READ_TV_CURRENT_TIME","ADD_LAUNCHER_CHANNEL","SET_CHANNEL_SKIP","RELEASE_CHANNEL_SKIP","CONTROL_CHANNEL_BLOCK","DELETE_SELECT_CHANNEL","CONTROL_CHANNEL_GROUP","SCAN_TV_CHANNELS","CONTROL_TV_POWER","CONTROL_WOL"],"signatures":[{"signatureVersion":1,"signature":"eyJhbGdvcml0aG0iOiJSU0EtU0hBMjU2Iiwia2V5SWQiOiJ0ZXN0LXNpZ25pbmctY2VydCIsInNpZ25hdHVyZVZlcnNpb24iOjF9.hrVRgjCwXVvE2OOSpDZ58hR+59aFNwYDyjQgKk3auukd7pcegmE2CzPCa0bJ0ZsRAcKkCTJrWo5iDzNhMBWRyaMOv5zWSrthlf7G128qvIlpMT0YNY+n/FaOHE73uLrS/g7swl3/qH/BGFG2Hu4RlL48eb3lLKqTt2xKHdCs6Cd4RMfJPYnzgvI4BNrFUKsjkcu+WD4OO2A27Pq1n50cMchmcaXadJhGrOqH5YmHdOCj5NSHzJYrsW0HPlpuAx/ECMeIZYDh6RMqaFM2DXzdKX9NmmyqzJ3o/0lkk/N97gfVRLW5hA29yeAwaCViZNCP8iC9aO0q9fQojoa7NQnAtw=="}]}};
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const store = {
+  get(k, d) { try { const v = localStorage.getItem('lgremote.' + k); return v === null ? d : v; } catch { return d; } },
+  set(k, v) { try { v === null ? localStorage.removeItem('lgremote.' + k) : localStorage.setItem('lgremote.' + k, v); } catch {} }
+};
+function log(m) { const el = $('#log'); el.textContent = new Date().toLocaleTimeString() + ' ' + m + '\n' + el.textContent.slice(0, 4000); }
+let toastT;
+function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('show'), 2200); }
+function buzz() { try { navigator.vibrate && navigator.vibrate(12); } catch {} }
+
+/* ---------- Tema ---------- */
+function applyTheme(v) { v ? document.documentElement.setAttribute('data-theme', v) : document.documentElement.removeAttribute('data-theme'); }
+$('#theme').value = store.get('theme', ''); applyTheme($('#theme').value || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : ''));
+$('#theme').onchange = e => { store.set('theme', e.target.value); applyTheme(e.target.value || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : '')); };
+
+/* ---------- Pestañas ---------- */
+function showTab(name) {
+  $$('section').forEach(s => s.classList.toggle('active', s.id === 'tab-' + name));
+  $$('nav button').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
+}
+$$('nav button').forEach(b => b.onclick = () => showTab(b.dataset.tab));
+$('#btnConnTab').onclick = () => showTab('conn');
+
+/* ---------- Conexión SSAP (webOS) ---------- */
+const tv = {
+  ws: null, pws: null, id: 0, pending: new Map(), connected: false, url: '',
+  setState(s, txt) {
+    $('#dot').className = 'dot' + (s === 'on' ? ' on' : s === 'wait' ? ' wait' : '');
+    $('#status').textContent = txt;
+  },
+  connect() {
+    const ip = $('#ip').value.trim();
+    if (!ip) { toast('Pon la IP de la tele'); showTab('conn'); return; }
+    const secure = $('#secure').checked;
+    store.set('ip', ip); store.set('secure', secure ? '1' : '0');
+    this.disconnect(true);
+    this.url = (secure ? 'wss://' : 'ws://') + ip + ':' + (secure ? 3001 : 3000);
+    log('Conectando a ' + this.url);
+    this.setState('wait', 'Conectando…');
+    let ws;
+    try { ws = new WebSocket(this.url); } catch (e) { this.fail(e.message); return; }
+    this.ws = ws;
+    const timeout = setTimeout(() => { if (ws.readyState !== 1) { ws.close(); this.fail('Sin respuesta'); } }, 8000);
+    ws.onopen = () => { clearTimeout(timeout); log('Socket abierto, registrando…'); this.register(); };
+    ws.onmessage = e => this.onMessage(e.data);
+    ws.onerror = () => { clearTimeout(timeout); };
+    ws.onclose = () => {
+      clearTimeout(timeout);
+      if (this.ws !== ws) return;
+      const was = this.connected;
+      this.connected = false; this.ws = null; this.closePointer();
+      if (was) { this.setState('off', 'Desconectado'); log('Conexión cerrada'); }
+      else this.fail(secure ? 'No conecta. ¿Aceptaste el certificado en https://' + ip + ':3001 ?' : 'No conecta. Prueba con conexión segura.');
+    };
+  },
+  fail(msg) { this.setState('off', 'Error'); log('Error: ' + msg); toast(msg); },
+  disconnect(silent) {
+    this.closePointer();
+    if (this.ws) { const w = this.ws; this.ws = null; try { w.close(); } catch {} }
+    this.connected = false;
+    if (!silent) this.setState('off', 'Desconectado');
+  },
+  register() {
+    const p = JSON.parse(JSON.stringify(PAIRING));
+    const key = store.get('key.' + $('#ip').value.trim(), null);
+    if (key) p['client-key'] = key;
+    this.send({ type: 'register', id: 'register_0', payload: p });
+    if (!key) { this.setState('wait', 'Acepta en la tele'); toast('Acepta la solicitud que aparece en la tele'); }
+  },
+  send(obj) { if (this.ws && this.ws.readyState === 1) this.ws.send(JSON.stringify(obj)); },
+  request(uri, payload) {
+    return new Promise((resolve, reject) => {
+      if (!this.connected) { toast('No conectado'); showTab('conn'); return reject(new Error('no conectado')); }
+      const id = 'req_' + (++this.id);
+      this.pending.set(id, { resolve, reject });
+      this.send({ type: 'request', id, uri, payload: payload || {} });
+      setTimeout(() => { if (this.pending.has(id)) { this.pending.delete(id); reject(new Error('timeout')); } }, 6000);
+    });
+  },
+  subscribe(uri, cb) {
+    const id = 'sub_' + (++this.id);
+    this.pending.set(id, { resolve: cb, reject: () => {}, keep: true });
+    this.send({ type: 'subscribe', id, uri, payload: {} });
+  },
+  onMessage(raw) {
+    let m; try { m = JSON.parse(raw); } catch { return; }
+    if (m.id === 'register_0') {
+      if (m.type === 'registered') {
+        const key = m.payload && m.payload['client-key'];
+        if (key) store.set('key.' + $('#ip').value.trim(), key);
+        this.connected = true; this.setState('on', 'Conectado'); log('Emparejado ✔'); toast('Conectado a la tele');
+        this.afterConnect();
+      } else if (m.type === 'error') { this.fail('Emparejamiento rechazado: ' + (m.error || '')); }
+      else if (m.payload && m.payload.pairingType === 'PROMPT') { log('Esperando aceptación en la TV…'); }
+      return;
+    }
+    const p = this.pending.get(m.id);
+    if (!p) return;
+    if (!p.keep) this.pending.delete(m.id);
+    if (m.type === 'error') { log('Error ' + m.error); p.reject(new Error(m.error)); }
+    else p.resolve(m.payload || {});
+  },
+  afterConnect() {
+    this.subscribe('ssap://audio/getVolume', pl => {
+      const v = pl.volume ?? pl.volumeStatus?.volume; const muted = pl.muted ?? pl.volumeStatus?.muteStatus;
+      if (v !== undefined) $('#vol').textContent = muted ? '🔇' : v;
+    });
+    this.openPointer();
+  },
+  /* Socket de puntero: botones del mando, ratón y scroll */
+  pointerQueue: [], pointerOpening: false,
+  openPointer() {
+    if (this.pws || this.pointerOpening || !this.connected) return;
+    this.pointerOpening = true;
+    this.request('ssap://com.webos.service.networkinput/getPointerInputSocket').then(pl => {
+      let path = pl.socketPath;
+      if (!path) throw new Error('sin socketPath');
+      if (this.url.startsWith('wss') && path.startsWith('ws:')) path = path.replace(/^ws:/, 'wss:').replace(':3000/', ':3001/');
+      const pws = new WebSocket(path);
+      pws.onopen = () => { this.pws = pws; this.pointerOpening = false; log('Puntero listo'); this.pointerQueue.splice(0).forEach(x => pws.send(x)); };
+      pws.onclose = () => { if (this.pws === pws) this.pws = null; this.pointerOpening = false; };
+      pws.onerror = () => { this.pointerOpening = false; log('Error en socket de puntero'); };
+    }).catch(e => { this.pointerOpening = false; log('Puntero: ' + e.message); });
+  },
+  closePointer() { if (this.pws) { try { this.pws.close(); } catch {} } this.pws = null; this.pointerOpening = false; this.pointerQueue = []; },
+  psend(type, obj) {
+    let msg = 'type:' + type + '\n';
+    for (const k in obj || {}) msg += k + ':' + obj[k] + '\n';
+    msg += '\n';
+    if (this.pws && this.pws.readyState === 1) this.pws.send(msg);
+    else if (this.connected) { if (this.pointerQueue.length < 20) this.pointerQueue.push(msg); this.openPointer(); }
+  },
+  button(name) { if (!this.connected) { toast('No conectado'); showTab('conn'); return; } this.psend('button', { name }); }
+};
+
+/* ---------- Botones ---------- */
+const numpad = $('#numpad');
+['1','2','3','4','5','6','7','8','9','LIST','0','DASH'].forEach(n => {
+  const b = document.createElement('button'); b.className = 'k'; b.dataset.btn = n;
+  b.textContent = n === 'LIST' ? 'Lista' : n === 'DASH' ? '–' : n; numpad.appendChild(b);
+});
+function fire(el) {
+  buzz();
+  if (el.dataset.btn) tv.button(el.dataset.btn);
+  else if (el.dataset.ssap) tv.request(el.dataset.ssap).catch(() => {});
+}
+document.addEventListener('pointerdown', e => {
+  const el = e.target.closest('[data-btn],[data-ssap]');
+  if (!el) return;
+  e.preventDefault();
+  fire(el);
+  if (el.hasAttribute('data-repeat')) {
+    let t = setTimeout(function rep() { fire(el); t = setTimeout(rep, 140); }, 450);
+    const evs = ['pointerup', 'pointercancel', 'blur'];
+    const stop = () => { clearTimeout(t); evs.forEach(n => window.removeEventListener(n, stop)); el.removeEventListener('pointerleave', stop); };
+    evs.forEach(n => window.addEventListener(n, stop)); el.addEventListener('pointerleave', stop);
+  }
+});
+$('#btnInput').onclick = async () => {
+  buzz();
+  try {
+    const r = await tv.request('ssap://tv/getExternalInputList');
+    const list = r.devices || [];
+    if (!list.length) return tv.button('INPUT');
+    const names = list.map((d, i) => (i + 1) + '. ' + d.label).join('\n');
+    const pick = prompt('Elige entrada:\n' + names, '1');
+    const d = list[parseInt(pick, 10) - 1];
+    if (d) tv.request('ssap://tv/switchInput', { inputId: d.id });
+  } catch { tv.button('INPUT'); }
+};
+
+/* ---------- Puntero (touchpad) ---------- */
+(() => {
+  const pad = $('#pad'), bar = $('#scrollbar');
+  const pts = new Map();
+  let moved = 0, downT = 0, acc = { x: 0, y: 0 }, lastScrollY = null, raf = 0;
+  const speed = () => parseFloat($('#speed').value);
+  $('#speed').value = store.get('speed', '1.8');
+  $('#speed').oninput = e => store.set('speed', e.target.value);
+  function flush() {
+    raf = 0;
+    const dx = Math.round(acc.x), dy = Math.round(acc.y);
+    if (dx || dy) { tv.psend('move', { dx, dy, down: 0 }); acc.x -= dx; acc.y -= dy; }
+  }
+  pad.addEventListener('pointerdown', e => {
+    if (e.target === bar) return;
+    pad.setPointerCapture(e.pointerId);
+    pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pts.size === 1) { moved = 0; downT = Date.now(); }
+    lastScrollY = null;
+  });
+  pad.addEventListener('pointermove', e => {
+    const p = pts.get(e.pointerId); if (!p) return;
+    const dx = e.clientX - p.x, dy = e.clientY - p.y;
+    p.x = e.clientX; p.y = e.clientY;
+    moved += Math.abs(dx) + Math.abs(dy);
+    if (pts.size >= 2) {
+      // dos dedos: scroll (usar media vertical)
+      const ys = [...pts.values()].reduce((a, q) => a + q.y, 0) / pts.size;
+      if (lastScrollY !== null) { const d = Math.round((lastScrollY - ys) / 4); if (d) tv.psend('scroll', { dx: 0, dy: d }); }
+      lastScrollY = ys; return;
+    }
+    acc.x += dx * speed(); acc.y += dy * speed();
+    if (!raf) raf = requestAnimationFrame(flush);
+  });
+  const end = e => {
+    if (!pts.has(e.pointerId)) return;
+    const multi = pts.size > 1;
+    pts.delete(e.pointerId);
+    if (!multi && pts.size === 0 && moved < 8 && Date.now() - downT < 300) { buzz(); tv.psend('click'); }
+    if (pts.size === 0) moved = 99;
+  };
+  pad.addEventListener('pointerup', end); pad.addEventListener('pointercancel', end);
+  // Barra de scroll
+  let by = null;
+  bar.addEventListener('pointerdown', e => { e.stopPropagation(); bar.setPointerCapture(e.pointerId); by = e.clientY; });
+  bar.addEventListener('pointermove', e => { if (by === null) return; const d = Math.round((by - e.clientY) / 3); if (d) { tv.psend('scroll', { dx: 0, dy: d }); by = e.clientY; } });
+  bar.addEventListener('pointerup', () => by = null); bar.addEventListener('pointercancel', () => by = null);
+  // Rueda del ratón en PC
+  pad.addEventListener('wheel', e => { e.preventDefault(); tv.psend('scroll', { dx: 0, dy: Math.round(-e.deltaY / 20) || (e.deltaY > 0 ? -1 : 1) }); }, { passive: false });
+  $('#clickBtn').onclick = () => { buzz(); tv.psend('click'); };
+})();
+
+/* ---------- Teclado ---------- */
+(() => {
+  const ta = $('#kbText');
+  let sent = '';
+  const ime = (uri, pl) => tv.request('ssap://com.webos.service.ime/' + uri, pl).catch(e => toast('Abre un campo de texto en la TV'));
+  async function sync() {
+    const now = ta.value;
+    let i = 0; while (i < sent.length && i < now.length && sent[i] === now[i]) i++;
+    const del = sent.length - i, add = now.slice(i);
+    sent = now;
+    if (del > 0) await ime('deleteCharacters', { count: del });
+    if (add) await ime('insertText', { text: add, replace: 0 });
+  }
+  ta.addEventListener('input', () => { if ($('#live').checked) sync(); });
+  ta.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && $('#live').checked) { e.preventDefault(); ime('sendEnterKey'); } });
+  $('#kbSend').onclick = () => { buzz(); if ($('#live').checked) { sync(); } else { ime('insertText', { text: ta.value, replace: 0 }); sent = ''; ta.value = ''; } };
+  $('#kbDel').addEventListener('pointerdown', () => { ime('deleteCharacters', { count: 1 }); if ($('#live').checked) { ta.value = ta.value.slice(0, -1); sent = ta.value; } });
+  $('#kbEnter').onclick = () => { buzz(); ime('sendEnterKey'); };
+  $('#kbClear').onclick = () => { ta.value = ''; sent = ''; };
+})();
+
+/* Teclado físico como mando (PC) */
+document.addEventListener('keydown', e => {
+  if (e.target.matches('input,textarea,select')) return;
+  const map = { ArrowUp: 'UP', ArrowDown: 'DOWN', ArrowLeft: 'LEFT', ArrowRight: 'RIGHT', Enter: 'ENTER', Escape: 'BACK', Backspace: 'BACK', h: 'HOME', H: 'HOME' };
+  if (/^[0-9]$/.test(e.key)) { tv.button(e.key); e.preventDefault(); return; }
+  if (e.key === '+') { tv.request('ssap://audio/volumeUp').catch(() => {}); return; }
+  if (e.key === '-') { tv.request('ssap://audio/volumeDown').catch(() => {}); return; }
+  if (e.key === 'm' || e.key === 'M') { tv.button('MUTE'); return; }
+  if (map[e.key]) { e.preventDefault(); tv.button(map[e.key]); }
+});
+
+/* ---------- Apps ---------- */
+$('#loadApps').onclick = async () => {
+  try {
+    const r = await tv.request('ssap://com.webos.applicationManager/listLaunchPoints');
+    const box = $('#apps'); box.innerHTML = '';
+    (r.launchPoints || []).sort((a, b) => a.title.localeCompare(b.title)).forEach(a => {
+      const b = document.createElement('button');
+      const img = document.createElement('img'); img.alt = ''; img.src = a.icon || a.largeIcon || ''; img.onerror = () => img.remove();
+      const s = document.createElement('span'); s.textContent = a.title;
+      b.append(img, s);
+      b.onclick = () => { buzz(); tv.request('ssap://system.launcher/launch', { id: a.id }).then(() => toast('Abriendo ' + a.title)).catch(() => {}); };
+      box.appendChild(b);
+    });
+    if (!box.children.length) toast('No se recibieron apps');
+  } catch {}
+};
+$('#sendToast').onclick = () => { const m = $('#toastMsg').value.trim(); if (m) tv.request('ssap://system.notifications/createToast', { message: m }).then(() => toast('Mensaje enviado')).catch(() => {}); };
+
+/* ---------- Conexión UI ---------- */
+$('#ip').value = store.get('ip', '');
+$('#secure').checked = store.get('secure', '1') === '1';
+const updCert = () => { const ip = $('#ip').value.trim() || 'IP'; $('#certLink').href = 'https://' + ip + ':3001'; $('#certLink').textContent = 'https://' + ip + ':3001'; };
+$('#ip').addEventListener('input', updCert); updCert();
+$('#connect').onclick = () => tv.connect();
+$('#disconnect').onclick = () => tv.disconnect();
+$('#forget').onclick = () => { store.set('key.' + $('#ip').value.trim(), null); toast('Emparejamiento olvidado'); };
+document.addEventListener('visibilitychange', () => { if (!document.hidden && !tv.connected && !tv.ws && store.get('ip', '')) tv.connect(); });
+if (store.get('ip', '')) tv.connect(); else showTab('conn');
+</script>
+</body>
+</html>
