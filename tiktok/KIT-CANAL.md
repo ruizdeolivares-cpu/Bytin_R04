@@ -15,9 +15,9 @@ Nada de pedir a menores que comenten datos personales ni que manden fotos suyas.
   4. `@bitynyr04oficial`
 
 ## 3. Foto de perfil
-`tiktok/foto-perfil-bityn.png` (Bityn normal, primer plano de la cara, 720×720).
-Otra opción: `tiktok/foto-perfil-bityn-uniforme.png` (Bityn con uniforme de capitán).
-Alternativa: `tiktok/foto-perfil-r04.png` (solo R-04).
+`tiktok/foto-perfil-bityn-r04-hucha.png` (Bityn y R-04 sobre la hucha de oro, 720×720). **Principal.**
+Original completa: `tiktok/bityn-r04-hucha-original.png` (sirve también para la portada del primer vídeo).
+Otras: `tiktok/foto-perfil-bityn.png` (primer plano) · `tiktok/foto-perfil-r04.png` (solo R-04).
 
 ## 4. Bio (máx. 80 caracteres)
 Opción A (75):
