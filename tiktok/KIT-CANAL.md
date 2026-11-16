@@ -1,6 +1,10 @@
 # Kit del canal de TikTok · Bityn y R-04
 
-Libros: **2 libros de Bityn y R-04**, entre ellos **«Mi goloso negocio»** (Francisco Ruiz) · Niños de 8 a 12 años · Educación financiera con humor.
+Libros de Bityn y R-04 (Francisco Ruiz):
+- **«Mi primer dinero»** → https://amzn.eu/d/06gbibPZ
+- **«Mi goloso negocio»** → https://amzn.eu/d/0071bri9
+
+Público: · Niños de 8 a 12 años · Educación financiera con humor.
 
 ## 1. Público: padres y profes, no niños
 TikTok exige tener 13 años o más. El canal lo lleva el autor y habla a **padres, madres y profes**. Los niños lo ven acompañados.
@@ -26,7 +30,7 @@ Opción A (75):
 Opción B (71):
 > Dos robots, dos libros 📚 Finanzas para niños de 8-12 con Bityn y R-04 🤖
 
-**Enlace del perfil:** página de autor en Amazon (así salen los dos libros) (o la web de la base secreta). En la descripción de los vídeos el enlace no se puede pulsar.
+**Enlace del perfil:** TikTok solo deja uno. Pon la página de autor de Amazon (salen los dos libros) o una página tipo Linktree con los dos enlaces de arriba. En la descripción de los vídeos el enlace no se puede pulsar.
 
 ## 5. Ajustes al crearla
 - Cambia a **cuenta de empresa/creador** (para tener estadísticas y enlace en el perfil cuando se pueda).
@@ -43,7 +47,7 @@ Opción B (71):
 
 ## 7. Primeros 5 vídeos
 1. **Presentación** – «Estos dos robots quieren hacerse millonarios con un food truck… y no tienen ni idea.» Cierre: «Sígueles».
-2. **Enigma: vender no es ganar** – Bityn: «¡Somos millonarios!» · R-04: «Vender 40 no es lo mismo que ganar 40. ¿Cuánto nos ha costado?» Pregunta al público.
+2. **Enigma: vender no es ganar** – Bityn: «¡Somos millonarios!» · R-04: «Vender 40 no es lo mismo que ganar 40. ¿Cuánto nos ha costado?» Pregunta al público. Cierre: «Búscalo en Amazon: Mi goloso negocio».
 3. **Solución del enigma** – Responde al comentario más votado con vídeo.
 4. **Para padres** – «Mi hijo de 9 años ya sabe qué es el margen. Así lo hicimos.» Hojeado del libro.
 5. **¿El dinero puede crecer?** – R-04: «¿Has oído que el dinero puede… crecer?» Bityn: «¿Como una planta?» Gancho para el siguiente libro.
