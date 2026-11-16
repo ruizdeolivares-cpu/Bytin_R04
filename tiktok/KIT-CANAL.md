@@ -1,6 +1,6 @@
 # Kit del canal de TikTok · Bityn y R-04
 
-Libro: **«Mi goloso negocio»** (Francisco Ruiz) · Niños de 8 a 12 años · Educación financiera con humor.
+Libros: **2 libros de Bityn y R-04**, entre ellos **«Mi goloso negocio»** (Francisco Ruiz) · Niños de 8 a 12 años · Educación financiera con humor.
 
 ## 1. Público: padres y profes, no niños
 TikTok exige tener 13 años o más. El canal lo lleva el autor y habla a **padres, madres y profes**. Los niños lo ven acompañados.
@@ -21,12 +21,12 @@ Otras: `tiktok/foto-perfil-bityn.png` (primer plano) · `tiktok/foto-perfil-r04.
 
 ## 4. Bio (máx. 80 caracteres)
 Opción A (75):
-> Bityn y R-04 montan un food truck 🍦 Finanzas para niños de 8-12 📚 ¡Bip!
+> 2 libros de Bityn y R-04 📚 Aprende dinero y negocios con humor 🤖 Niños 8-12
 
-Opción B (70):
-> Aprende precio, coste y margen con dos robots 🤖 Libro «Mi goloso negocio»
+Opción B (71):
+> Dos robots, dos libros 📚 Finanzas para niños de 8-12 con Bityn y R-04 🤖
 
-**Enlace del perfil:** el libro en Amazon (o la web de la base secreta). En la descripción de los vídeos el enlace no se puede pulsar.
+**Enlace del perfil:** página de autor en Amazon (así salen los dos libros) (o la web de la base secreta). En la descripción de los vídeos el enlace no se puede pulsar.
 
 ## 5. Ajustes al crearla
 - Cambia a **cuenta de empresa/creador** (para tener estadísticas y enlace en el perfil cuando se pueda).
