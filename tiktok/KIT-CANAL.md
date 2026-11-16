@@ -4,7 +4,7 @@ Libros de Bityn y R-04 (Francisco Ruiz):
 - **«Mi primer dinero»** → https://amzn.eu/d/06gbibPZ
 - **«Mi goloso negocio»** → https://amzn.eu/d/0071bri9
 
-Público: · Niños de 8 a 12 años · Educación financiera con humor.
+Público: niños de 8 a 12 años · Educación financiera con humor.
 
 ## 1. Público: padres y profes, no niños
 TikTok exige tener 13 años o más. El canal lo lleva el autor y habla a **padres, madres y profes**. Los niños lo ven acompañados.
