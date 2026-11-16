@@ -30,7 +30,7 @@ Opción A (75):
 Opción B (71):
 > Dos robots, dos libros 📚 Finanzas para niños de 8-12 con Bityn y R-04 🤖
 
-**Enlace del perfil:** TikTok solo deja uno. Pon la página de autor de Amazon (salen los dos libros) o una página tipo Linktree con los dos enlaces de arriba. En la descripción de los vídeos el enlace no se puede pulsar.
+**Enlace del perfil:** «Mi primer dinero» → https://amzn.eu/d/06gbibPZ En la descripción de los vídeos el enlace no se puede pulsar.
 
 ## 5. Ajustes al crearla
 - Cambia a **cuenta de empresa/creador** (para tener estadísticas y enlace en el perfil cuando se pueda).
