@@ -1,0 +1,114 @@
+{
+ "salida": "../cortos/05-carrera-horizonte.mp4",
+ "escenas": [
+  {
+   "tipo": "imagen",
+   "src": "assets/jeep-portada.png",
+   "dur": 3.2,
+   "y": 1250,
+   "texto": [
+    [
+     "Bityn tiene un sueño:",
+     "b",
+     86
+    ],
+    [
+     "LA CARRERA",
+     "a",
+     130
+    ],
+    [
+     "DEL HORIZONTE",
+     "a",
+     110
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/bityn-r04-saludo.png",
+   "dur": 3.2,
+   "centro_y": 820,
+   "y": 1250,
+   "texto": [
+    [
+     "Pero le falta",
+     "b",
+     96
+    ],
+    [
+     "algo que nunca",
+     "b",
+     96
+    ],
+    [
+     "ha tenido…",
+     "a",
+     110
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/noche-monedas.webp",
+   "dur": 3,
+   "y": 1250,
+   "ding": true,
+   "texto": [
+    [
+     "¡SU PRIMER",
+     "a",
+     130
+    ],
+    [
+     "DINERO!",
+     "a",
+     130
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/jeep-280.png",
+   "dur": 3.6,
+   "mov": "alejar",
+   "y": 1250,
+   "texto": [
+    [
+     "Este coche",
+     "b",
+     96
+    ],
+    [
+     "cuesta 280 €",
+     "a",
+     120
+    ],
+    [
+     "¿Cómo lo pagará?",
+     "b",
+     90
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/portada-mi-primer-dinero.png",
+   "dur": 3,
+   "centro_y": 700,
+   "y": 1370,
+   "texto": [
+    [
+     "Trabajar, ahorrar",
+     "b",
+     88
+    ],
+    [
+     "y decidir",
+     "b",
+     88
+    ]
+   ]
+  }
+ ]
+}

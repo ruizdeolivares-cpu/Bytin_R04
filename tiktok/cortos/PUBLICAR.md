@@ -19,3 +19,7 @@ Respuesta (al día siguiente, en un comentario o en vídeo): 40 × (2 − 1,20) 
 ## 04 · Lo que no aprenden en el cole (`04-que-aprenden.mp4`)
 Precio, beneficio, competencia y ahorro… con una aventura de robots 🤖📚 Para niños de 8 a 12 años.
 #crianza #educacionfinanciera #maestros #librosinfantiles #finanzasparaniños
+
+## 05 · La carrera del Horizonte (`05-carrera-horizonte.mp4`)
+Bityn quiere correr la carrera del Horizonte, pero el coche cuesta 280 € 🚙💨 ¿Cómo consigue su primer dinero? Así empieza «Mi primer dinero» 📚
+#librosinfantiles #educacionfinanciera #ahorro #booktokespaña #finanzasparaniños
