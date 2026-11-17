@@ -1,0 +1,130 @@
+{
+ "salida": "../cortos/04-que-aprenden.mp4",
+ "escenas": [
+  {
+   "tipo": "imagen",
+   "src": "assets/hucha-recorte.png",
+   "dur": 3.2,
+   "centro_y": 760,
+   "y": 1250,
+   "texto": [
+    [
+     "Lo que tu hijo",
+     "b",
+     96
+    ],
+    [
+     "NO aprende",
+     "a",
+     130
+    ],
+    [
+     "en el cole",
+     "b",
+     96
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/food-truck-equipo.webp",
+   "dur": 2.6,
+   "y": 1250,
+   "texto": [
+    [
+     "1.",
+     "n",
+     90
+    ],
+    [
+     "PRECIO",
+     "a",
+     140
+    ],
+    [
+     "y coste",
+     "b",
+     100
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/noche-monedas.webp",
+   "dur": 2.6,
+   "y": 1250,
+   "texto": [
+    [
+     "2.",
+     "n",
+     90
+    ],
+    [
+     "BENEFICIO",
+     "a",
+     140
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/megasnack.webp",
+   "dur": 2.6,
+   "y": 1250,
+   "texto": [
+    [
+     "3.",
+     "n",
+     90
+    ],
+    [
+     "COMPETENCIA",
+     "a",
+     120
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/carrera.webp",
+   "dur": 2.6,
+   "y": 1250,
+   "texto": [
+    [
+     "4.",
+     "n",
+     90
+    ],
+    [
+     "AHORRO",
+     "a",
+     140
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/desierto-megasnack.png",
+   "dur": 3.2,
+   "mov": "alejar",
+   "y": 1250,
+   "texto": [
+    [
+     "Y todo",
+     "b",
+     96
+    ],
+    [
+     "con una aventura",
+     "b",
+     96
+    ],
+    [
+     "de robots",
+     "a",
+     120
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{"salida": "../cortos/03-enigma-batidos.mp4",
+ "escenas": [
+  {"tipo":"imagen","src":"assets/food-truck-equipo.webp","dur":3.5,"y":1230,"texto":[["ENIGMA DE R-04","n",84],["Vendes 40 batidos","b",96],["a 2 €","a",140]]},
+  {"tipo":"imagen","src":"assets/noche-monedas.webp","dur":3,"y":1250,"ding":true,"texto":[["¿Has ganado","b",100],["80 €?","a",160]]},
+  {"tipo":"imagen","src":"assets/r04-portada.png","dur":3.5,"centro_y":760,"y":1230,"texto":[["R-04:","n",80],["Bip… cada batido","b",92],["te cuesta 1,20 €","a",100]]},
+  {"tipo":"imagen","src":"assets/megasnack.webp","dur":4,"mov":"alejar","y":1230,"texto":[["¿Cuánto has","b",100],["GANADO","a",140],["de verdad?","b",90]]}
+ ]}
