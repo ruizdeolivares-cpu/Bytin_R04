@@ -2,10 +2,11 @@
  "salida": "../cortos/01-presentacion.mp4",
  "escenas": [
   {
-   "tipo": "clip",
-   "src": "assets/clips/v1-hucha-saludo.mp4",
-   "dur": 4.2,
-   "y": 1330,
+   "tipo": "imagen",
+   "src": "assets/hucha-recorte.png",
+   "dur": 4,
+   "centro_y": 780,
+   "y": 1300,
    "texto": [
     [
      "Estos dos robots",
@@ -25,10 +26,10 @@
    ]
   },
   {
-   "tipo": "clip",
-   "src": "assets/clips/v1-bityn-salto.mp4",
-   "ss": 0.2,
-   "dur": 4.4,
+   "tipo": "imagen",
+   "src": "assets/bityn-r04-saludo.png",
+   "dur": 4,
+   "centro_y": 800,
    "y": 1300,
    "ding": true,
    "texto": [
@@ -50,11 +51,11 @@
    ]
   },
   {
-   "tipo": "clip",
-   "src": "assets/clips/v1-r04-duda.mp4",
-   "ss": 0.4,
-   "dur": 4.6,
-   "y": 1230,
+   "tipo": "imagen",
+   "src": "assets/r04-portada.png",
+   "dur": 4,
+   "centro_y": 760,
+   "y": 1250,
    "texto": [
     [
      "R-04:",
@@ -79,28 +80,29 @@
    ]
   },
   {
-   "tipo": "clip",
-   "src": "assets/clips/v1-bityn-ups.mp4",
-   "dur": 4.6,
-   "y": 1380,
+   "tipo": "imagen",
+   "src": "assets/food-truck-equipo.webp",
+   "dur": 4,
+   "mov": "alejar",
+   "y": 1300,
    "texto": [
     [
-     "…",
-     "b",
-     110
-    ],
-    [
-     "UPS.",
+     "…UPS.",
      "a",
      150
+    ],
+    [
+     "Toca aprender",
+     "b",
+     96
     ]
    ]
   },
   {
-   "tipo": "clip",
-   "src": "assets/clips/v1-choque-manos.mp4",
+   "tipo": "imagen",
+   "src": "assets/jeep-portada.png",
    "dur": 3.6,
-   "y": 1330,
+   "y": 1300,
    "texto": [
     [
      "¡Síguelos",
@@ -117,8 +119,7 @@
      "b",
      100
     ]
-   ],
-   "max": 3.8
+   ]
   }
  ],
  "musica": "musica/ikoliks-children-ukulele-upbeat-positive-pop-rock-622115.mp3"
