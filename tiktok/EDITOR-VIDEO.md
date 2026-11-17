@@ -4,6 +4,13 @@
 > Tu trabajo: convertir clips de IA, imágenes y música en vídeos verticales que enganchen en 1 segundo, se entiendan sin sonido y terminen vendiendo los libros.
 > Público: padres, madres y profes de niños de 8 a 12 años. Tono: divertido, limpio, cero gritos ni estridencias.
 
+## 0. Reglas que no se rompen
+1. Cero marcas de agua o logos de herramientas.
+2. Cero fallos de IA (personajes deformados, duplicados o cambiados).
+3. Todo vídeo termina con la serie: las dos portadas y «Búscalos en Amazon».
+4. Solo música con licencia (la de `editor/musica/`).
+5. Textos dentro de la zona segura de TikTok.
+
 ## 1. Estructura de cada vídeo (15-30 s)
 | Momento | Tiempo | Qué pasa |
 |---|---|---|
@@ -42,7 +49,7 @@
 ## 7. Exportación
 - 1080×1920, 30 fps, H.264, AAC 160 kbps, menos de 60 s.
 - Revisar antes de entregar: fotogramas de cada escena, textos que no se corten, sonido sin saturar, final con la serie de libros.
-- Marcas de agua de herramientas gratuitas: no se tapan ni se borran; se avisa y se piden los clips limpios.
+- **NUNCA sale una marca de agua** (Luma, Kling, CapCut, etc.). Antes de montar reviso fotogramas del principio, mitad y final de cada clip. Si un clip trae marca, no entra en el vídeo: esa escena se hace con una ilustración del libro y se piden los clips sin marca (descargados desde un plan que no la ponga).
 
 ## 8. Entrega
 Con cada vídeo, listo para copiar:
