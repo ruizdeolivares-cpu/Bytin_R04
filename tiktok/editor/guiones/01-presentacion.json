@@ -1,8 +1,125 @@
-{"salida": "../cortos/01-presentacion.mp4",
+{
+ "salida": "../cortos/01-presentacion.mp4",
  "escenas": [
-  {"tipo":"clip","src":"assets/clips/v1-hucha-saludo.mp4","dur":4.2,"y":1330,"texto":[["Estos dos robots","b",92],["quieren ser","b",92],["MILLONARIOS…","a",118]]},
-  {"tipo":"clip","src":"assets/clips/v1-bityn-salto.mp4","ss":0.2,"dur":4.4,"y":1300,"ding":true,"texto":[["BITYN:","n",80],["¡Vamos a ser","b",100],["ricos!","a",130]]},
-  {"tipo":"clip","src":"assets/clips/v1-r04-duda.mp4","ss":0.4,"dur":4.6,"y":1230,"texto":[["R-04:","n",80],["Bip… ¿y sabes","b",96],["cuánto cuesta","b",96],["un helado?","b",96]]},
-  {"tipo":"clip","src":"assets/clips/v1-bityn-ups.mp4","dur":4.6,"y":1380,"texto":[["…","b",110],["UPS.","a",150]]},
-  {"tipo":"clip","src":"assets/clips/v1-choque-manos.mp4","dur":3.6,"y":1330,"texto":[["¡Síguelos","a",120],["y aprende","b",100],["con ellos!","b",100]]}
- ]}
+  {
+   "tipo": "clip",
+   "src": "assets/clips/v1-hucha-saludo.mp4",
+   "dur": 4.2,
+   "y": 1330,
+   "texto": [
+    [
+     "Estos dos robots",
+     "b",
+     92
+    ],
+    [
+     "quieren ser",
+     "b",
+     92
+    ],
+    [
+     "MILLONARIOS…",
+     "a",
+     118
+    ]
+   ]
+  },
+  {
+   "tipo": "clip",
+   "src": "assets/clips/v1-bityn-salto.mp4",
+   "ss": 0.2,
+   "dur": 4.4,
+   "y": 1300,
+   "ding": true,
+   "texto": [
+    [
+     "BITYN:",
+     "n",
+     80
+    ],
+    [
+     "¡Vamos a ser",
+     "b",
+     100
+    ],
+    [
+     "ricos!",
+     "a",
+     130
+    ]
+   ]
+  },
+  {
+   "tipo": "clip",
+   "src": "assets/clips/v1-r04-duda.mp4",
+   "ss": 0.4,
+   "dur": 4.6,
+   "y": 1230,
+   "texto": [
+    [
+     "R-04:",
+     "n",
+     80
+    ],
+    [
+     "Bip… ¿y sabes",
+     "b",
+     96
+    ],
+    [
+     "cuánto cuesta",
+     "b",
+     96
+    ],
+    [
+     "un helado?",
+     "b",
+     96
+    ]
+   ]
+  },
+  {
+   "tipo": "clip",
+   "src": "assets/clips/v1-bityn-ups.mp4",
+   "dur": 4.6,
+   "y": 1380,
+   "texto": [
+    [
+     "…",
+     "b",
+     110
+    ],
+    [
+     "UPS.",
+     "a",
+     150
+    ]
+   ]
+  },
+  {
+   "tipo": "clip",
+   "src": "assets/clips/v1-choque-manos.mp4",
+   "dur": 3.6,
+   "y": 1330,
+   "texto": [
+    [
+     "¡Síguelos",
+     "a",
+     120
+    ],
+    [
+     "y aprende",
+     "b",
+     100
+    ],
+    [
+     "con ellos!",
+     "b",
+     100
+    ]
+   ],
+   "max": 3.8
+  }
+ ],
+ "musica": "musica/ikoliks-children-ukulele-upbeat-positive-pop-rock-622115.mp3"
+}

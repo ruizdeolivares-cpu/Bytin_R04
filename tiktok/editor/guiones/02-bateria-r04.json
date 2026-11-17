@@ -1,8 +1,119 @@
-{"salida": "../cortos/02-bateria-r04.mp4",
+{
+ "salida": "../cortos/02-bateria-r04.mp4",
  "escenas": [
-  {"tipo":"imagen","src":"assets/r04-portada.png","dur":3,"centro_y":760,"y":1250,"texto":[["R-04 solo tiene","b",96],["30 DÍAS","a",150],["de batería","b",96]]},
-  {"tipo":"imagen","src":"assets/noche-monedas.webp","dur":3.5,"y":1250,"ding":true,"texto":[["Para cambiarla","b",92],["necesitan","b",92],["150 €","a",150]]},
-  {"tipo":"imagen","src":"assets/food-truck-equipo.webp","dur":3.5,"y":1250,"texto":[["Su plan:","n",84],["un food truck de","b",88],["batidos galácticos","a",96]]},
-  {"tipo":"imagen","src":"assets/desierto-megasnack.png","dur":3.5,"mov":"alejar","y":1250,"texto":[["Pero la máquina","b",88],["MEGASNACK","a",120],["les roba los clientes","b",80]]},
-  {"tipo":"imagen","src":"assets/carta-tornillo.webp","dur":3,"y":1250,"texto":[["¿Lo conseguirán","b",100],["a tiempo?","a",130]]}
- ]}
+  {
+   "tipo": "imagen",
+   "src": "assets/r04-portada.png",
+   "dur": 3,
+   "centro_y": 760,
+   "y": 1250,
+   "texto": [
+    [
+     "R-04 solo tiene",
+     "b",
+     96
+    ],
+    [
+     "30 DÍAS",
+     "a",
+     150
+    ],
+    [
+     "de batería",
+     "b",
+     96
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/noche-monedas.webp",
+   "dur": 3.5,
+   "y": 1250,
+   "ding": true,
+   "texto": [
+    [
+     "Para cambiarla",
+     "b",
+     92
+    ],
+    [
+     "necesitan",
+     "b",
+     92
+    ],
+    [
+     "150 €",
+     "a",
+     150
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/food-truck-equipo.webp",
+   "dur": 3.5,
+   "y": 1250,
+   "texto": [
+    [
+     "Su plan:",
+     "n",
+     84
+    ],
+    [
+     "un food truck de",
+     "b",
+     88
+    ],
+    [
+     "batidos galácticos",
+     "a",
+     96
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/desierto-megasnack.png",
+   "dur": 3.5,
+   "mov": "alejar",
+   "y": 1250,
+   "texto": [
+    [
+     "Pero la máquina",
+     "b",
+     88
+    ],
+    [
+     "MEGASNACK",
+     "a",
+     120
+    ],
+    [
+     "les roba los clientes",
+     "b",
+     80
+    ]
+   ]
+  },
+  {
+   "tipo": "imagen",
+   "src": "assets/carta-tornillo.webp",
+   "dur": 3,
+   "y": 1250,
+   "texto": [
+    [
+     "¿Lo conseguirán",
+     "b",
+     100
+    ],
+    [
+     "a tiempo?",
+     "a",
+     130
+    ]
+   ]
+  }
+ ],
+ "musica": "musica/ikoliks-disco-funk-rock-upbeat-amp-groovy-for-podcast-intro-amp-vlog-634026.mp3"
+}

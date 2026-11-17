@@ -143,9 +143,36 @@ def efectos(tmp, tiempos, total):
     return out
 
 
+def duracion_clip(src):
+    r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', ruta(src)],
+                       capture_output=True, text=True, check=True)
+    return float(r.stdout)
+
+
+def al_ritmo(spec, escenas):
+    """Ajusta cada corte al golpe (beat) más cercano de la música."""
+    info = json.load(open(ruta('musica/beats.json'))).get(os.path.basename(spec['musica']))
+    if not info:
+        return
+    ini = spec.setdefault('musica_inicio', info['inicio_energia'])
+    beats = [b - ini for b in info['beats'] if b >= ini - 0.01]
+    t = 0.0
+    for e in escenas:
+        maxd = duracion_clip(e['src']) - e.get('ss', 0) - 0.05 if e['tipo'] == 'clip' else 99
+        maxd = min(maxd, e.get('max', 99))
+        objetivo = t + e['dur']
+        cand = [b for b in beats if b - t >= 1.5 and b - t <= maxd]
+        if cand:
+            fin = min(cand, key=lambda b: abs(b - objetivo))
+            e['dur'] = round(fin - t, 3)
+        t += e['dur']
+
+
 def main(spec_path):
     spec = json.load(open(spec_path))
     escenas = spec['escenas'] + ([{'tipo': 'cierre', 'dur': spec.get('dur_cierre', 4.5)}] if spec.get('cierre', True) else [])
+    if spec.get('musica') and spec.get('al_ritmo', True):
+        al_ritmo(spec, escenas)
     with tempfile.TemporaryDirectory() as tmp:
         segs, tiempos, t = [], [], 0.0
         for i, e in enumerate(escenas):
@@ -157,10 +184,12 @@ def main(spec_path):
         sfx = efectos(tmp, tiempos, t)
         audio = sfx
         if spec.get('musica'):
-            # música a -18 dB aprox., fundido final de 0,8 s, efectos por encima
+            # música normalizada para TikTok (~-15 LUFS), fundido final, efectos por debajo
             sh('ffmpeg', '-v', 'error', '-y', '-ss', str(spec.get('musica_inicio', 0)), '-i', ruta(spec['musica']), '-i', sfx,
-               '-filter_complex', f"[0:a]atrim=0:{t},afade=out:st={t-0.8}:d=0.8,volume={spec.get('musica_vol', 0.35)},"
-               f"aformat=channel_layouts=stereo[m];[m][1:a]amix=inputs=2:normalize=0,atrim=0:{t}",
+               '-filter_complex', f"[0:a]atrim=0:{t},asetpts=PTS-STARTPTS,loudnorm=I=-15:TP=-1.5,"
+               f"afade=in:d=0.05,afade=out:st={t-1.0}:d=1.0,aformat=sample_rates=44100:channel_layouts=stereo[m];"
+               f"[1:a]volume={spec.get('sfx_vol', 0.6)},aformat=sample_rates=44100:channel_layouts=stereo[s];"
+               f"[m][s]amix=inputs=2:normalize=0,alimiter=limit=0.95,atrim=0:{t}",
                f'{tmp}/mix.wav')
             audio = f'{tmp}/mix.wav'
         out = ruta(spec['salida'])

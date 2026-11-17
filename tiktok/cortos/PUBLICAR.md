@@ -23,3 +23,7 @@ Precio, beneficio, competencia y ahorro… con una aventura de robots 🤖📚 P
 ## 05 · La carrera del Horizonte (`05-carrera-horizonte.mp4`)
 Bityn quiere correr la carrera del Horizonte, pero el coche cuesta 280 € 🚙💨 ¿Cómo consigue su primer dinero? Así empieza «Mi primer dinero» 📚
 #librosinfantiles #educacionfinanciera #ahorro #booktokespaña #finanzasparaniños
+
+## Música
+Cada corto lleva ya su música (de tu carpeta, `editor/musica/`), con los cortes al ritmo y volumen normalizado para TikTok.
+Al subir, **no añadas otro sonido** encima. Las canciones navideñas y la de cumpleaños quedan guardadas para vídeos de Navidad y de regalos.
