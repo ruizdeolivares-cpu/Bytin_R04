@@ -1,8 +1,8 @@
 # Kit del canal de TikTok · Bityn y R-04
 
 Libros de Bityn y R-04 (Francisco Ruiz):
-- **«Mi primer dinero»** → https://amzn.eu/d/06gbibPZ
-- **«Mi goloso negocio»** → https://amzn.eu/d/0071bri9
+- **«Mi primer dinero»** → https://amzn.eu/d/0iJJEIrT
+- **«Mi goloso negocio»** → https://amzn.eu/d/00WPlFZ3
 
 Público: niños de 8 a 12 años · Educación financiera con humor.
 
@@ -30,7 +30,7 @@ Opción A (75):
 Opción B (71):
 > Dos robots, dos libros 📚 Finanzas para niños de 8-12 con Bityn y R-04 🤖
 
-**Enlace del perfil:** «Mi primer dinero» → https://amzn.eu/d/06gbibPZ En la descripción de los vídeos el enlace no se puede pulsar.
+**Enlace del perfil:** «Mi primer dinero» → https://amzn.eu/d/0iJJEIrT En la descripción de los vídeos el enlace no se puede pulsar.
 
 ## 5. Ajustes al crearla
 - Cambia a **cuenta de empresa/creador** (para tener estadísticas y enlace en el perfil cuando se pueda).
