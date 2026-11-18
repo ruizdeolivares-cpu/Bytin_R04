@@ -1,4 +1,4 @@
-# V07 · ¿Todo el dinero que entra es tuyo? — listo para publicar (24 nov)
+# V07 · ¿Todo el dinero que entra es tuyo? — listo para publicar (23 nov)
 **Vídeo:** v07_beneficio.mp4 · **Portada:** fotograma 0,9 s (v07_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
 **Escenas reales:** Misión 10 «La calculadora no miente» (p.41: 164 € − 56 € frutería − 14 € Brillo = 94 €), fórmula INGRESOS − GASTOS = BENEFICIO y R-04 sin batería (p.42). Sin clips de IA.
 

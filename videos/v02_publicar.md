@@ -1,4 +1,4 @@
-# V02 · Respuesta del reto — listo para publicar (19 nov)
+# V02 · Respuesta del reto — listo para publicar (18 nov)
 **Vídeo:** v02_respuesta_reto.mp4 · **Portada:** fotograma 0,9 s (v02_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
 
 ## Descripción

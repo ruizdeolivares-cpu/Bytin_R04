@@ -1,4 +1,4 @@
-# V03 · ¿A quién se parece tu hijo o hija? — listo para publicar (20 nov)
+# V03 · ¿A quién se parece tu hijo o hija? — listo para publicar (19 nov)
 **Vídeo:** v03_a_quien_se_parece.mp4 · **Portada:** fotograma 0,9 s (v03_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
 
 ## Descripción

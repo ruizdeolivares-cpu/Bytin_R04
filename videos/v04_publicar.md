@@ -1,4 +1,4 @@
-# V04 · ¡A R-04 se le acaba la batería! — listo para publicar (21 nov)
+# V04 · ¡A R-04 se le acaba la batería! — listo para publicar (20 nov)
 **Vídeo:** v04_bateria_r04.mp4 · **Portada:** fotograma 0,9 s (v04_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
 
 ## Descripción
