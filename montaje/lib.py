@@ -115,19 +115,39 @@ def shadowed(fr, im, x, y, alpha=120):
     ImageDraw.Draw(sh).rounded_rectangle((15, 15, im.width + 15, im.height + 15), radius=18, fill=(0, 0, 0, alpha))
     fr.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10)), (x - 5, y + 4)); fr.paste(im, (x, y))
 
-def cierre(kit, dur=2.5):
-    """Portada + ¡Búscalo en Amazon! + edad. Añade SFX."""
+def cierre(kit, dur=2.5, variante=0, color=(255, 214, 64)):
+    """Cierre con portada + ¡Búscalo en Amazon! + edad. 3 variantes: NO repetir la misma en días seguidos.
+    0 = fondo portada desenfocada · 1 = fondo de color liso con rayos y portada inclinada · 2 = degradado con portada pequeña + «enlace en el perfil»."""
     cov = Image.open(os.path.join(REPO, 'libro', 'portada_frontal_720.png')).convert('RGB')
-    bg = fill_bg(cov, 25, 0.35); cw = 470; chh = int(cov.height * cw / cov.width); covs = cov.resize((cw, chh), Image.LANCZOS)
     t1 = kit.text([('¡Búscalo', BLANCO), ('en Amazon!', AMARILLO)], 96); t2 = kit.pill('Para niños de 8 a 12 años', 36, NARANJA)
+    if variante == 0:
+        bg = fill_bg(cov, 25, 0.35); cw = 470
+    elif variante == 1:
+        bg = Image.new('RGB', (W, H), color); d = ImageDraw.Draw(bg); cx, cy = CX, 640
+        for a in range(0, 360, 15):
+            r = math.radians(a); r2 = math.radians(a + 7)
+            d.polygon([(cx, cy), (cx + 1500 * math.cos(r), cy + 1500 * math.sin(r)), (cx + 1500 * math.cos(r2), cy + 1500 * math.sin(r2))], fill=tuple(min(255, c + 25) for c in color))
+        cw = 440
+    else:
+        bg = Image.new('RGB', (W, H)); top, bot = (40, 30, 110), (255, 120, 60)
+        for y in range(H):
+            k = y / H; ImageDraw.Draw(bg).line((0, y, W, y), fill=tuple(int(top[j] * (1 - k) + bot[j] * k) for j in range(3)))
+        cw = 400; t3 = kit.pill('👉 Enlace en el perfil'.replace('👉 ', ''), 34, ROSA)
+    chh = int(cov.height * cw / cov.width); covs = cov.resize((cw, chh), Image.LANCZOS)
+    if variante == 1: covs = covs.convert('RGBA').rotate(-4, expand=True, resample=Image.BICUBIC)
+    y0 = 330
     def fn(i, n):
         t = i / FPS; fr = bg.copy().convert('RGBA'); k = ease_pop(t, 0.3)
         if k > 0:
-            c = covs.resize((max(1, int(cw * k)), max(1, int(chh * k))))
-            shadowed(fr, c, CX - c.width // 2, 330 + (chh - c.height) // 2)
-        place(fr, t1, CX, 80, t - 0.15); place(fr, t2, CX, 330 + chh + 18, t - 0.35); return fr
+            c = covs.resize((max(1, int(covs.width * k)), max(1, int(covs.height * k))))
+            x, y = CX - c.width // 2, y0 + (covs.height - c.height) // 2
+            if c.mode == 'RGBA': fr.alpha_composite(c, (x, y))
+            else: shadowed(fr, c, x, y)
+        place(fr, t1, CX, 80, t - 0.15); place(fr, t2, CX, y0 + covs.height + 14, t - 0.35)
+        if variante == 2: place(fr, t3, CX, y0 + covs.height + 80, t - 0.5)
+        return fr
     t = kit.t0(len(kit.segments)); kit.add(dur, fn)
-    kit.sfx_at(t, 'arcade/swipe.mp3', 0.7); kit.sfx_at(t + 0.2, 'arcade/achievement.mp3', 0.9)
+    kit.sfx_at(t, 'arcade/swipe.mp3', 0.7); kit.sfx_at(t + 0.2, ['arcade/achievement.mp3', 'arcade/reward.mp3', 'arcade/level-up.mp3'][variante], 0.9)
 
 def hoja(video, out, ts):
     """Hoja de revisión con líneas de zona segura (y=1047, x=620) y recorte 3:4."""

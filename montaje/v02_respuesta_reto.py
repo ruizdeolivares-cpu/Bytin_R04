@@ -6,7 +6,7 @@ from lib import *
 kit = Kit(sys.argv[1]); pg = Image.open(sys.argv[2]).convert('RGB'); OUT = sys.argv[3]
 sx = pg.width / 1700  # coordenadas medidas a 200 ppp
 
-f = clip_frames('G2c_r04_interrogacion.mp4', 0.0, 1.8)
+f = clip_frames('G1c_r04_ojo_moneda.mp4', 0.0, 1.8)
 a1 = kit.pill('RESPUESTA DEL RETO', 34, NARANJA); a2 = kit.text([('¿Tu hijo', BLANCO), ('acertó?', AMARILLO)], 96)
 def s1(i, n):
     fr = zoom(f[i], 1 + .06 * i / n).convert('RGBA'); t = i / FPS
@@ -19,9 +19,9 @@ def opcion(clip, st, z0, cy, tag, col, l1, l2):
         fr = zoom(fr_[i], z0 + .05 * i / n, .5, cy).convert('RGBA'); t = i / FPS
         place(fr, p, CX, 105, t); place(fr, tx, CX, 175, t - .12); return fr
     return fn
-t = kit.t0(1); kit.add(1.9, opcion('G3a_bityn_rasca_cabeza.mp4', .2, 1.1, .65, 'OPCIÓN A · 2 €', AZUL, '40 × 1 € =', '40 € de beneficio'))
+t = kit.t0(1); kit.add(1.9, opcion('G1a_ambos_saludo.mp4', .3, 1.0, .6, 'OPCIÓN A · 2 €', AZUL, '40 × 1 € =', '40 € de beneficio'))
 kit.sfx_at(t, 'arcade/swipe.mp3', .7); kit.sfx_at(t + .15, 'arcade/purchase.mp3')
-t = kit.t0(2); kit.add(1.9, opcion('G3b_bityn_idea.mp4', .1, 1.0, .75, 'OPCIÓN B · 3 €', ROSA, '25 × 2 € =', '50 € de beneficio'))
+t = kit.t0(2); kit.add(1.9, opcion('G2d_trio_cohete.mp4', 0, 1.0, .7, 'OPCIÓN B · 3 €', ROSA, '25 × 2 € =', '50 € de beneficio'))
 kit.sfx_at(t, 'arcade/swipe.mp3', .7); kit.sfx_at(t + .15, 'arcade/purchase.mp3')
 
 f4 = clip_frames('G1b_bityn_monedas.mp4', 0, 1.6); g = kit.text([('¡Gana', BLANCO), ('la B!', AMARILLO)], 150, stroke=12)
@@ -43,4 +43,4 @@ def s6(i, n):
     shadowed(fr, im, CX - im.width // 2, y, 90); place(fr, p1, CX, 80, t); return fr
 t = kit.t0(5); kit.add(1.9, s6); kit.sfx_at(t, 'arcade/swipe.mp3', .7)
 
-cierre(kit); kit.render(OUT)
+cierre(kit, variante=1); kit.render(OUT)

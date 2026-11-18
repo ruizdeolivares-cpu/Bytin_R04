@@ -40,7 +40,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 1. Gancho en el 1.er segundo (personaje + texto grande), sin pantallas de título.
 2. Cambio visual cada 1-2 s.
 3. Sonido: vídeos SIN música (decisión de Francisco: la añade él en TikTok). Solo SFX en cada acción, «bips» para R-04 y voces de Kling si las hay. Pico a -3 dB (sin loudnorm).
-4. Variedad: no repetir fondo, paleta, cierre ni música en días seguidos.
+4. VARIEDAD (canal nunca monótono): cada vídeo distinto al anterior en formato, estructura, fondo/paleta, clips, tipo de gancho y cierre (`cierre(kit, variante=0/1/2)` en montaje/lib.py, rotando). Nunca repetir clips ni variante de cierre en días seguidos. Apuntarlo en videos/calendario.md (columnas Clips y Cierre).
 5. Cierre ≤2,5 s: portada + «Búscalo en Amazon» + «Para niños de 8 a 12 años». La edad también en la descripción de cada vídeo, y en el gancho de vez en cuando (1 de cada 3 vídeos).
 6. Zonas seguras 720×1280: nada importante con y>1047 ni x>620.
 7. Portada siempre elegida (videoCoverMilliseconds), con personaje y titular; el centro 3:4 debe funcionar como miniatura.

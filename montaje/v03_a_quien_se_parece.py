@@ -40,4 +40,4 @@ e1 = kit.text([('¿Cuál es el tuyo?', BLANCO)], 84); e2 = kit.pill('Dínoslo en
 def s7(i, n):
     fr = collage_frame(i, n); t = i / FPS; place(fr, e1, CX, 120, t); place(fr, e2, CX, 245, t - .2); return fr
 t = kit.t0(len(kit.segments)); kit.add(1.8, s7); kit.sfx_at(t, 'arcade/swipe.mp3', .6); kit.sfx_at(t + .2, 'arcade/notification.mp3')
-cierre(kit); kit.render(OUT)
+cierre(kit, variante=2); kit.render(OUT)
