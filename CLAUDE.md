@@ -10,7 +10,7 @@
 
 ## Libro y universo
 - «Mi goloso negocio», serie Bityn y R-04. 8-12 años. Precio, coste, margen, competencia, decisiones.
-- Personajes: Bityn («¡Somos millonarios!»), R-04 (robot sensato, «Bip…»), Lía (socia), Sr. Tornillo (mentor), X (enigmas, «Tic, tac…»), MegaSnack (rival, «ERROR 404: MARGEN NO ENCONTRADO»).
+- Personajes: Bityn (ROBOT explorador protagonista, NO un niño: humanoide crema/blanco, visor negro con ojos naranjas luminosos, antena negra + oreja naranja puntiaguda, manos negras, articulaciones naranja/negro; «¡Somos millonarios!»), R4/R-04 (DRON esférico flotante crema, cara negra con un ojo-anillo naranja, dos alas curvas laterales y gorro/rotor arriba; sensato, «Bip…»). Paleta: naranja, gris oscuro, crema, gris. Ficha y fotogramas en `kling/`, Lía (socia), Sr. Tornillo (mentor), X (enigmas, «Tic, tac…»), MegaSnack (rival, «ERROR 404: MARGEN NO ENCONTRADO»).
 - Idea central: «No gana quien más vende, sino quien mejor cuenta».
 - Web «La base secreta de R-04» (`index.html` de este repo): Food Trucks Galácticos, puerta secreta (contraseña pág. 72), álbum de cromos, Negocios locos, diploma, descargas, rincón para padres.
 - Descargables en el repo: `carteles-para-colorear.pdf`, `cuaderno-de-cuentas-30-dias.pdf`, `material-recortable.pdf`, `sucesos-galacticos-locos.pdf`.
