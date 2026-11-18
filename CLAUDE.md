@@ -62,16 +62,16 @@ Gancho + «Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 [ENLACE]» 
 #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #librosparaniños #mamasytiktok #crianza #matematicasdivertidas #regalosnavidad + 1-2 propios (#bitynyr04).
 Primer comentario: siempre una pregunta para los padres.
 
-## Perfil de TikTok (propuesta, pendiente de confirmar)
-- Usuario: @bitynyr04 (alternativas: @bityn.r04, @labasedeR04).
-- Nombre: Bityn y R-04 · Libros
+## Perfil de TikTok (HECHO)
+- Usuario: @bityn.y.r04 · Nombre: «Bityn y R04» · Foto: Bityn y R-04 en la hucha dorada.
+- Bio: «El regalo que enseña a tu hijo cómo funciona un negocio 🤖💰 8-12 años / 📚 En Amazon: Mi goloso negocio 👇» + https://amzn.eu/d/0iJJElrT (pendiente confirmar el enlace exacto en texto)
 - Bio (≤80): «El regalo que enseña a tu hijo cómo funciona un negocio 🤖💰 8-12 años 👇»
 - Foto: R-04 (o Bityn + R-04) de la portada, fondo de color liso, legible en círculo.
 - Enlace: Amazon (cuenta Business para enlace clicable con <1000 seguidores; verificar en la app).
 - Cuenta: Business, categoría Libros/Educación. Sin «Contenido para niños» en el tono; público adulto.
 
 ## Pendiente
-Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool
+Confirmar enlace de Amazon en texto (leído de captura: https://amzn.eu/d/0iJJElrT)
 
 ## Checklist OBLIGATORIO antes de entregar nada
 - Prompts de Kling: ¿frases del libro (con página)? ¿español de España? ¿audio activado solo si hay diálogo? ¿referencias correctas? ¿negativo incluido? ¿dirigido a padres?
