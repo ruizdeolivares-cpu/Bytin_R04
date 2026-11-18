@@ -56,7 +56,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 
 ## Grok Imagine (prueba 18 nov) · DESDE 18 NOV SE GENERA SOLO CON GROK (Kling aparcado, decisión de Francisco)
 - Sin marca de agua visible en la prueba. Salió 480×624 (elegir 9:16 y máxima calidad). Fallos: deforma en primeros planos (R-04 con 2 ojos, Bityn con ceño). Usar planos medios y repetir en el prompt: «ONE single ring eye», ojos de Bityn = líneas naranjas, sin boca. Clip GK1 (2,4 s) en kling/clips.
-- GK3 (pendiente): p.14 «¡Bienvenidos al Cohete Goloso!» (lo dice R-04). Imagen inicial limpia: kling/inicio_p14_cohete_goloso.png.
+- GK3 (p.14 «¡Bienvenidos al Cohete Goloso!», lo dice R-04): 1.er intento NO VALE (GK3_cohete_original.mp4: salió 848×352 porque Grok respeta el formato de la imagen; R-04 se convierte en un cuadricóptero con hélices y boca desde 1,5 s). Solo sirven 0-1,3 s. Repetir con imagen vertical kling/inicio_p14_trio_9x16.png y prompt sin la palabra «drone». REGLA Grok: la imagen inicial tiene que ser ya 9:16.
 - GK2 (6 s, 400×736, sin marca): Sr. Tornillo abre la caja con el Chip Estelar y dice la frase de p.4 (voz 0,9-3,2 s y 3,9-5,7 s). Escena REAL (p.4). Detalles cambiados leves: pomo rojo arriba y a ratos gafas en los dos ojos.
 
 ## Técnico
