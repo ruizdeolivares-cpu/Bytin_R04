@@ -29,6 +29,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, PROMPT_MAESTRO.md y CLAUDE.md y s
 ## Reglas nuevas del 18 nov
 - Decir siempre **«tu hijo o hija»** (o «tu peque»), nunca solo «tu hijo».
 - No usar formato «Mi hijo me ha enseñado…» como testimonio inventado.
+- Grok SIEMPRE en **2D** («2D cartoon animation, flat 2D, NOT 3D, NOT CGI»). Imagen inicial montada por mí con recortes de la ficha oficial (kling/recorte_*.png); Grok solo anima.
 - Clips SOLO con **Grok** (Kling aparcado). Método premium: imagen nueva 9:16 en Grok adjuntando la ficha oficial `kling/ficha_bityn_r4.jpg` + escena real con página; luego animar con poco movimiento. Editar viñetas en Grok NO funciona (cambia personajes). Imagen inicial siempre 9:16 (si no, sale apaisado). No escribir «drone» (pone hélices). Voz de R-04: «tiny toy robot, high-pitched, metallic, NOT a human voice, NOT a child's voice».
 - Pendientes de Grok: GK4 = p.3 voltereta y caída («¡Mira, Bityn! ¡Triple voltereta con tirabuzón!» / «Bip… bip… bi…»), GK5 = p.3 rescate («¡¡R-04!!»). Prompts en el chat del 18 nov (también resumidos en CLAUDE.md).
 - Errata del libro p.16 (nota de X): «vendréis» → «venderéis».
