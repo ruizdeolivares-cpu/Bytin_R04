@@ -54,6 +54,9 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 - Ahorro en Kling: imagen→vídeo con ilustración del libro, 720p, 10 s, audio solo si hay diálogo, 1 salida, multi-shot (varios planos = varios clips). Primero 1 generación de prueba y revisarla.
 - Biblioteca de reacciones (reutilizable en todos los formatos): G1 Bityn, G2 R-04, G3 los dos juntos. Sin texto en el clip (los textos los pongo yo).
 
+## Grok Imagine (prueba 18 nov)
+- Sin marca de agua visible en la prueba. Salió 480×624 (elegir 9:16 y máxima calidad). Fallos: deforma en primeros planos (R-04 con 2 ojos, Bityn con ceño). Usar planos medios y repetir en el prompt: «ONE single ring eye», ojos de Bityn = líneas naranjas, sin boca. Clip GK1 (2,4 s) en kling/clips.
+
 ## Técnico
 - Python + PIL + ffmpeg. 720×1280, 30 fps, H.264 (-preset veryfast, crf 23-24, maxrate ~1100k), AAC 128k, loudnorm I=-14, <3 MB.
 - Fuentes: `npm pack @fontsource/baloo-2` / fredoka / nunito (PIL lee .woff).
