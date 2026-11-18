@@ -7,7 +7,7 @@ Formatos en rotación: Reto · Escena Bityn/R-04 · «Mi hijo me ha enseñado…
 | 2026-11-18 | 19:30 | v02_respuesta_reto | Respuesta del reto + «vender más ≠ ganar más» | G1c, G1a, G2d, G1b, G3d, p.69 | 1 color con rayos | Publicado |
 | 2026-11-19 | 13:30 | l1_01_caprichos | Libro 1 · caprichos que suman (págs. 13-16) | viñetas libro 1 (sin IA) | 0 portada libro 1 | Listo |
 | 2026-11-19 | 19:30 | v03_a_quien_se_parece | Personajes: ¿a quién se parece tu hijo? (gancho con edad) | tarjetas de personajes | 2 degradado | Listo |
-| 2026-11-20 | 13:30 | l1_02 | Libro 1 · «CARIÑO DETECTADO» (p.37-40) |  |  | Por hacer |
+| 2026-11-20 | 13:30 | l1_02_carino | Libro 1 · «CARIÑO DETECTADO» (págs. 33-36) | viñetas libro 1 + GK6 | 1 rayos naranja, portada libro 1 | Listo |
 | 2026-11-20 | 19:30 | v04_bateria_r04 | Escena real: batería de R-04 (viñeta p.3 + GK2 Sr. Tornillo p.4 + viñeta p.4) | p.3, GK2, G2d, p.4 | 0 portada desenfocada | Listo |
 | 2026-11-21 | 13:30 | l1_03 | Libro 1 · Por hacer |  |  | Por hacer |
 | 2026-11-21 | 19:30 | v05_enigma_x_precio | Enigma de X A/B: ¿qué precio salió peor? (p.16-18) | nota X p.16, viñetas p.17 y p.18 (sin IA) | 1 color con rayos (morado) | Listo |

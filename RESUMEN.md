@@ -14,6 +14,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, PROMPT_MAESTRO.md y CLAUDE.md y s
 | Día | Hora | Vídeo | Cierre |
 |---|---|---|---|
 | 19 nov | 13:30 | L1-01 · ¿En qué se le va el dinero a tu peque? (libro 1, págs. 13-16) | 0 |
+| 20 nov | 13:30 | L1-02 · «CARIÑO DETECTADO» (libro 1, págs. 33-36, clip GK6) | 1 |
 | 19 nov | 19:30 | V03 · ¿A quién se parece tu hijo o hija? (personajes) | 2 |
 | 20 nov | 19:30 | V04 · La batería de R-04 (p.3, GK2 p.4, p.4) | 0 |
 | 21 nov | 19:30 | V05 · Enigma de X: ¿qué precio salió peor? (p.16-18) | 1 |
@@ -21,7 +22,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, PROMPT_MAESTRO.md y CLAUDE.md y s
 | 23 nov | 19:30 | V07 · ¿Todo el dinero que entra es tuyo? (p.41-42) | 0 |
 
 ## Por hacer
-- URGENTE libro 1 (13:30): L1-02 del 20 nov = «CARIÑO DETECTADO» (archivos pag_041-044 aprox., págs. 37-40); luego L1-03… (ojo: archivo pag_NNN = página impresa NNN−4). Script de ejemplo: montaje/l1_01_caprichos.py (viñetas grandes con barrido; cierre con portada=libro1/portada_frontal.png (portada real)).
+- URGENTE libro 1 (13:30): L1-03 del 21 nov en adelante… (ojo: archivo pag_NNN = página impresa NNN−4). Script de ejemplo: montaje/l1_01_caprichos.py (viñetas grandes con barrido; cierre con portada=libro1/portada_frontal.png (portada real)).
 - 24 nov 19:30 V08 · Regalo de Navidad (usar GK3b Cohete Goloso + voz de R-04, p.14). Cierre 1.
 - Libro 2 a partir del 24 nov: V08 Navidad y siguientes (clips premium de Grok p.3 si llegan).
 - Ideas reales del libro aún sin usar: reto pulsera p.20 (2 € vs 3 €), tarta-reloj de X p.24/p.42, Don Gruñón p.29, MegaSnack «¡Todo a 1 €!» p.33, contrato con Brillo p.37, tres botes p.52, escape room p.56-61, recetas p.75.
