@@ -14,7 +14,7 @@
 ## Al publicar (Más opciones)
 - Contenido generado por IA: ACTIVAR
 - Divulgación de contenido comercial → Tu marca: ACTIVAR
-- Sonido: no añadir música de TikTok (ya lleva la suya)
+- Sonido: el vídeo va SIN música (solo efectos). Añade un sonido de TikTok alegre/divertido y bájalo al 20-30 % para que se oigan los efectos
 
 ## Respuesta (para el día siguiente)
 B: a 3 € ganas 50 € (25 × 2 €); a 2 €, solo 40 € (40 × 1 €). Vender más no siempre es ganar más.

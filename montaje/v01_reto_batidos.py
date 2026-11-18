@@ -240,19 +240,21 @@ N = int(TOTAL * SR)
 mus = load(MUSIC)[int(MUSIC_START * SR):][:N]
 mus = np.pad(mus, ((0, N - len(mus)), (0, 0)))
 fade = int(0.6 * SR); mus[-fade:] *= np.linspace(1, 0, fade)[:, None]
-mix = mus * 0.55
+MUSIC_VOL = 0.0  # sin música: Francisco la añade en TikTok
+mix = mus * MUSIC_VOL
 for t0, p, v in sfx_events:
     s = bip() if p == 'bip' else load(p)
     a = int(t0 * SR); b = min(N, a + len(s))
     mix[a:b] += s[:b - a] * v
 tmpa = OUT + '.a.wav'
 import wave
+mix *= 0.7 / max(1e-6, np.abs(mix).max())  # pico a -3 dB
 pcm = (np.clip(mix, -1, 1) * 32767).astype('<i2')
 with wave.open(tmpa, 'wb') as w:
     w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(pcm.tobytes())
 
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmpv, '-i', tmpa,
                 '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-maxrate', '1100k', '-bufsize', '2200k', '-pix_fmt', 'yuv420p',
-                '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-movflags', '+faststart', '-shortest', OUT], check=True)
+                '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-movflags', '+faststart', '-shortest', OUT], check=True)
 os.remove(tmpv); os.remove(tmpa)
 print('OK', OUT, f'{TOTAL:.2f}s', os.path.getsize(OUT) // 1024, 'KB')

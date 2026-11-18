@@ -31,7 +31,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 ## Reglas de edición
 1. Gancho en el 1.er segundo (personaje + texto grande), sin pantallas de título.
 2. Cambio visual cada 1-2 s.
-3. Sonido 50 %: música con licencia comercial (pistas de Francisco, Pixabay), SFX en cada acción, «bips» para R-04.
+3. Sonido: vídeos SIN música (decisión de Francisco: la añade él en TikTok). Solo SFX en cada acción, «bips» para R-04 y voces de Kling si las hay. Pico a -3 dB (sin loudnorm).
 4. Variedad: no repetir fondo, paleta, cierre ni música en días seguidos.
 5. Cierre ≤2,5 s: portada + «Búscalo en Amazon».
 6. Zonas seguras 720×1280: nada importante con y>1047 ni x>620.
