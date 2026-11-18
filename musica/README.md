@@ -20,3 +20,20 @@ Inicio = segundo recomendado para empezar (parte animada, medido por energía; n
 | Más adulta | bransboynd-fresh-457883 | 34 s | 126 s |
 
 Pixabay bloquea descargas automáticas (Cloudflare): las pistas nuevas las sube Francisco.
+
+## Tanda 2
+| Uso | Pista | Inicio | Dur. |
+|---|---|---|---|
+| ⭐ Divertida/traviesa (enigmas de X, retos) | starostin-sneaky-quirky-music-635314 | 4 s | 127 s |
+| ⭐ Divertida retro (cómic, humor) | mickeyscat-old-film-ragtime-retro-background-music-no-copyright-627015 | 1 s | 135 s |
+| ⭐ Alegre bailable | kornevmusic-happy-latin-salsa-dance-621026 | 1 s | 155 s |
+| Alegre | miromaxmusic-stylish-funk-smooth-party-no-copyright-620664 | 1 s | 104 s |
+| Alegre | pumpupthemind-hip-hop-beat-hip-hop-beats-631168 | 3 s | 79 s |
+| Tierna (regalo, emoción) | strawberry_candy-chill-advertising-music-warm-story-627308 | 11 s | 116 s |
+| Navidad/Reyes | tunetank-christmas-347469 | 25 s | 103 s |
+| Potente (usar poco) | sub_clair-no-copyright-sport-548344 | 8 s | 41 s |
+| Más adulta | miromaxmusic-music-promotion-no-copyright-513944 | 17 s | 136 s |
+| Más adulta | miromaxmusic-synthwave-no-copyright-630654 | 6 s | 134 s |
+| Más adulta | sigmamusicart-no-copyright-music-537751 | 51 s | 123 s |
+
+Efecto (3 s, origen/licencia por confirmar): `sfx/My_first_board_Smug_Castilian_Wine_Line_ClDeDXhy.mp3`
