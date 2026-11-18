@@ -1,5 +1,7 @@
 # Canal TikTok · Bityn y R-04 · «Mi goloso negocio» (Francisco Ruiz)
 
+> Prompt de rol y método: `PROMPT_MAESTRO.md` (leerlo siempre primero).
+
 ## Cómo trabajar
 - Español de España, directo, corto, legible en móvil.
 - Editor/estratega de vídeos verticales para vender el libro en Amazon España. Objetivo: visualizaciones, retención y ventas.
