@@ -48,6 +48,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 ## Técnico
 - Python + PIL + ffmpeg. 720×1280, 30 fps, H.264 (-preset veryfast, crf 23-24, maxrate ~1100k), AAC 128k, loudnorm I=-14, <3 MB.
 - Fuentes: `npm pack @fontsource/baloo-2` / fredoka / nunito (PIL lee .woff).
+- Música: 15 pistas en `musica/` (catálogo y segundo de inicio en `musica/README.md`).
 - SFX: npm `uisfx` (MIT) + bips sintetizados con numpy.
 - Drive: create_file, video/mp4, disableConversionToGoogleType.
 - Metricool: createScheduledPost/updateScheduledPost, media = enlace Drive, autoPublish true, videoCoverMilliseconds, commercialContentOwnBrand true, isAigc true si hay IA. Antes de actualizar: getScheduledPosts.
@@ -67,4 +68,4 @@ Primer comentario: siempre una pregunta para los padres.
 - Cuenta: Business, categoría Libros/Educación. Sin «Contenido para niños» en el tono; público adulto.
 
 ## Pendiente
-Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool · carpeta de Drive · música · clips rehechos sin marca.
+Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool · carpeta de Drive · clips G2 y G3 de Kling.
