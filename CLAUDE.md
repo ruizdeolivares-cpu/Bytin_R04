@@ -37,7 +37,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 ## Clips de IA (Luma/Kling)
 - Free/Lite de Luma = marca de agua + sin uso comercial → NO se usan. Los clips con marca se rehacen (decisión de Francisco, nov 2026).
 - Solo clips de plan con licencia comercial y sin marca (Luma Plus o superior; comprobar condiciones de Kling).
-- Kling: tener créditos NO quita la marca; hace falta suscripción activa (Standard o superior) y descargar «sin marca de agua». Web klingai.com (no hace falta app).
+- Kling: Francisco confirma que su cuenta permite descargar sin marca de agua (ya usado en otro chat). Descargar siempre la versión sin marca. Web klingai.com (no hace falta app).
 - Ahorro en Kling: imagen→vídeo con ilustración del libro, 720p, 10 s, sin audio nativo, 1 salida, multi-shot (varios planos = varios clips). Primero 1 generación de prueba y revisarla.
 - Biblioteca de reacciones (reutilizable en todos los formatos): G1 Bityn, G2 R-04, G3 los dos juntos. Sin texto en el clip (los textos los pongo yo).
 
