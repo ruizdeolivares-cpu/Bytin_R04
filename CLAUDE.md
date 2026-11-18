@@ -88,7 +88,7 @@ Nada urgente
 
 ## REGLA DE ORO: NO INVENTAR ESCENAS
 - Toda escena, acción o frase de un clip o vídeo tiene que salir de los libros (citar página). Nada de escenas inventadas (error del 18 nov: R-04 cayendo sobre la hucha; Lía sirviendo sola). Bityn TRABAJA en el food truck (jefe de cuentas, p.77).
-- Hay DOS libros: «Mi primer dinero» (libro 1; Drive: MiPrimerDinero_interior_KDP.pdf, 228 MB, id 1RyXod5b34Lu-vleWCbatZi00a7lH7NhA) y «Mi goloso negocio» (libro 2). Leer AMBOS enteros antes de generar clips: guías en libro/guia_contenido.md (libro 2) y libro1/guia_contenido.md (libro 1, PENDIENTE).
+- Hay DOS libros: «Mi primer dinero» (libro 1; Drive: MiPrimerDinero_interior_KDP.pdf, 228 MB, id 1RyXod5b34Lu-vleWCbatZi00a7lH7NhA) y «Mi goloso negocio» (libro 2). Leer AMBOS enteros antes de generar clips: guías en libro/guia_contenido.md (libro 2) y libro1/guia_contenido.md (libro 1, LEÍDO 18 nov).
 - V04 (batería de R-04) usa una escena inventada: revisar con Francisco antes de publicar.
 
 ## Checklist OBLIGATORIO antes de entregar nada

@@ -16,6 +16,11 @@ Fuente: MiGolosoNegocio_KDP_interior.pdf (Drive). Páginas en `paginas/pag_XX.jp
 - ⚠️ SPOILER: la solución de p.88 apunta a que el «Tic, tac» es del Sr. Tornillo. NUNCA revelar quién es X en los vídeos.
 - «ERROR 404: MARGEN NO ENCONTRADO» (del brief) NO aparece en el OCR: verificar antes de usarlo.
 
+## Escenas reales con Bityn (para clips: SOLO estas, con su página)
+- p.3: en el parque, R-04 hace una «¡Triple voltereta con tirabuzón!», se queda sin batería («Bip… bip… bi…») y cae; Bityn se lanza y lo atrapa al vuelo («¡¡R-04!!»), luego corre a la relojería del Sr. Tornillo.
+- p.14: Bityn, Lía y R-04 delante del Cohete Goloso recién pintado: «¡Bienvenidos al Cohete Goloso!».
+- Bityn TRABAJA en el food truck con Lía: es el jefe de cuentas (p.77); Lía, la inventora de sabores.
+
 ## Arranque de la historia (p.3-5)
 Un sábado en el Barrio Estelar, R-04 cae («Bip… bip… bi…»). Bityn lo rescata («¡¡R-04!!») y lo lleva al Sr. Tornillo, el relojero. Batería agotada: le quedan unos 30 días. Solo lo salva un Chip Estelar de 150 €. «¿¡150 euros!? ¡Y yo solo tengo 18!». «Tranquilo, R-04. En 30 días tendré ese dinero. Te lo prometo.» Batería de R-04: 30 días · Hucha: 18 de 150 €.
 
