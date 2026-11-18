@@ -34,7 +34,7 @@
 - Ganchos: «El regalo que enseña a tu hijo o hija a manejar dinero», «Mi hijo de 9 años me ha explicado qué es el margen», «Ni tablet ni consola: este libro», «Reto: ¿tu hijo o hija sabría resolver esto?».
 - Tono tierno, divertido, aventurero, educativo.
 
-## Formatos (alternar) · DOS VÍDEOS AL DÍA, UNO DE CADA LIBRO: 13:30 «Mi primer dinero» (libro 1, enlace https://amzn.eu/d/0iJJEIrT, portada = Bityn y R-04 en la hucha dorada, libro1/paginas/pag_001.jpg) y 19:30 «Mi goloso negocio» (libro 2). Se pueden mezclar escenas de los dos libros (decisión de Francisco, 18 nov). En los vídeos del libro 1, cierre con SU portada y SU enlace.
+## Formatos (alternar) · DOS VÍDEOS AL DÍA, UNO DE CADA LIBRO: 13:30 «Mi primer dinero» (libro 1, enlace https://amzn.eu/d/0iJJEIrT, portada REAL = libro1/portada_frontal.png (Bityn en el todoterreno verde; la hucha dorada es la portadilla interior pag_001)) y 19:30 «Mi goloso negocio» (libro 2). Se pueden mezclar escenas de los dos libros (decisión de Francisco, 18 nov). En los vídeos del libro 1, cierre con SU portada y SU enlace.
 Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado…» · Enigma de X (A/B) · Descargables y base secreta · Regalo Navidad/Reyes/cumple.
 
 ## Reglas de edición

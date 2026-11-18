@@ -8,7 +8,7 @@ from lib import *
 kit = Kit(sys.argv[1]); OUT = sys.argv[2]
 PG = os.path.join(REPO, 'libro1', 'paginas')
 pg = {n: Image.open(os.path.join(PG, f'pag_{n:03d}.jpg')).convert('RGB') for n in (17, 18, 19, 20)}
-PORTADA1 = os.path.join(PG, 'pag_001.jpg')
+PORTADA1 = os.path.join(REPO, 'libro1', 'portada_frontal.png')
 
 def vineta(n, box, w=None, y=380, zmax=None, bgcol=None, h=560, rev=False):
     """Viñeta grande (alto h) con barrido horizontal dentro de la zona segura y leve zoom."""
