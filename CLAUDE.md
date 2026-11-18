@@ -71,4 +71,4 @@ Primer comentario: siempre una pregunta para los padres.
 - Cuenta: Business, categoría Libros/Educación. Sin «Contenido para niños» en el tono; público adulto.
 
 ## Pendiente
-Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool · G2 corregida (voces) de Kling.
+Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool
