@@ -183,6 +183,7 @@ bg8 = Image.blend(bg8, Image.new('RGB', (W, H), (20, 15, 40)), 0.35)
 cw = 470; chh = int(cov.height * cw / cov.width)
 covs = cov.resize((cw, chh), Image.LANCZOS)
 t8 = text_img([('¡Búscalo', BLANCO), ('en Amazon!', AMARILLO)], 96)
+t8b = pill('Para niños de 8 a 12 años', 36, NARANJA)
 def s8(i, n):
     t = i / FPS
     fr = bg8.copy().convert('RGBA')
@@ -196,6 +197,7 @@ def s8(i, n):
         fr.alpha_composite(sh, (CX - c.width // 2 - 5, y - 5))
         fr.paste(c, (CX - c.width // 2, y))
     place(fr, t8, CX, 80, t - 0.15)
+    place(fr, t8b, CX, 330 + chh + 18, t - 0.35)
     return fr
 add(2.5, s8)
 
