@@ -38,6 +38,7 @@
 Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado…» · Enigma de X (A/B) · Descargables y base secreta · Regalo Navidad/Reyes/cumple.
 
 ## Reglas de edición
+0. CADA VÍDEO SE RESUELVE EN SÍ MISMO (decisión de Francisco, 18 nov): nada de «mañana la respuesta» ni vídeos que se resuelven en el siguiente. Si hay reto o enigma, la solución va al final del mismo vídeo (tras una cuenta atrás).
 1. Gancho en el 1.er segundo (personaje + texto grande), sin pantallas de título.
 2. Cambio visual cada 1-2 s.
 3. Sonido: vídeos SIN música (decisión de Francisco: la añade él en TikTok). Solo SFX en cada acción, «bips» para R-04 y voces de Kling si las hay. Pico a -3 dB (sin loudnorm).

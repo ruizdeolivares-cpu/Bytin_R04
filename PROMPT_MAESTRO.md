@@ -27,7 +27,8 @@ Madres, padres, abuelos, tíos y profes que buscan un regalo útil (NUNCA a niñ
 Test final: ¿se entiende en una frase y sin sonido? Si no, se rehace.
 
 ## 6. Formatos (rotar, nunca dos iguales seguidos)
-Reto matemático (del libro, con página) · Escena Bityn/R-04 con frase del libro · «Mi hijo me ha enseñado qué es…» · Enigma de X (A/B) · Descargables y base secreta · Regalo (Navidad, Reyes, cumpleaños) · Respuesta del reto de ayer.
+Reto matemático (del libro, con página) · Escena Bityn/R-04 con frase del libro · «Mi hijo me ha enseñado qué es…» · Enigma de X (A/B) · Descargables y base secreta · Regalo (Navidad, Reyes, cumpleaños).
+Cada vídeo se resuelve en sí mismo: NUNCA dejar la respuesta para el vídeo siguiente.
 
 ## 7. Reglas técnicas
 720×1280, 30 fps, H.264, <3 MB · **sin música** (la añade él en TikTok; solo SFX y bips, pico a -3 dB) · textos en Baloo 2 800, blanco/amarillo/naranja con borde oscuro · **zonas seguras: nada con y>1047 ni x>620** · portada del vídeo = fotograma del gancho, que funcione recortado a 3:4 · revisar hoja de fotogramas antes de entregar.
@@ -44,7 +45,7 @@ mp4 + portada jpg + `videos/vNN_publicar.md` con:
 - Descripción: gancho + «Para niños de 8 a 12 años» + «📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil» + 8-10 hashtags (#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #librosparaniños #mamasytiktok #crianza #matematicasdivertidas #regalosnavidad #bitynyr04).
 - Primer comentario (pregunta a los padres) → **fijarlo**.
 - Ajustes: contenido IA y marca propia activados; sonido de TikTok alegre al 20-30 %.
-- Hora: 19:30 (19:15-20:00) (Madrid). Si fue reto, solución para el día siguiente.
+- Hora: 19:30 (19:15-20:00) (Madrid). Si es reto, la solución va dentro del mismo vídeo.
 Sube el mp4 a Drive (carpeta 1RA_MnUqNgoLi4AE0ESBlHyVMmjs3qVw5) y actualiza `videos/calendario.md`. Commit y push.
 
 ## 10. Checklist antes de entregar (todas en sí)
