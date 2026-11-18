@@ -72,3 +72,10 @@ Primer comentario: siempre una pregunta para los padres.
 
 ## Pendiente
 Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool
+
+## Checklist OBLIGATORIO antes de entregar nada
+- Prompts de Kling: ¿frases del libro (con página)? ¿español de España? ¿audio activado solo si hay diálogo? ¿referencias correctas? ¿negativo incluido? ¿dirigido a padres?
+- Antes de pedir un clip: comprobar en kling/clips si ya existe algo que sirva (no hacer repetir generaciones).
+- Al recibir un vídeo: comparar md5 con kling/clips/*_original.mp4 (puede ser repetido).
+- Vídeo: hoja de fotogramas con líneas y=1047 / x=620; textos completos; sin marcas de agua; caras bien; sin música; edad 8-12 en el cierre; portada elegida; <3 MB.
+- Paquete: mp4 + portada jpg + vNN_publicar.md (descripción con edad, primer comentario, ajustes IA/marca, sonido al 20-30 %) + Drive + calendario actualizado.
