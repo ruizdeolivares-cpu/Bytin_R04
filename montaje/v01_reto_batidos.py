@@ -94,7 +94,7 @@ def add(dur, fn): segments.append((dur, fn))
 # S1 gancho: R-04 con "?" + pregunta a los padres
 f1 = clip_frames('G2c_r04_interrogacion.mp4', 0.0, 1.9)
 t_pill = pill('RETO PARA PADRES', 34, NARANJA)
-t1 = text_img([('¿Tu hijo sabría', BLANCO), ('resolver esto?', AMARILLO)], 84)
+t1 = text_img([('¿Tu hijo o hija', BLANCO), ('sabría resolver esto?', AMARILLO)], 80)
 def s1(i, n):
     fr = zoom(f1[i], 1.0 + 0.06 * i / n).convert('RGBA'); t = i / FPS
     place(fr, t_pill, CX, 175, t)
