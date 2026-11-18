@@ -1,5 +1,5 @@
-# V05 · Enigma de X: ¿cuál fue el peor precio? — listo para publicar (20 nov · 13:30)
-**Vídeo:** v05_enigma_x_precio.mp4 · **Portada:** fotograma 0,9 s (v05_portada.jpg) · **Hora:** 13:30
+# V05 · Enigma de X: ¿cuál fue el peor precio? — listo para publicar (21 nov · 19:30)
+**Vídeo:** v05_enigma_x_precio.mp4 · **Portada:** fotograma 0,9 s (v05_portada.jpg) · **Hora:** 19:30
 **Escenas reales:** nota de X (p.16), Misión 4 «El precio justo… ¡o el precio loco!» (p.17), Sr. Tornillo y precio de 2 € (p.18). Sin clips de IA.
 
 ## Descripción

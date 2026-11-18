@@ -115,10 +115,10 @@ def shadowed(fr, im, x, y, alpha=120):
     ImageDraw.Draw(sh).rounded_rectangle((15, 15, im.width + 15, im.height + 15), radius=18, fill=(0, 0, 0, alpha))
     fr.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10)), (x - 5, y + 4)); fr.paste(im, (x, y))
 
-def cierre(kit, dur=2.5, variante=0, color=(255, 214, 64)):
+def cierre(kit, dur=2.5, variante=0, color=(255, 214, 64), portada=None):
     """Cierre con portada + ¡Búscalo en Amazon! + edad. 3 variantes: NO repetir la misma en días seguidos.
     0 = fondo portada desenfocada · 1 = fondo de color liso con rayos y portada inclinada · 2 = degradado con portada pequeña + «enlace en el perfil»."""
-    cov = Image.open(os.path.join(REPO, 'libro', 'portada_frontal_720.png')).convert('RGB')
+    cov = Image.open(portada or os.path.join(REPO, 'libro', 'portada_frontal_720.png')).convert('RGB')  # libro 1: libro1/paginas/pag_001.jpg
     t1 = kit.text([('¡Búscalo', BLANCO), ('en Amazon!', AMARILLO)], 96); t2 = kit.pill('Para niños de 8 a 12 años', 36, NARANJA)
     if variante == 0:
         bg = fill_bg(cov, 25, 0.35); cw = 470

@@ -2,26 +2,28 @@
 Para arrancar un chat nuevo: «Lee RESUMEN.md, PROMPT_MAESTRO.md y CLAUDE.md y sigue». Rama de trabajo: `claude/new-session-ifjtrt` (main está desfasada).
 
 ## Ritmo
-- **DOS vídeos al día: 13:30 y 19:30** (Madrid). Publicación manual por Francisco.
+- **DOS vídeos al día, uno de cada libro: 13:30 «Mi primer dinero» (L1-NN, enlace https://amzn.eu/d/0iJJEIrT) y 19:30 «Mi goloso negocio» (VNN)**. Se pueden mezclar escenas de los dos libros. La hucha dorada es la portada del libro 1 (vale usarla).
 - **Aviso diario a las 12:37** (tarea programada): manda los dos paquetes del día (mp4 + portada + vNN_publicar.md) leyendo la rama de trabajo. El 18 nov falló por límite de uso de la cuenta.
 - Estado «Publicado» en `videos/calendario.md` SOLO cuando Francisco lo confirme. Nunca suponer.
 
 ## Publicado
 - 17 nov V01 · Reto de los batidos (p.69)
-- 18 nov V02 · Respuesta del reto (ojo: sale Bityn en la hucha dorada, escena no del libro)
+- 18 nov V02 · Respuesta del reto (sale Bityn en la hucha dorada = portada del libro 1: vale)
 
 ## Listos (en `videos/` y en Drive, carpeta «Bityn y R-04 · Vídeos TikTok»)
 | Día | Hora | Vídeo | Cierre |
 |---|---|---|---|
-| 19 nov | 13:30 | V03 · ¿A quién se parece tu hijo o hija? (personajes) | 2 |
-| 19 nov | 19:30 | V04 · La batería de R-04 (p.3, GK2 p.4, p.4) | 0 |
-| 20 nov | 13:30 | V05 · Enigma de X: ¿qué precio salió peor? (p.16-18) | 1 |
-| 20 nov | 19:30 | V06 · QR secreto y base de R-04 (p.94, web, 4 PDF) | 2 |
-| 21 nov | 13:30 | V07 · ¿Todo el dinero que entra es tuyo? (p.41-42) | 0 |
+| 19 nov | 13:30 | L1-01 · ¿En qué se le va el dinero a tu peque? (libro 1, págs. 13-16) | 0 |
+| 19 nov | 19:30 | V03 · ¿A quién se parece tu hijo o hija? (personajes) | 2 |
+| 20 nov | 19:30 | V04 · La batería de R-04 (p.3, GK2 p.4, p.4) | 0 |
+| 21 nov | 19:30 | V05 · Enigma de X: ¿qué precio salió peor? (p.16-18) | 1 |
+| 22 nov | 19:30 | V06 · QR secreto y base de R-04 (p.94, web, 4 PDF) | 2 |
+| 23 nov | 19:30 | V07 · ¿Todo el dinero que entra es tuyo? (p.41-42) | 0 |
 
-## Por hacer (urgente: solo hay vídeos hasta el 21 a mediodía)
-- 21 nov 19:30 V08 · Regalo de Navidad (usar GK3b Cohete Goloso + voz de R-04, p.14). Cierre 1.
-- 22 nov V09 y V10 · por decidir (clips premium de Grok p.3 si llegan).
+## Por hacer
+- URGENTE libro 1 (13:30): L1-02 del 20 nov = «CARIÑO DETECTADO» (archivos pag_041-044 aprox., págs. 37-40); luego L1-03… (ojo: archivo pag_NNN = página impresa NNN−4). Script de ejemplo: montaje/l1_01_caprichos.py (viñetas grandes con barrido; cierre con portada=libro1/paginas/pag_001.jpg).
+- 24 nov 19:30 V08 · Regalo de Navidad (usar GK3b Cohete Goloso + voz de R-04, p.14). Cierre 1.
+- Libro 2 a partir del 24 nov: V08 Navidad y siguientes (clips premium de Grok p.3 si llegan).
 - Ideas reales del libro aún sin usar: reto pulsera p.20 (2 € vs 3 €), tarta-reloj de X p.24/p.42, Don Gruñón p.29, MegaSnack «¡Todo a 1 €!» p.33, contrato con Brillo p.37, tres botes p.52, escape room p.56-61, recetas p.75.
 
 ## Reglas nuevas del 18 nov
