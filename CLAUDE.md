@@ -34,7 +34,7 @@
 - Ganchos: «El regalo que enseña a tu hijo o hija a manejar dinero», «Mi hijo de 9 años me ha explicado qué es el margen», «Ni tablet ni consola: este libro», «Reto: ¿tu hijo o hija sabría resolver esto?».
 - Tono tierno, divertido, aventurero, educativo.
 
-## Formatos (alternar, 1-2/día)
+## Formatos (alternar) · DOS VÍDEOS AL DÍA: 13:30 y 19:30 (decisión de Francisco, 18 nov)
 Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado…» · Enigma de X (A/B) · Descargables y base secreta · Regalo Navidad/Reyes/cumple.
 
 ## Reglas de edición
@@ -89,7 +89,8 @@ Primer comentario: siempre una pregunta para los padres.
 - Cuenta: Business, categoría Libros/Educación. Sin «Contenido para niños» en el tono; público adulto.
 
 ## Pendiente
-Nada urgente
+- Estado «Publicado» en videos/calendario.md SOLO cuando Francisco lo confirme. Nunca suponer qué está publicado: preguntar.
+- Aviso diario (tarea programada) a las 12:37 con los DOS paquetes del día; lee la rama claude/new-session-ifjtrt.
 
 ## REGLA DE ORO: NO INVENTAR ESCENAS
 - Toda escena, acción o frase de un clip o vídeo tiene que salir de los libros (citar página). Nada de escenas inventadas (error del 18 nov: R-04 cayendo sobre la hucha; Lía sirviendo sola). Bityn TRABAJA en el food truck (jefe de cuentas, p.77).

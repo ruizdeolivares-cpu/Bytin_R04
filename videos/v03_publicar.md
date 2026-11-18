@@ -1,5 +1,5 @@
-# V03 · ¿A quién se parece tu hijo o hija? — listo para publicar (19 nov)
-**Vídeo:** v03_a_quien_se_parece.mp4 · **Portada:** fotograma 0,9 s (v03_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
+# V03 · ¿A quién se parece tu hijo o hija? — listo para publicar (19 nov · 13:30)
+**Vídeo:** v03_a_quien_se_parece.mp4 · **Portada:** fotograma 0,9 s (v03_portada.jpg) · **Hora:** 13:30
 
 ## Descripción
 ¿Tu hijo o hija es Bityn, R-04, Lía, el Sr. Tornillo, Brillo o Don Gruñón? 😂 Los personajes de «Mi goloso negocio», el libro que enseña a los niños cómo funciona un negocio. Para niños de 8 a 12 años.

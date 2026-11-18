@@ -1,5 +1,5 @@
-# V06 · El QR secreto y la base de R-04 — listo para publicar (22 nov)
-**Vídeo:** v06_base_secreta.mp4 · **Portada:** fotograma 0,9 s (v06_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
+# V06 · El QR secreto y la base de R-04 — listo para publicar (20 nov · 19:30)
+**Vídeo:** v06_base_secreta.mp4 · **Portada:** fotograma 0,9 s (v06_portada.jpg) · **Hora:** 19:30
 **Material real:** QR de la p.94 (difuminado en el vídeo), web «La base secreta de R-04» (capturas) y los 4 descargables (recortables, cuaderno de cuentas, carteles para colorear, cartas extra). Clip G3c (R-04). La contraseña NO se revela.
 
 ## Descripción

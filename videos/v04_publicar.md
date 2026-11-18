@@ -1,5 +1,5 @@
-# V04 · ¡A R-04 se le acaba la batería! — listo para publicar (20 nov)
-**Vídeo:** v04_bateria_r04.mp4 · **Portada:** fotograma 0,9 s (v04_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
+# V04 · ¡A R-04 se le acaba la batería! — listo para publicar (19 nov · 19:30)
+**Vídeo:** v04_bateria_r04.mp4 · **Portada:** fotograma 0,9 s (v04_portada.jpg) · **Hora:** 19:30
 
 ## Descripción
 A R-04 se le acaba la batería y solo lo salva un Chip Estelar de 150 €… ¡y Bityn solo tiene 18! ¿Lo conseguirán en 30 días con un food truck de batidos? 🚀 Una aventura en cómic que enseña a los niños a hacer cuentas de verdad. Para niños de 8 a 12 años.
