@@ -3,7 +3,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, PROMPT_MAESTRO.md y CLAUDE.md y s
 
 ## Ritmo
 - **DOS vídeos al día, uno de cada libro: 13:30 «Mi primer dinero» (L1-NN, enlace https://amzn.eu/d/0iJJEIrT) y 19:30 «Mi goloso negocio» (VNN)**. Se pueden mezclar escenas de los dos libros. Portada real del libro 1: libro1/portada_frontal.png (todoterreno verde). La hucha dorada es su portadilla interior (vale usarla).
-- **Aviso diario a las 12:37** (tarea programada): manda los dos paquetes del día (mp4 + portada + vNN_publicar.md) leyendo la rama de trabajo. El 18 nov falló por límite de uso de la cuenta.
+- **Entrega en el momento**: tareas programadas a las 13:13 y 19:13 mandan SOLO el vídeo que toca a esa hora (mp4 + portada + descripción). Nunca por adelantado. El 18 nov la tarea falló por límite de uso de la cuenta.
 - Estado «Publicado» en `videos/calendario.md` SOLO cuando Francisco lo confirme. Nunca suponer.
 
 ## Publicado
