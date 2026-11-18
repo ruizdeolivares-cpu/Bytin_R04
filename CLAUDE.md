@@ -52,6 +52,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 - Música: 15 pistas en `musica/` (catálogo y segundo de inicio en `musica/README.md`).
 - SFX: npm `uisfx` (MIT) + bips sintetizados con numpy.
 - Drive: carpeta «Bityn y R-04 · Vídeos TikTok» (id 1RA_MnUqNgoLi4AE0ESBlHyVMmjs3qVw5). create_file, video/mp4, disableConversionToGoogleType. Subidos: v01 (id 1fQdJYPMkld6SwQOW8gb6Fu1nd6VAYYWb).
+- PUBLICACIÓN MANUAL (decisión de Francisco: no paga plan de Metricool). Por cada vídeo entregar: mp4 + portada jpg + videos/vNN_publicar.md (descripción, primer comentario, hora, ajustes IA/marca, respuesta si es reto). No programar en Metricool.
 - Metricool: la única marca existente (8123021, pasatiempostoxico) es del OTRO canal: NO usarla. Esperar brandId nuevo.
 - Metricool: createScheduledPost/updateScheduledPost, media = enlace Drive, autoPublish true, videoCoverMilliseconds, commercialContentOwnBrand true, isAigc true si hay IA. Antes de actualizar: getScheduledPosts.
 - Límites: no descargar de Metricool/GitHub/HF; vídeos de Drive pesan demasiado (pedir subida); sin voz sintética de calidad; no se puede escuchar audio (medir volúmenes).
