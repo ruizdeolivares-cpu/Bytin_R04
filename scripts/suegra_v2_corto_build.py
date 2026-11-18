@@ -124,7 +124,7 @@ def frame(t):
     x = (t - s0) / (s1 - s0)
     img = zoom(cf(c0 + (t - s0)), z0 + (z1 - z0) * x, cy)
     if t < 1.5:
-        label(img, [('MI SUEGRA PROBANDO', 64, WHT), ('MIS POLVORONES', 72, YEL)], 920, 0.0, t)
+        label(img, [('MI SUEGRA PROBANDO', 64, WHT), ('MIS POLVORONES', 72, YEL)], 920, -1.0, t)
     elif t < 3.4:
         label(img, [('MODO VOLCÁN', 84, WHT), ('ACTIVADO', 84, YEL)], 930, 1.6, t, bg=MAG, shake=6 if t < 2.2 else 0)
     else:

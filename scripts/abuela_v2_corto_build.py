@@ -57,7 +57,7 @@ def counter(img, t):
     # "12" que baja a "11" en el golpe
     d = ImageDraw.Draw(img)
     n = '12' if t < 2.1 else '11'
-    sc = pop(0.5 if t < 2.1 else 2.1, t)
+    sc = pop(-1 if t < 2.1 else 2.1, t)
     f = F(ANTON, max(8, int(120 * sc)))
     cx, cy = 505, 250
     r = 95 * sc
@@ -106,8 +106,8 @@ def frame(t):
     x = (t - s0) / (s1 - s0)
     img = zoom(cf(c0 + (t - s0)), z0 + (z1 - z0) * x, cy)
     if t < 2.0:
-        label(img, [('MI ABUELA HA CONTADO', 60, WHT), ('LOS TROZOS DE TURRÓN', 60, YEL)], 920, 0.0, t)
-        if t >= 0.5: counter(img, t)
+        label(img, [('MI ABUELA HA CONTADO', 60, WHT), ('LOS TROZOS DE TURRÓN', 60, YEL)], 920, -1.0, t)
+        counter(img, t)
     elif t < 4.6:
         label(img, [('¡FALTA UNO!', 104, WHT)], 960, 2.1, t, bg=RED, shake=6 if t < 2.8 else 0)
         counter(img, t)
