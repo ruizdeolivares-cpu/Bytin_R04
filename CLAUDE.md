@@ -51,7 +51,8 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 - Fuentes: `npm pack @fontsource/baloo-2` / fredoka / nunito (PIL lee .woff).
 - Música: 15 pistas en `musica/` (catálogo y segundo de inicio en `musica/README.md`).
 - SFX: npm `uisfx` (MIT) + bips sintetizados con numpy.
-- Drive: create_file, video/mp4, disableConversionToGoogleType.
+- Drive: carpeta «Bityn y R-04 · Vídeos TikTok» (id 1RA_MnUqNgoLi4AE0ESBlHyVMmjs3qVw5). create_file, video/mp4, disableConversionToGoogleType. Subidos: v01 (id 1fQdJYPMkld6SwQOW8gb6Fu1nd6VAYYWb).
+- Metricool: la única marca existente (8123021, pasatiempostoxico) es del OTRO canal: NO usarla. Esperar brandId nuevo.
 - Metricool: createScheduledPost/updateScheduledPost, media = enlace Drive, autoPublish true, videoCoverMilliseconds, commercialContentOwnBrand true, isAigc true si hay IA. Antes de actualizar: getScheduledPosts.
 - Límites: no descargar de Metricool/GitHub/HF; vídeos de Drive pesan demasiado (pedir subida); sin voz sintética de calidad; no se puede escuchar audio (medir volúmenes).
 
@@ -69,4 +70,4 @@ Primer comentario: siempre una pregunta para los padres.
 - Cuenta: Business, categoría Libros/Educación. Sin «Contenido para niños» en el tono; público adulto.
 
 ## Pendiente
-Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool · carpeta de Drive · clips G2 y G3 de Kling.
+Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool · G2 corregida (voces) de Kling.
