@@ -44,7 +44,7 @@ mp4 + portada jpg + `videos/vNN_publicar.md` con:
 - Descripción: gancho + «Para niños de 8 a 12 años» + «📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil» + 8-10 hashtags (#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #librosparaniños #mamasytiktok #crianza #matematicasdivertidas #regalosnavidad #bitynyr04).
 - Primer comentario (pregunta a los padres) → **fijarlo**.
 - Ajustes: contenido IA y marca propia activados; sonido de TikTok alegre al 20-30 %.
-- Hora: 13:30-14:30 (Madrid). Si fue reto, solución para el día siguiente.
+- Hora: 19:30 (19:15-20:00) (Madrid). Si fue reto, solución para el día siguiente.
 Sube el mp4 a Drive (carpeta 1RA_MnUqNgoLi4AE0ESBlHyVMmjs3qVw5) y actualiza `videos/calendario.md`. Commit y push.
 
 ## 10. Checklist antes de entregar (todas en sí)

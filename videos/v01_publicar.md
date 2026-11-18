@@ -1,7 +1,7 @@
 # V01 · Reto de los batidos — listo para publicar
 
 **Vídeo:** v01_reto_batidos.mp4 · **Portada:** fotograma 0,9 s (o v01_portada.jpg)
-**Hora sugerida:** 21:00-22:00 o 13:30-14:30
+**Hora:** 19:30 (19:15-20:00)
 
 ## Descripción (copiar y pegar)
 ¿Tu hijo acertaría? 🤔 Vender más no siempre es ganar más… Este reto sale en «Mi goloso negocio», de Francisco Ruiz. Para niños de 8 a 12 años.

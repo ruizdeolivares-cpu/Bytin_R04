@@ -1,5 +1,5 @@
 # Calendario de publicación (TikTok · Bityn y R-04)
-Hora: 13:30-14:30 (Madrid). Aviso diario a las 12:47 con el paquete listo.
+Hora: 19:30 (19:15-20:00) (Madrid). Aviso diario a las 18:47 con el paquete listo.
 Formatos en rotación: Reto · Escena Bityn/R-04 · «Mi hijo me ha enseñado…» · Enigma de X · Descargables/base secreta · Regalo (Navidad/Reyes).
 
 | Fecha | Vídeo | Formato | Clips / material | Cierre | Estado |

@@ -1,5 +1,5 @@
 # V02 · Respuesta del reto — listo para publicar (19 nov)
-**Vídeo:** v02_respuesta_reto.mp4 · **Portada:** fotograma 0,9 s (v02_portada.jpg) · **Hora:** 13:30-14:30
+**Vídeo:** v02_respuesta_reto.mp4 · **Portada:** fotograma 0,9 s (v02_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
 
 ## Descripción
 ¿Tu hijo acertó? 🤔 A 3 € se venden menos batidos… ¡pero se gana más! Vender más no siempre es ganar más. Para niños de 8 a 12 años.
