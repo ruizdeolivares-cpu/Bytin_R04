@@ -92,7 +92,7 @@ t = kit.t0(5); kit.add(2.2, s6); kit.sfx_at(t, 'arcade/swipe.mp3', .5); kit.sfx_
 # 7 · Tensión final: R-04 se apaga (p.42) (1,8 s)
 d7, h7 = caja(p42, (522, 180, 780, 450), 470, 360, zmax=.12, bgcol=(30, 25, 60))
 z1 = kit.text([('Y a R-04 se le', BLANCO), ('acaba la batería…', AMARILLO)], 80)
-z2 = kit.pill('¿Tu hijo sabría hacer la cuenta?', 34, NARANJA)
+z2 = kit.pill('¿Tu hijo o hija sabría hacer la cuenta?', 29, NARANJA)
 def s7(i, n):
     t = i / FPS; fr = d7(i, n); place(fr, z1, CX, 110, t); place(fr, z2, CX, 360 + h7 + 30, t - .35); return fr
 t = kit.t0(6); kit.add(1.8, s7); kit.sfx_at(t, 'arcade/swipe.mp3', .5); kit.sfx_at(t + .1, 'bip', .5); kit.sfx_at(t + .5, 'arcade/sleep.mp3', .6)

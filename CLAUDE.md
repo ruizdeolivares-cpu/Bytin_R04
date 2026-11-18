@@ -29,8 +29,9 @@
 - Próxima aventura: «¿El dinero puede crecer… como una planta?».
 
 ## Público
+- LENGUAJE: decir siempre «tu hijo o hija» (o «tu peque»), nunca solo «tu hijo» (decisión de Francisco, 18 nov). En pantalla, en descripciones y en comentarios.
 - Madres, padres, abuelos, tíos y profes (NO niños; TikTok 13+).
-- Ganchos: «El regalo que enseña a tu hijo a manejar dinero», «Mi hijo de 9 años me ha explicado qué es el margen», «Ni tablet ni consola: este libro», «Reto: ¿tu hijo sabría resolver esto?».
+- Ganchos: «El regalo que enseña a tu hijo o hija a manejar dinero», «Mi hijo de 9 años me ha explicado qué es el margen», «Ni tablet ni consola: este libro», «Reto: ¿tu hijo o hija sabría resolver esto?».
 - Tono tierno, divertido, aventurero, educativo.
 
 ## Formatos (alternar, 1-2/día)

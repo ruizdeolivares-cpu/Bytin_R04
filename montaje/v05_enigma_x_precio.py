@@ -36,7 +36,7 @@ def escena(pn, bgcol, y, zmax=.06, blur=True):
 
 # 1 · Gancho (1,8 s): Bityn y su batido de 50 €
 P1 = panel(p17, (85, 250, 478, 545), 560)
-g1 = kit.text([('¿Tu hijo sabría', BLANCO), ('poner un precio?', AMARILLO)], 92)
+g1 = kit.text([('¿Tu hijo o hija', BLANCO), ('sabría poner precio?', AMARILLO)], 88)
 d1 = escena(P1, None, 400, .10)
 def s1(i, n):
     fr = d1(i, n); place(fr, g1, CX, 110, i / FPS); return fr
@@ -118,7 +118,7 @@ t = kit.t0(6); kit.add(2.4, s7); kit.sfx_at(t, 'arcade/swipe.mp3', .6); kit.sfx_
 # 8 · Solución: 2 € (p.18) (1,8 s)
 d8, h8 = pan(p18, (120, 565, 850, 830), 520, 360, rev=True)
 k1 = kit.text([('Solución: ¡2 €!', AMARILLO)], 100)
-k2 = kit.pill('¿Tu hijo lo habría acertado?', 38, ROSA)
+k2 = kit.pill('¿Tu hijo o hija lo habría acertado?', 30, ROSA)
 def s8(i, n):
     t = i / FPS; fr = d8(i, n); place(fr, k1, CX, 150, t); place(fr, k2, CX, 360 + h8 + 40, t - .3); return fr
 t = kit.t0(7); kit.add(1.8, s8); kit.sfx_at(t, 'arcade/swipe.mp3', .6); kit.sfx_at(t + .1, 'arcade/success.mp3', .8)

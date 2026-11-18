@@ -7,7 +7,7 @@ kit = Kit(sys.argv[1]); pg = Image.open(sys.argv[2]).convert('RGB'); OUT = sys.a
 sx = pg.width / 1700  # coordenadas medidas a 200 ppp
 
 f = clip_frames('G1c_r04_ojo_moneda.mp4', 0.0, 1.8)
-a1 = kit.pill('RESPUESTA DEL RETO', 34, NARANJA); a2 = kit.text([('¿Tu hijo', BLANCO), ('acertó?', AMARILLO)], 96)
+a1 = kit.pill('RESPUESTA DEL RETO', 34, NARANJA); a2 = kit.text([('¿Tu hijo o hija', BLANCO), ('acertó?', AMARILLO)], 96)
 def s1(i, n):
     fr = zoom(f[i], 1 + .06 * i / n).convert('RGBA'); t = i / FPS
     place(fr, a1, CX, 175, t); place(fr, a2, CX, 240, t - .12); return fr

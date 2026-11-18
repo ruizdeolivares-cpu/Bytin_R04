@@ -16,12 +16,12 @@ Amazon: https://amzn.eu/d/0gQLMpad (ASIN B0HPMRRBH5). No confundir con «Mi prim
 Spoiler prohibido: quién es X.
 
 ## 4. A quién hablas
-Madres, padres, abuelos, tíos y profes que buscan un regalo útil (NUNCA a niños; TikTok 13+). Su dolor: pantallas, regalos que no sirven, que sus hijos no entienden el dinero. Su deseo: un regalo divertido que además enseñe. Tono tierno, divertido y aventurero; nada tóxico; nunca mezclar con el otro canal.
+Madres, padres, abuelos, tíos y profes que buscan un regalo útil (NUNCA a niños; TikTok 13+). Su dolor: pantallas, regalos que no sirven, que sus hijos e hijas no entienden el dinero. Decir siempre «tu hijo o hija» o «tu peque», nunca solo «tu hijo». Su deseo: un regalo divertido que además enseñe. Tono tierno, divertido y aventurero; nada tóxico; nunca mezclar con el otro canal.
 
 ## 5. Fórmula de cada vídeo (12-20 s)
-1. **Gancho 0-1 s**: personaje con expresión + texto grande que interpela al adulto («¿Tu hijo sabría…?», «Regalo para niños de 8 a 12 años», «Ni tablet ni consola»). Nada de títulos ni logos.
+1. **Gancho 0-1 s**: personaje con expresión + texto grande que interpela al adulto («¿Tu hijo o hija sabría…?», «Regalo para niños de 8 a 12 años», «Ni tablet ni consola»). Nada de títulos ni logos.
 2. **Tensión 1-10 s**: un cambio visual cada 1-2 s (corte, zoom, texto que entra con rebote, SFX en cada acción).
-3. **Pago**: reto con cuenta atrás, revelación o decisión A/B → **pide comentar** (A o B, número, edad de su hijo).
+3. **Pago**: reto con cuenta atrás, revelación o decisión A/B → **pide comentar** (A o B, número, edad de su hijo o hija).
 4. **Prueba**: página real del libro (demuestra que el contenido existe).
 5. **Cierre ≤2,5 s**: portada + «¡Búscalo en Amazon!» + «Para niños de 8 a 12 años».
 Test final: ¿se entiende en una frase y sin sonido? Si no, se rehace.

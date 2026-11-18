@@ -2,7 +2,7 @@
 **Vídeo:** v02_respuesta_reto.mp4 · **Portada:** fotograma 0,9 s (v02_portada.jpg) · **Hora:** 19:30 (19:15-20:00)
 
 ## Descripción
-¿Tu hijo acertó? 🤔 A 3 € se venden menos batidos… ¡pero se gana más! Vender más no siempre es ganar más. Para niños de 8 a 12 años.
+¿Tu hijo o hija acertó? 🤔 A 3 € se venden menos batidos… ¡pero se gana más! Vender más no siempre es ganar más. Para niños de 8 a 12 años.
 📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil
 #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #librosparaniños #mamasytiktok #crianza #matematicasdivertidas #regalosnavidad #bitynyr04
 

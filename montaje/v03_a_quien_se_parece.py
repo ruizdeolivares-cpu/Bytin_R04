@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""V03 · ¿A quién se parece tu hijo? (tarjetas de personajes; frases de p.2). Uso: v03_a_quien_se_parece.py <build> <salida.mp4>"""
+"""V03 · ¿A quién se parece tu hijo o hija? (tarjetas de personajes; frases de p.2). Uso: v03_a_quien_se_parece.py <build> <salida.mp4>"""
 import sys, os
 from PIL import Image
 from lib import *
@@ -19,7 +19,7 @@ bg0 = Image.new('RGB', (W, H), (255, 214, 64))
 def collage_frame(i, n):
     fr = bg0.copy().convert('RGBA'); z = 1 + .04 * i / n
     c = col.resize((int(col.width * z), int(col.height * z)), Image.LANCZOS); fr.alpha_composite(c, (CX - c.width // 2, 440)); return fr
-h1 = kit.pill('PADRES DE NIÑOS DE 8 A 12', 32, NARANJA); h2 = kit.text([('¿A quién se', BLANCO), ('parece tu hijo?', NARANJA)], 92)
+h1 = kit.pill('PADRES DE NIÑOS DE 8 A 12', 32, NARANJA); h2 = kit.text([('¿A quién se parece', BLANCO), ('tu hijo o hija?', NARANJA)], 88)
 def s0(i, n):
     fr = collage_frame(i, n); t = i / FPS; place(fr, h1, CX, 170, t); place(fr, h2, CX, 225, t - .12); return fr
 kit.add(1.8, s0); kit.sfx_at(0, 'arcade/notification.mp3'); kit.sfx_at(.1, 'bip', .5)
