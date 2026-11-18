@@ -42,7 +42,8 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 - Free/Lite de Luma = marca de agua + sin uso comercial → NO se usan. Los clips con marca se rehacen (decisión de Francisco, nov 2026).
 - Solo clips de plan con licencia comercial y sin marca (Luma Plus o superior; comprobar condiciones de Kling).
 - Kling: Francisco confirma que su cuenta permite descargar sin marca de agua (ya usado en otro chat). Descargar siempre la versión sin marca. Web klingai.com (no hace falta app).
-- Ahorro en Kling: imagen→vídeo con ilustración del libro, 720p, 10 s, sin audio nativo, 1 salida, multi-shot (varios planos = varios clips). Primero 1 generación de prueba y revisarla.
+- Prompts de Kling: SIEMPRE revisar todo antes de dárselos (cada error gasta créditos). Diálogos en español de España con audio nativo ACTIVADO (Kling 3.0 habla español); frases sacadas del libro (guia_contenido.md) o ganchos para PADRES. Voces: Bityn robot joven alegre; R-04 robótica pequeña con bips. Máx. 2-3 frases por 10 s.
+- Ahorro en Kling: imagen→vídeo con ilustración del libro, 720p, 10 s, audio solo si hay diálogo, 1 salida, multi-shot (varios planos = varios clips). Primero 1 generación de prueba y revisarla.
 - Biblioteca de reacciones (reutilizable en todos los formatos): G1 Bityn, G2 R-04, G3 los dos juntos. Sin texto en el clip (los textos los pongo yo).
 
 ## Técnico
