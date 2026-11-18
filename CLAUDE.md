@@ -14,7 +14,7 @@
 - Argumento (contraportada): ¡R-04 solo tiene 30 días de batería! Bityn y Lía necesitan 150 € en 30 días para cambiarla. Plan: el Cohete Goloso, un food truck de batidos galácticos. Barrio lleno de clientes estrambóticos, MegaSnack (máquina expendedora azul/roja) les roba clientela y X parece saberlo todo. Subtítulo: «30 días para salvar a R-04». Serie Bityn y R-04 · Libro 2. Incluye cómic, diarios de a bordo con retos por niveles, escape room «¡Rescata a R-04!», talleres de negocio, recetas, pasatiempos, cómic para colorear y QR (juego online, misión secreta, diploma). Aprende: ingresos, gastos, beneficio, precio, margen, ahorro.
 - Lía: alienígena azul con antenas y gorro de chef (va en el food truck verde/rosa con forma de cohete).
 - Nombre en vídeos: «R-04» (así sale en la portada).
-- Portada: `libro/portada_frontal_720.png`. En Drive: Portada_KDP_MiGolosoNegocio.pdf y MiGolosoNegocio_KDP_interior.pdf (93 MB, demasiado grande para bajarlo por el conector: pedir páginas sueltas).
+- Portada: `libro/portada_frontal_720.png`. En Drive: Portada_KDP_MiGolosoNegocio.pdf y MiGolosoNegocio_KDP_interior.pdf (93 MB). YA LEÍDO: guía en `libro/guia_contenido.md`, páginas en `libro/paginas/`, OCR en `libro/ocr_interior.txt`. Consultar la guía antes de escribir guiones. Para volver a bajarlo: entorno «Bytin_R04» (permite drive.usercontent.google.com) + compartir por enlace temporalmente.
 - Idea central: «No gana quien más vende, sino quien mejor cuenta».
 - Web «La base secreta de R-04» (`index.html` de este repo): Food Trucks Galácticos, puerta secreta (contraseña pág. 72), álbum de cromos, Negocios locos, diploma, descargas, rincón para padres.
 - Descargables en el repo: `carteles-para-colorear.pdf`, `cuaderno-de-cuentas-30-dias.pdf`, `material-recortable.pdf`, `sucesos-galacticos-locos.pdf`.
@@ -67,4 +67,4 @@ Primer comentario: siempre una pregunta para los padres.
 - Cuenta: Business, categoría Libros/Educación. Sin «Contenido para niños» en el tono; público adulto.
 
 ## Pendiente
-Enlace de Amazon · portada en buena calidad · PDF interior · nombre definitivo de la cuenta · brandId de Metricool · carpeta de Drive · música · clips rehechos sin marca.
+Enlace de Amazon · nombre definitivo de la cuenta · brandId de Metricool · carpeta de Drive · música · clips rehechos sin marca.
