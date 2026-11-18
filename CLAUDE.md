@@ -56,6 +56,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 
 ## Grok Imagine (prueba 18 nov)
 - Sin marca de agua visible en la prueba. Salió 480×624 (elegir 9:16 y máxima calidad). Fallos: deforma en primeros planos (R-04 con 2 ojos, Bityn con ceño). Usar planos medios y repetir en el prompt: «ONE single ring eye», ojos de Bityn = líneas naranjas, sin boca. Clip GK1 (2,4 s) en kling/clips.
+- GK2 (6 s, 400×736, sin marca): Sr. Tornillo abre la caja con el Chip Estelar y dice la frase de p.4 (voz 0,9-3,2 s y 3,9-5,7 s). Escena REAL (p.4). Detalles cambiados leves: pomo rojo arriba y a ratos gafas en los dos ojos.
 
 ## Técnico
 - Python + PIL + ffmpeg. 720×1280, 30 fps, H.264 (-preset veryfast, crf 23-24, maxrate ~1100k), AAC 128k, loudnorm I=-14, <3 MB.
