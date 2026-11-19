@@ -80,8 +80,8 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 ## Descripciones
 ENLACE AMAZON «Mi goloso negocio» (verificado): https://amzn.eu/d/0gQLMpad → https://www.amazon.es/dp/B0HPMRRBH5 (ASIN B0HPMRRBH5).
 OJO: https://amzn.eu/d/0iJJEIrT (ASIN B0HNSRK6Y7) es «Mi primer dinero» (otro libro de Francisco). No confundir.
-Gancho + «Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 [ENLACE]» + 8-10 hashtags:
-#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #librosparaniños #mamasytiktok #crianza #matematicasdivertidas #regalosnavidad + 1-2 propios (#bitynyr04).
+Gancho + «Búscalo en Amazon: … 👉 [ENLACE]» + SOLO 5 HASHTAGS (límite actual de TikTok, Francisco 19 nov):
+#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
 Primer comentario: siempre una pregunta para los padres.
 
 ## Perfil de TikTok (HECHO)

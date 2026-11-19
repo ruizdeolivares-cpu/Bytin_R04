@@ -42,7 +42,7 @@ Cada vídeo se resuelve en sí mismo: NUNCA dejar la respuesta para el vídeo si
 
 ## 9. Entrega diaria (publicación manual)
 mp4 + portada jpg + `videos/vNN_publicar.md` con:
-- Descripción: gancho + «Para niños de 8 a 12 años» + «📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil» + 8-10 hashtags (#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #librosparaniños #mamasytiktok #crianza #matematicasdivertidas #regalosnavidad #bitynyr04).
+- Descripción: gancho + «Para niños de 8 a 12 años» + «📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil» + SOLO 5 hashtags (#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04).
 - Primer comentario (pregunta a los padres) → **fijarlo**.
 - Ajustes: contenido IA y marca propia activados; sonido de TikTok alegre al 20-30 %.
 - Hora: 19:30 (19:15-20:00) (Madrid). Si es reto, la solución va dentro del mismo vídeo.

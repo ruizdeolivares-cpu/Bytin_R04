@@ -4,7 +4,7 @@
 ## Descripción
 ¿Tu hijo o hija acertó? 🤔 A 3 € se venden menos batidos… ¡pero se gana más! Vender más no siempre es ganar más. Para niños de 8 a 12 años.
 📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil
-#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #librosparaniños #mamasytiktok #crianza #matematicasdivertidas #regalosnavidad #bitynyr04
+#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
 
 ## Primer comentario (fíjalo)
 ¿Qué contestó tu peque, A o B? 👇 En el libro hay 5 retos más como este.

@@ -28,6 +28,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, PROMPT_MAESTRO.md y CLAUDE.md y s
 - Ideas reales del libro aún sin usar: reto pulsera p.20 (2 € vs 3 €), tarta-reloj de X p.24/p.42, Don Gruñón p.29, MegaSnack «¡Todo a 1 €!» p.33, contrato con Brillo p.37, tres botes p.52, escape room p.56-61, recetas p.75.
 
 ## Reglas nuevas del 18 nov
+- **Solo 5 hashtags** por vídeo: #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04.
 - **Cada vídeo se resuelve en sí mismo**: nunca «mañana la respuesta» (no le gusta a Francisco).
 - Decir siempre **«tu hijo o hija»** (o «tu peque»), nunca solo «tu hijo».
 - No usar formato «Mi hijo me ha enseñado…» como testimonio inventado.
