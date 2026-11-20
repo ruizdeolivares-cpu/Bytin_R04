@@ -83,6 +83,10 @@ OJO: https://amzn.eu/d/0iJJEIrT (ASIN B0HNSRK6Y7) es «Mi primer dinero» (otro 
 Gancho + «Búscalo en Amazon: … 👉 [ENLACE]» + SOLO 5 HASHTAGS (límite actual de TikTok, Francisco 19 nov):
 #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
 Primer comentario: siempre una pregunta para los padres.
+AMAZON ATTRIBUTION (TikTok, creado 20 nov, gratis):
+- Mi primer dinero: https://www.amazon.es/dp/B0HNSRK6Y7?maas=maas_adg_641BBB6FD48F6530E69A3D752D078604_afap_abs&ref_=aa_maas&tag=maas
+- Mi goloso negocio: https://www.amazon.es/dp/B0HPMRRBH5?maas=maas_adg_937302A7BF7948AB69D6A413E774CCBA_afap_abs&ref_=aa_maas&tag=maas
+No acortar con amzn.eu (pierde el seguimiento). Si hace falta corto: acortador que redirija (bit.ly) o página de enlaces en la bio.
 
 ## Perfil de TikTok (HECHO)
 - Usuario: @bityn.y.r04 · Nombre: «Bityn y R04» · Foto: Bityn y R-04 en la hucha dorada.
