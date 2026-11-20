@@ -4,7 +4,7 @@
 
 ## Descripción
 Bityn ahorraba cada euro para su sueño… y entonces R-04 se averió 🤖💔 ¿Guardar los 10 € o arreglar a su amigo? Así aprenden los niños que los imprevistos existen y que siempre conviene tener una reserva. Para niños de 8 a 12 años.
-📚 Búscalo en Amazon: Mi primer dinero (Bityn y R-04) 👉 https://amzn.eu/d/0iJJEIrT
+📚 Búscalo en Amazon: Mi primer dinero (Bityn y R-04) 👉 bit.ly/4zyjUWy
 #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
 
 ## Primer comentario (fíjalo)

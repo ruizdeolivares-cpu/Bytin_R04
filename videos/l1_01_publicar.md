@@ -4,7 +4,7 @@
 
 ## Descripción
 Una bebida, un trayecto, una partida… 2 € cada cosa. «6 € parecen poco… hasta que recuerdas que voy camino de 280» 🤖 Así aprende Bityn que los gastos pequeños también suman: no se trata de prohibírselo todo, sino de elegir en qué gastar. Para niños de 8 a 12 años.
-📚 Búscalo en Amazon: Mi primer dinero (Bityn y R-04) 👉 https://amzn.eu/d/0iJJEIrT
+📚 Búscalo en Amazon: Mi primer dinero (Bityn y R-04) 👉 bit.ly/4zyjUWy
 #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
 
 ## Primer comentario (fíjalo)
@@ -12,4 +12,4 @@ Una bebida, un trayecto, una partida… 2 € cada cosa. «6 € parecen poco…
 
 ## Ajustes
 Contenido generado por IA: ACTIVAR · Contenido comercial → Tu marca: ACTIVAR · Sonido de TikTok alegre al 20-30 %
-OJO: el enlace de la bio es de «Mi goloso negocio»; en este vídeo el enlace va en la descripción.
+OJO: la bio lleva «Mi goloso negocio»; el de este libro va escrito en la descripción (bit.ly/4zyjUWy).
