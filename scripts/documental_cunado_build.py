@@ -16,7 +16,9 @@ def cf(t): return Image.fromarray(CLIP[min(int(round(t * FPS)), len(CLIP) - 1)])
 
 # tramos: (inicio salida, fin salida, inicio clip, zoom0, zoom1, centro y del zoom)
 SEG = [
-    (0.0, 9.0, 0.0, 1.00, 1.10, 640),
+    (0.0, 4.2, 0.0, 1.00, 1.06, 640),
+    (4.2, 7.8, 4.2, 1.75, 1.85, 390),
+    (7.8, 9.0, 7.8, 1.00, 1.05, 640),
 ]
 T_END_CLIP, T_END = 9.0, 10.2
 
@@ -135,7 +137,7 @@ def frame(t):
     elif t < 4.2: sub(['«ESPERA A QUE', 'NADIE MIRE...»'], 2.4)
     elif t < 7.8:
         sub(['«...Y ATACA EL', 'ÚLTIMO LANGOSTINO»'], 4.2)
-        if t >= 5.3: label(img, [('*QUEDAN 47*', 58, WHT)], 760, 5.3, t, bg=RED, shake=5 if t < 5.9 else 0)
+
     else: sub(['«NOS HA VISTO»'], 7.8)
     return img
 
