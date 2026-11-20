@@ -4,7 +4,7 @@
 
 ## Descripción
 Bityn vació el bote: «¡164 euros! ¡Nos sobra!»… hasta que R-04 sacó la calculadora 🧮 Que el dinero esté en tu bote no significa que sea tuyo. Así entienden los niños qué es el BENEFICIO: ingresos − gastos. Para niños de 8 a 12 años.
-📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil
+📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 bit.ly/4j5lAko
 #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
 
 ## Primer comentario (fíjalo)

@@ -5,7 +5,7 @@
 
 ## Descripción (copiar y pegar)
 ¿Tu hijo o hija acertaría? 🤔 Vender más no siempre es ganar más… Este reto sale en «Mi goloso negocio», de Francisco Ruiz. Para niños de 8 a 12 años.
-📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 enlace en el perfil
+📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 bit.ly/4j5lAko
 #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
 
 ## Primer comentario (fíjalo)
