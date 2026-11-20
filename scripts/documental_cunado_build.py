@@ -133,7 +133,9 @@ def frame(t):
     if t < 1.1: sub(['«AQUÍ LO TENEMOS»'], 0)
     elif t < 2.4: sub(['«EL CUÑADO IBÉRICO,', 'EN SU HÁBITAT NATURAL»'], 1.1)
     elif t < 4.2: sub(['«ESPERA A QUE', 'NADIE MIRE...»'], 2.4)
-    elif t < 7.8: sub(['«...Y ATACA EL', 'ÚLTIMO LANGOSTINO»'], 4.2)
+    elif t < 7.8:
+        sub(['«...Y ATACA EL', 'ÚLTIMO LANGOSTINO»'], 4.2)
+        if t >= 5.3: label(img, [('*QUEDAN 47*', 58, WHT)], 760, 5.3, t, bg=RED, shake=5 if t < 5.9 else 0)
     else: sub(['«NOS HA VISTO»'], 7.8)
     return img
 
