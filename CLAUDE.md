@@ -86,7 +86,7 @@ Primer comentario: siempre una pregunta para los padres.
 AMAZON ATTRIBUTION (TikTok, creado 20 nov, gratis):
 - Mi primer dinero: https://www.amazon.es/dp/B0HNSRK6Y7?maas=maas_adg_641BBB6FD48F6530E69A3D752D078604_afap_abs&ref_=aa_maas&tag=maas
 - Mi goloso negocio: https://www.amazon.es/dp/B0HPMRRBH5?maas=maas_adg_937302A7BF7948AB69D6A413E774CCBA_afap_abs&ref_=aa_maas&tag=maas
-ACORTADOS (Bitly de Francisco, 20 nov): Mi primer dinero = bit.ly/4zyjUWy · Mi goloso negocio = bit.ly/4j5lAko (BIO de TikTok). Descripciones: libro 2 «👉 bit.ly/4j5lAko»; libro 1 «👉 bit.ly/4zyjUWy» (Francisco quiere el enlace escrito en TODAS las descripciones). No acortar con amzn.eu ni TinyURL (TinyURL mete Viglink y rompe el seguimiento). Si hace falta corto: acortador que redirija (bit.ly) o página de enlaces en la bio.
+ACORTADOS (Bitly de Francisco, 20 nov): Mi primer dinero = bit.ly/3V2nbiR · Mi goloso negocio = bit.ly/4j5lAko (BIO de TikTok). Descripciones: libro 2 «👉 bit.ly/4j5lAko»; libro 1 «👉 bit.ly/3V2nbiR» (Francisco quiere el enlace escrito en TODAS las descripciones). No acortar con amzn.eu ni TinyURL (TinyURL mete Viglink y rompe el seguimiento). Si hace falta corto: acortador que redirija (bit.ly) o página de enlaces en la bio.
 
 ## Perfil de TikTok (HECHO)
 - Usuario: @bityn.y.r04 · Nombre: «Bityn y R04» · Foto: Bityn y R-04 en la hucha dorada.
