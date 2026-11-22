@@ -53,3 +53,17 @@ Cuando Francisco pida un guion o una historia para la abuela Paqui (u otro perso
 - Diálogo: frases cortas, ritmo oral, muletillas de abuela española («hija», «mira», «te lo digo yo»), pausas marcadas. Nada de juegos de palabras forzados.
 - Antes de entregar, escribe 3 versiones del gancho y quédate con la más fuerte. Lee el guion en voz alta mentalmente: si una frase no se diría así en una cocina de Valladolid, reescríbela.
 - Entrega: el guion completo y, debajo, un prompt de Grok por clip (12 s cada uno), listos para copiar, indicando qué foto de inicio usar en cada uno.
+
+### Ficha del personaje: abuela Paqui
+- 78 años, viuda, matriarca. Lleva 60 Nochebuenas organizando la cena. Parece dulce, pero es la más lista de la familia y siempre va un paso por delante.
+- Tono: tranquila, seca, pícara. Nunca grita. Remata con una ceja levantada o un sorbo de anís.
+- Su familia (del libro): Toni (cuñado, sabelotodo, vino «de 40 euros»), Mari Carmen (suegra, critica la comida), Iván (nieto, pegado al móvil), Chispas (perro), Encarna (tía), el abuelo Paco.
+- Muletillas: «hija», «mira», «te lo digo yo», «apunta». Nada de tacos.
+
+### Reglas extra del guion
+- Un solo conflicto por historia, con algo en juego que importe (la paz de la cena, el turrón, el orgullo de la abuela).
+- Detalles concretos y reconocibles de España: horas («a las once»), platos (pavo, langostinos, turrón), frases típicas de cena familiar.
+- El libro resuelve el conflicto de forma lógica dentro de la historia; nunca se nombra como producto ni con palabras de anuncio.
+- Cada clip de 12 s: máximo 30-34 palabras y una sola acción física, sin personajes nuevos en pantalla (los demás solo se mencionan).
+- Prohibido: clichés tipo «POV», chistes de suegra-bruja, finales de «parte 2», datos inventados.
+- Control de calidad antes de entregar: ¿el gancho funciona leído sin sonido?, ¿se entiende sin contexto?, ¿el final sorprende?, ¿cabe cada clip en 12 s leído en voz alta?
