@@ -34,8 +34,9 @@ Referencia visual oficial: `kling/ficha_bityn_r4.jpg`. Recortes limpios: `kling/
   - «Bip… bip… bi…» (L2 p.3, cuando se queda sin batería)
 - **Nunca:** hélices, dos ojos redondos normales, boca, brazos fijos (solo saca brazos mecánicos finos en algunas viñetas), parecer un dron real.
 
-## Prompt base para Grok (pegar siempre)
+## Prompt base para Grok (pegar siempre; la 1.ª línea va SIEMPRE dentro del prompt, además de elegirlo en los botones de Grok)
 ```
+Vertical 9:16, maximum quality, 10 seconds, with audio.
 2D cartoon animation, flat 2D, hand-drawn look. NOT 3D, NOT CGI, NOT realistic.
 Animate this image. Keep the first frame EXACTLY: same characters, same design, same colors, same proportions in every frame. Static camera.
 [ACCIÓN CORTA · máx. 12 s]
