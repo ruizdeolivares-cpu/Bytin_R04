@@ -59,7 +59,7 @@ def frame(t):
         tc(d, 310, 138, 'LA ABUELA PAQUI RESEÑA:', F(ANTON, 50), YEL)
         for a0, a1, lines, key in SUBS:
             if a0 <= t < a1:
-                if key: card(img, key, a0, t)
+                pass
                 sub(img, lines)
         return img
     lt = t - T_CLIP
