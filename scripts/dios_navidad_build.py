@@ -7,6 +7,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 CL, FONT, PORTADA, OUT = sys.argv[1:5]
+from scipy import ndimage
 W, H, FPS = 720, 1280, 30
 TMP = os.path.join(os.path.dirname(OUT), 'dios_tmp'); os.makedirs(TMP, exist_ok=True)
 SR = 44100
@@ -25,7 +26,8 @@ SEGS = {
  6: [(0.09, 1.89, 'Por eso la abuela cocina el *pavo*'), (2.48, 3.83, 'pela las *uvas* de todos')],
  7: [(0.11, 2.45, 'y esconde los *regalos* de Reyes por el salón'), (2.90, 4.33, 'Y cuando por fin se sienta…'),
      (4.67, 6.14, 'le preguntan qué hay de *postre*')],
- 8: [(0.11, 2.13, 'Y para sobrevivir a la cena *familiar*'), (2.53, 2.80, '*toma*')],
+ 9: [(0.09, 0.57, '¿Postre?'), (1.34, 2.45, 'Hoy, de postre…'), (3.06, 4.00, '*pasatiempos*'),
+     (4.73, 6.14, 'Y el que pierda, *friega*')],
 }
 # piezas: (clip, audio_ini, audio_fin, desfase_video, zoom_base, destello)
 PIECES = [
@@ -36,7 +38,7 @@ PIECES = [
  (5, 0.05, 2.30, 0, 1.00, True), (5, 3.15, 6.75, 0, 1.07, False), (5, 7.35, 8.40, 0, 1.12, False),
  (6, 0.00, 4.10, 0, 1.00, True),
  (7, 0.05, 2.60, 0, 1.00, True), (7, 2.75, 6.35, 3.55, 1.06, False),
- (8, 0.00, 2.95, 0, 1.00, True),
+ (9, 0.00, 7.70, 0, 1.00, False),
 ]
 END_DUR = 1.9
 
@@ -183,7 +185,7 @@ T['d1'] = wtime(5, 'Dame'); T['d2'] = wtime(5, 'no'); T['d3'] = wtime(5, 'esos')
 T['conc'] = wtime(5, 'Concedido')
 T['k1'] = wtime(6, 'pavo'); T['k2'] = wtime(6, 'uvas'); T['k3'] = wtime(7, 'regalos')
 T['postre'] = wtime(7, 'postre')
-T['toma'] = wtime(8, 'toma')
+T['pasa'] = wtime(9, 'pasatiempos'); T['friega'] = wtime(9, 'friega')
 c5_end = piece_out[13]; c7_end = piece_out[16]
 
 def draw_badges(fr, t):
@@ -287,6 +289,8 @@ def build_audio(path):
         add(sfx_whoosh(), T[k], 0.35)
     add(sfx_ding(), T['conc'], 0.45)
     add(sfx_scratch(), T['postre'], 0.5)
+    add(sfx_ding(), T['pasa'], 0.4)
+    add(sfx_pop(), T['friega'], 0.4)
     add(sfx_ding(), MAIN_DUR + 0.05, 0.35)
     for o, p in zip(piece_out, PIECES):
         if p[5]:
@@ -304,6 +308,31 @@ def clip_frames(c, start, dur):
                         '-vf', vf, '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True, check=True)
     n = len(p.stdout) // (W * H * 3)
     return [Image.frombuffer('RGB', (W, H), p.stdout[i * W * H * 3:(i + 1) * W * H * 3]) for i in range(n)]
+
+_COVER = None
+def book_overlay(fr):
+    """Pone la portada real sobre el libro amarillo de Grok, respetando los dedos."""
+    global _COVER
+    if _COVER is None:
+        _COVER = Image.open(PORTADA).convert('RGB')
+    hsv = np.array(fr.convert('HSV')).astype(int)
+    m = (hsv[..., 0] > 28) & (hsv[..., 0] < 48) & (hsv[..., 1] > 120) & (hsv[..., 2] > 170)
+    m = ndimage.binary_closing(m, iterations=4)
+    lab, n = ndimage.label(m)
+    if n == 0:
+        return fr
+    sz = ndimage.sum(m, lab, range(1, n + 1)); k = int(np.argmax(sz)) + 1
+    if sz[k - 1] < 28000:
+        return fr
+    comp = ndimage.binary_fill_holes(lab == k)
+    ys, xs = np.nonzero(comp)
+    x0, y0, x1, y1 = xs.min(), ys.min(), xs.max() + 1, ys.max() + 1
+    if not 0.55 < (x1 - x0) / (y1 - y0) < 1.05:
+        return fr
+    cov = _COVER.resize((x1 - x0, y1 - y0), Image.LANCZOS)
+    alpha = Image.fromarray((comp[y0:y1, x0:x1] * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1.2))
+    out = fr.copy(); out.paste(cov, (int(x0), int(y0)), alpha)
+    return out
 
 def end_card(last):
     bg = last.filter(ImageFilter.GaussianBlur(18)).convert('RGBA')
@@ -328,6 +357,8 @@ def main():
         for j in range(n_out):
             t = (fi) / FPS
             fr = frames[min(j, len(frames) - 1)]
+            if c == 9:
+                fr = book_overlay(fr)
             z = z0 + 0.05 * (j / max(1, n_out))
             if T['conc'] <= t < T['conc'] + 0.4:
                 z += 0.06 * (1 - (t - T['conc']) / 0.4)
