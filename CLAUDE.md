@@ -64,6 +64,7 @@ Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado
 - SIEMPRE EN 2D (decisión de Francisco, 18 nov): todos los prompts de Grok piden «2D cartoon animation, flat 2D, hand-drawn look, NOT 3D, NOT CGI, NOT realistic».
 - MÉTODO ESTRICTO (18 nov, Francisco: «los genera mal»): la imagen inicial la monto YO con los recortes de la ficha oficial (kling/recorte_bityn_34.png, kling/recorte_r04_frontal.png) sobre un fondo desenfocado del libro → Grok SOLO anima (no genera imagen). Prompt corto y estricto: cámara fija, movimiento mínimo, «same design in every frame», lista de prohibiciones. Primera: kling/inicio_l1_carino_9x16.png (libro 1, pág. 36, «CARIÑO DETECTADO»).
 - GK6 (8 s, 400×736, sin marca) ✅ PRIMER CLIP BUENO con el método estricto: Bityn y R-04 iguales todo el clip, 1 ojo, sin bocas. Voces 1,1-3,5 s y 5,0-7,8 s (supuesto: Bityn y luego R-04). Usado en L1-02.
+- GK7/GK8 (22 nov, episodio A1, 10 s): NO valen como imagen: al pedir gestos grandes (señalar, celebrar) Grok redibuja a Bityn (2 antenas, sin oreja naranja, boca al hablar) y a R-04 (antena, ojo que se vuelve boca). GK8 se hizo con la imagen equivocada (la de GK7). LECCIÓN: con Grok SOLO movimiento mínimo (flotar, girar la cabeza, brillo del ojo), como GK6. Las voces sí sirven: voz sobre la imagen montada + animación mía.
 - GK2 (6 s, 400×736, sin marca): Sr. Tornillo abre la caja con el Chip Estelar y dice la frase de p.4 (voz 0,9-3,2 s y 3,9-5,7 s). Escena REAL (p.4). Detalles cambiados leves: pomo rojo arriba y a ratos gafas en los dos ojos.
 
 ## Técnico
