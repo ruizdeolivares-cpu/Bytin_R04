@@ -33,7 +33,6 @@ SEGS = {
 PIECES = [
  (1, 0.00, 2.35, 0, 1.00, False), (1, 2.80, 5.50, 0, 1.08, False),
  (2, 0.45, 3.25, 0, 1.00, True), (2, 3.42, 6.60, 0, 1.09, False),
- (3, 0.00, 0.62, 0, 1.00, True), (3, 0.95, 4.62, 0, 1.06, False), (3, 4.70, 8.00, 0, 1.12, False),
  (4, 0.05, 1.50, 0, 1.00, True), (4, 1.75, 5.05, 0, 1.06, False), (4, 5.12, 7.50, 0, 1.10, False),
  (5, 0.05, 2.30, 0, 1.00, True), (5, 3.15, 6.75, 0, 1.07, False), (5, 7.35, 8.40, 0, 1.12, False),
  (6, 0.00, 4.10, 0, 1.00, True),
@@ -179,19 +178,17 @@ def paste_c(base, im, cx, cy, scale=1.0, alpha=1.0, rot=0):
 # ---------- eventos de medallas ----------
 T = {}
 T['cena_in'] = wtime(2, 'Pavo'); T['cena_out'] = wtime(2, 'Ni')
-T['uvas_in'] = wtime(3, 'uvas'); T['uvas_out'] = wtime(3, 'Demasiado')
 T['reg_in'] = wtime(4, 'regalos'); T['reg_out'] = wtime(4, 'Demasiado')
 T['d1'] = wtime(5, 'Dame'); T['d2'] = wtime(5, 'no'); T['d3'] = wtime(5, 'esos')
 T['conc'] = wtime(5, 'Concedido')
 T['k1'] = wtime(6, 'pavo'); T['k2'] = wtime(6, 'uvas'); T['k3'] = wtime(7, 'regalos')
 T['postre'] = wtime(7, 'postre')
 T['pasa'] = wtime(9, 'pasatiempos'); T['friega'] = wtime(9, 'friega')
-c5_end = piece_out[13]; c7_end = piece_out[16]
+c5_end = piece_out[10]; c7_end = piece_out[13]
 
 def draw_badges(fr, t):
     # rechazos: aparece junto al personaje y sale volando hacia la mano
     for key, tin, tout, pos in (('CENA', T['cena_in'], T['cena_out'], (520, 840)),
-                                ('UVAS', T['uvas_in'], T['uvas_out'], (520, 860)),
                                 ('REGALOS', T['reg_in'], T['reg_out'], (520, 800))):
         if tin <= t < tout + 0.5:
             if t < tout:
@@ -204,7 +201,7 @@ def draw_badges(fr, t):
                 paste_c(fr, BADGE[key], x + shake, y, 1 - 0.6 * k, 1 - 0.8 * k, rot=40 * k)
     # la abuela se las queda todas
     if T['d1'] - 0.1 <= t < c5_end:
-        for key, td, pos in (('CENA', T['d1'], (110, 690)), ('UVAS', T['d2'], (555, 760)), ('REGALOS', T['d3'], (110, 870))):
+        for key, td, pos in (('CENA', T['d1'], (110, 720)), ('REGALOS', T['d3'], (555, 720))):
             if t >= td:
                 k = ease((t - td) / 0.4)
                 y = 60 + (pos[1] - 60) * k
@@ -283,9 +280,9 @@ def build_audio(path):
         i = int(o * SR); total[i:i + len(seg)] += seg
     def add(snd, t, g):
         i = int(t * SR); total[i:i + len(snd)] += g * snd[:len(total) - i]
-    for k in ('cena_in', 'uvas_in', 'reg_in', 'd1', 'd2', 'd3', 'k1', 'k2', 'k3'):
+    for k in ('cena_in', 'reg_in', 'd1', 'd3', 'k1', 'k2', 'k3'):
         add(sfx_pop(), T[k], 0.35)
-    for k in ('cena_out', 'uvas_out', 'reg_out'):
+    for k in ('cena_out', 'reg_out'):
         add(sfx_whoosh(), T[k], 0.35)
     add(sfx_ding(), T['conc'], 0.45)
     add(sfx_scratch(), T['postre'], 0.5)
