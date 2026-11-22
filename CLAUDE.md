@@ -98,7 +98,7 @@ ACORTADOS (Bitly de Francisco, 20 nov): Mi primer dinero = bit.ly/4zyjUWy · Mi 
 
 ## Pendiente
 - Estado «Publicado» en videos/calendario.md SOLO cuando Francisco lo confirme. Nunca suponer qué está publicado: preguntar.
-- ENTREGA EN EL MOMENTO (decisión de Francisco, 18 nov): cada vídeo se le entrega el mismo día justo antes de publicar, NO por adelantado. Tareas programadas: 13:13 (vídeo de las 13:30, libro 1) y 19:13 (vídeo de las 19:30, libro 2); leen la rama claude/new-session-ifjtrt. En el chat, al terminar un vídeo, solo decir «listo para el día X a las HH:MM» (sin mandarle el archivo salvo que lo pida).
+- ⏸ AVISOS PAUSADOS el 22 nov por Francisco (tareas de 13:13 y 19:13 desactivadas; reactivar solo si lo pide). ENTREGA EN EL MOMENTO (decisión de Francisco, 18 nov): cada vídeo se le entrega el mismo día justo antes de publicar, NO por adelantado. Tareas programadas: 13:13 (vídeo de las 13:30, libro 1) y 19:13 (vídeo de las 19:30, libro 2); leen la rama claude/new-session-ifjtrt. En el chat, al terminar un vídeo, solo decir «listo para el día X a las HH:MM» (sin mandarle el archivo salvo que lo pida).
 
 ## REGLA DE ORO: NO INVENTAR ESCENAS
 - Toda escena, acción o frase de un clip o vídeo tiene que salir de los libros (citar página). Nada de escenas inventadas (error del 18 nov: R-04 cayendo sobre la hucha; Lía sirviendo sola). Bityn TRABAJA en el food truck (jefe de cuentas, p.77).
