@@ -36,7 +36,7 @@ def frame(t):
         for yy in range(0, H, 24):
             for xx in range(0, W, 24):
                 d.ellipse((xx - 2, yy - 2, xx + 2, yy + 2), fill=(45, 10, 30))
-        box(d, 310, 150, [('SOLO EL 3 % ENCUENTRA', 52, WHT), ('EL NÚMERO FALSO', 64, YEL)], RED)
+        box(d, 310, 150, [('UN NÚMERO ES FALSO', 54, WHT), ('¿LO ENCUENTRAS EN 8 SEG?', 54, YEL)], RED)
         sc = 0.9 + 0.1 * ease(lt / 0.3)
         pw = int(440 * sc); ph = int(pw * PUZ.height / PUZ.width)
         p = PUZ.resize((pw, ph), Image.LANCZOS); x, y = 310 - pw // 2, 330
