@@ -52,7 +52,7 @@ SUBS = [(0.0, 1.8, ['«ME HAN REGALADO ESTO»'], None),
         (10.8, 11.8, ['«...Y NO OS LO DIGO»'], None)]
 def frame(t):
     if t < T_CLIP:
-        fr = CLIP[min(int(t * FPS), len(CLIP) - 1)]
+        fr = CLIP[min(max(12, int(t * FPS)), len(CLIP) - 1)]
         b = book_overlay(fr).resize((720, 1080), Image.LANCZOS)
         img = Image.new('RGB', (W, H), BLK); img.paste(b, (0, OY)); d = ImageDraw.Draw(img)
         d.rectangle((0, 0, W, 200), fill=BLK)
