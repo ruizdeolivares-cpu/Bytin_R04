@@ -21,7 +21,7 @@ SEGS = {
 }
 # piezas: (clip, ini, fin, zoom, foco_y, destello)
 PIECES = [
- (1, 0.00, 3.15, 1.30, 0.56, False), (1, 3.45, 6.40, 1.55, 0.52, False),
+ (1, 0.00, 3.15, 1.45, 0.50, False, 5.45), (1, 3.45, 6.40, 1.70, 0.47, False, 1.64),
  (2, 0.00, 1.32, 1.35, 0.55, True), (2, 1.38, 3.20, 1.50, 0.53, False), (2, 3.38, 5.22, 1.38, 0.55, False),
  (2, 5.25, 7.30, 1.75, 0.47, False),
  (3, 0.00, 2.75, 1.35, 0.55, True), (3, 2.85, 5.20, 1.50, 0.52, False), (3, 5.40, 7.90, 1.80, 0.46, False),
@@ -194,7 +194,7 @@ def build_audio(path):
         i = int(t * SR); total[i:i + len(s)] += g * s[:len(total) - i]
     for t0, _ in STK: add(sfx_pop(), t0, 0.35)
     for t0 in PUNCH: add(sfx_boom(), t0, 0.45)
-    for (c, a, b, z, fy, fl), o in zip(PIECES, piece_out):
+    for (c, a, b, z, fy, fl, *vo), o in zip(PIECES, piece_out):
         if fl: add(sfx_whoosh(), max(0, o - 0.12), 0.2)
     add(sfx_ding(), MAIN_DUR + 0.05, 0.35)
     total = total[:int(SR * TOTAL)]; total *= (10 ** (-3 / 20)) / np.abs(total).max()
@@ -215,12 +215,14 @@ def main():
     enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                             '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '16', '-pix_fmt', 'yuv420p', master], stdin=subprocess.PIPE)
     fi = 0; last = None
-    for (c, a, b, z0, fy, flash), o in zip(PIECES, piece_out):
-        dur = b - a; frames = clip_frames(c, a, dur)
+    for (c, a, b, z0, fy, flash, *vo), o in zip(PIECES, piece_out):
+        dur = b - a; frames = clip_frames(c, a + (vo[0] if vo else 0), dur)
         n_out = int(round((o + dur) * FPS)) - int(round(o * FPS))
         for j in range(n_out):
             t = fi / FPS; fr = frames[min(j, len(frames) - 1)]
             z = z0 + 0.06 * (j / max(1, n_out))
+            if t < 0.45:   # arranque: entra de golpe a la cara
+                z += 0.5 * (1 - ease(t / 0.45))
             for pt in PUNCH:
                 if pt <= t < pt + 0.25: z += 0.12 * (1 - (t - pt) / 0.25)
             cw, ch = W / z, H / z
