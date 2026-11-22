@@ -44,3 +44,18 @@ Animate this image. Keep the first frame EXACTLY: same characters, same design, 
 STRICTLY FORBIDDEN: 3D look, changing the characters, new parts, propellers, mouths, noses, a second eye on the small round robot, new characters, humans, text, subtitles, logos, watermark, music, morphing, style change.
 ```
 Voces: tall robot = «young cheerful robotic voice, slightly metallic» · small round robot = «tiny toy-robot voice, high-pitched, metallic, flat like a computer, short beeps». Siempre «NOT a human voice, NOT a child's voice».
+
+## Prompt ESTRICTO (22 nov, usar siempre a partir de ahora)
+```
+Vertical 9:16, maximum quality, 10 seconds, with audio.
+STYLE LOCK: 2D cartoon, flat 2D, hand-drawn look. NOT 3D, NOT CGI, NOT realistic.
+CINEMAGRAPH MODE: this is a near-still image. Do NOT redraw, re-pose, re-design or re-animate the characters. Keep the first frame pixel-identical; ONLY the parts listed under ALLOWED MOTION may move, everything else stays frozen.
+CHARACTER LOCK (must stay identical in EVERY frame):
+- Tall robot: exactly ONE black antenna on his left side and exactly ONE orange pointed ear on his right side (never two antennas, never two ears); black visor with two orange glowing lines as eyes; NO mouth, NO teeth, NO nose, NO eyebrows, even while speaking; cream body with orange and black joints; black hands.
+- Small round robot: cream sphere floating in the air; black face with exactly ONE orange glowing ring eye; two curved side wings; one round cap on top; NO antenna, NO propellers, NO mouth, NO nose, NO second eye, NO arms.
+ALLOWED MOTION: [MOVIMIENTO MÍNIMO]
+CAMERA: locked, static, no zoom, no pan, no cuts.
+AUDIO: [VOZ]
+Speaking NEVER changes the faces: no mouth movement, no new facial features.
+STRICTLY FORBIDDEN: 3D, redesign, extra antenna, missing ear, mouths, lip sync, smiles with teeth, noses, second eye, antenna on the small robot, propellers, extra limbs, morphing, melting, flicker, new characters, humans, text, letters, subtitles, logos, watermark, music, background change, style change.
+```
