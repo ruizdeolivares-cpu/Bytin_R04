@@ -1,5 +1,7 @@
 # LA COMUNIDAD DEL 13 · Biblia (recibida de Francisco, 23 nov 2026)
 
+> ⚠️ 23 nov: REINICIO CREATIVO. Ver `docs/comunidad13_reinicio.md`. Los episodios de abajo quedan como archivo, no son canon.
+
 ## Decisiones fijas
 - Pop art de cómic: amarillo limón (fondos), fucsia (conflicto), azul eléctrico (detalles), contornos negros gruesos, puntos de impresión. Cámara: primeros planos, zooms, contrapicados.
 - Animación con movimiento; una voz distinta y fija por personaje; español de España.
