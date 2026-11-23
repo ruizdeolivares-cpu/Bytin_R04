@@ -1,5 +1,7 @@
 # LA COMUNIDAD DEL 13 · Reinicio creativo (Francisco, 23 nov 2026)
 
+> 23 nov: los personajes pasan a ser los del libro 1. Ver `docs/reparto_libro.md`.
+
 Sustituye a los guiones anteriores (episodios 1-8 antiguos = archivo, no canon). No se parchea: temporada 1 nueva.
 
 ## Se conserva
