@@ -1,55 +1,54 @@
-# LA COMUNIDAD DEL 13 · Fichas de personaje en Grok (paso 1)
+# LA COMUNIDAD DEL 13 · Fichas de personaje en Grok (paso 1 · v2 «más divertidos»)
 
 ## Cómo generarlas
-- Grok Imagine → **Imagen**, formato **9:16**, máxima calidad.
-- Una ficha por personaje: **cuerpo entero, de frente, fondo amarillo liso**. (Las hojas con varias vistas en una sola imagen salen deformes; las vistas y expresiones van en el paso 2, usando esta ficha como referencia).
-- Genera 4 y quédate con la mejor. Mándamelas todas juntas y las reviso: cara, manos, ropa, edad y que no haya texto.
-- Copia el bloque ESTILO + el bloque del personaje, en un único prompt.
+- Grok Imagine → **Imagen**, **9:16**, máxima calidad.
+- Prueba primero **solo Maruja**. Si el estilo gusta, haz los otros 7.
+- Pega ESTILO + el bloque del personaje en un único prompt. Genera 4 y elige la mejor.
 
-## ESTILO (va delante de cada prompt)
+## ESTILO (delante de cada prompt)
 ```
-Character reference sheet, single character, full body, standing, facing the camera, centered, whole body visible from head to shoes with space above and below. 1960s American pop-art comic-book style: thick black ink outlines, flat bold colors, halftone dot shading, deep black shadows, exaggerated but appealing cartoon proportions. Plain flat lemon-yellow background (#FFE600), no scenery. Clean, sharp, consistent design for animation. No text, no letters, no speech bubbles, no logos, no watermark, no extra characters, no extra fingers.
-```
-
-## 1. MARUJA
-```
-Maruja, 58-year-old Spanish woman, president of the residents' association. Big voluminous red curly hair, pearl earrings, hot pink jacket with matching skirt, black low heels, stocky build. One hand on her hip, the other index finger raised as if scolding. Bossy, dramatic expression with raised eyebrows.
+Funny caricature character design for an adult animated comedy series. ONE single character, full body, head to shoes visible, centered. Exaggerated cartoon caricature: oversized head (about one third of body height), rubbery super-expressive face, big eyes, strong silhouette, dynamic mid-action comedic pose, every detail tells a joke. 1960s pop-art comic-book look: thick black ink outlines, flat saturated colors (lemon yellow, hot pink, electric cyan, black), halftone dots, bold shadows. Plain flat lemon-yellow background, no scenery. No text, no letters, no logos, no watermark, no extra characters, correct hands with five fingers.
 ```
 
-## 2. MANOLO
+## 1. MARUJA · la presidenta
 ```
-Manolo, 72-year-old Spanish retired man, the building's spy. Bald head, thick grey moustache, small rectangular glasses low on his nose, brown jacket over a beige shirt, grey trousers, brown shoes, slightly hunched. Looking over the top of his glasses with a suspicious, knowing half-smile, hands behind his back.
-```
-
-## 3. RAFA
-```
-Rafa, 46-year-old Spanish man, the know-it-all brother-in-law. Dark slicked-back quiff, black sunglasses, red sweater, thin gold chain over the sweater, dark jeans, loafers, slight belly. Holding a coffee cup and pointing with it, smug confident grin.
+Maruja, 58, bossy Spanish building president. GIANT tower of lacquered red curly hair, twice the size of her head, with one pink curler forgotten in it. Reading glasses hanging on a pearl chain, huge pearl earrings, tight hot pink suit about to burst a button, armful of jangling gold bracelets, fluffy pink slippers. Mouth wide open mid-yell, one finger stabbing the air, other hand on hip, clutching a clipboard. Pure drama.
 ```
 
-## 4. VANE
+## 2. MANOLO · el espía
 ```
-Vane, 42-year-old Spanish woman, sentimental detective. Long dark curly hair, red lipstick, big gold hoop earrings, [BLUSA: fitted leopard-print blouse / fitted black blouse], black trousers, red heels, smartphone in one hand. One eyebrow raised, sarcastic knowing smile.
-```
-
-## 5. KEVIN
-```
-Kevin, 23-year-old Spanish young man, wannabe influencer. Messy dark hair, red hoodie, light jeans, white sneakers, thin build. Holding a smartphone up in front of him as if recording, excited open-mouth expression.
+Manolo, 72, nosy retired Spanish neighbour who spies on everyone. Shiny bald head, enormous bushy grey moustache like a broom, tiny round glasses on the tip of his long nose. Brown jacket with pockets overflowing with notes and a little notebook, beige socks pulled up with brown sandals. Tiptoeing in a sneaky crouch, binoculars in one hand, one eye squinting, the other eyebrow raised high, cheeky knowing grin.
 ```
 
-## 6. AMPARO
+## 3. RAFA · el cuñado
 ```
-Amparo, 68-year-old Spanish woman, the critical mother-in-law. Short white curly hair, round glasses, purple cardigan over a white blouse, grey skirt, sensible black shoes, small handbag on her arm. Pulling a disapproving face over the top of her glasses, lips pursed.
-```
-
-## 7. SONIA
-```
-Sonia, 35-year-old Spanish woman, mysterious neighbour. Straight black shoulder-length hair, dark sunglasses, long black coat buttoned up, black boots, slim and tall. Arms relaxed at her sides, calm, almost expressionless face, slight cold stare.
+Rafa, 46, know-it-all Spanish brother-in-law. Huge shiny gelled black quiff, sunglasses indoors, tight red sweater stretched over a round belly, thick fake gold chain and a giant flashy watch. Chest puffed out, leaning back, pointing at the viewer with a coffee cup, coffee splashing, one eyebrow up, smug toothy grin. Absolute confidence, zero knowledge.
 ```
 
-## 8. PACO
+## 4. VANE · la detective sentimental
 ```
-Paco, 51-year-old Spanish handyman. Receding hairline, short dark hair, blue work overalls, red toolbox in one hand, work boots, sturdy build. Scratching his head with the other hand, confused innocent expression.
+Vane, 42, dramatic Spanish gossip detective. Massive voluminous dark curly hair, glossy red lips, oversized gold hoop earrings, long red nails, tight leopard-print blouse, black trousers, red heels. Hip popped to one side, holding up a glowing smartphone towards the viewer as evidence, one eyebrow arched impossibly high, wicked sarcastic smile.
 ```
 
-## Paso 2 (cuando las fichas estén aprobadas)
-Con cada ficha como referencia: perfil, plano medio y 5 expresiones (enfado, sorpresa, risa, sospecha, miedo), una imagen por expresión.
+## 5. KEVIN · el influencer
+```
+Kevin, 23, skinny wannabe Spanish influencer. Wild messy hair sticking up, backwards cap, baggy red hoodie, wireless earbuds, neon sneakers. Holding a selfie stick with a ring light and phone, filming himself, doing an over-the-top shocked YouTuber face: mouth wide open, hands near cheeks, eyes huge.
+```
+
+## 6. AMPARO · la suegra
+```
+Amparo, 68, tiny but fierce Spanish mother-in-law. Tight white curly perm, thick round glasses that make her eyes look huge, purple cardigan buttoned to the top, grey skirt, black orthopedic shoes. Dragging a tartan shopping trolley, handbag clutched under her arm. Looking up over her glasses with a disgusted judging face, lips pursed tight like a raisin.
+```
+
+## 7. SONIA · la misteriosa
+```
+Sonia, 35, mysterious Spanish neighbour. Very tall and thin, sleek straight black hair, big black sunglasses, long black coat with the collar turned up, black gloves, black boots. Standing perfectly still and calm while holding an old brass key between two fingers, deadpan expression, one corner of her mouth barely smiling, a dramatic shadow across half her face. Funny because she is the only calm one.
+```
+
+## 8. PACO · el manitas
+```
+Paco, 51, clumsy Spanish handyman. Receding hairline with a few wild hairs, pencil behind his ear, blue overalls with one strap undone, tool belt overloaded with tools, giant red pipe wrench in one hand, holding a broken door handle in the other. Scratching his head with the wrench, sheepish innocent grin, tongue slightly out, like he just broke something and blames the building.
+```
+
+## Paso 2 (con las fichas aprobadas)
+Usando cada ficha como referencia: perfil, plano medio y 5 expresiones (enfado, sorpresa, risa, sospecha, miedo), una imagen por expresión.
