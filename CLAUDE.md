@@ -38,6 +38,7 @@
 Escena Bityn y R-04 · Reto matemático (del libro) · «Mi hijo me ha enseñado…» · Enigma de X (A/B) · Descargables y base secreta · Regalo Navidad/Reyes/cumple.
 
 ## Reglas de edición
+00. DATOS 23 nov (L1-03, 31 s): 78 vistas, media 5 s, 4,5 % completo → la gente se iba a los 5 s (pantalla de la carta quieta). REGLA: vídeos de 12-18 s, cifra/sorpresa en el 1.er segundo, nada quieto, remate antes del s 12. Prueba A/B: L1-03b (15 s).
 0. CADA VÍDEO SE RESUELVE EN SÍ MISMO (decisión de Francisco, 18 nov): nada de «mañana la respuesta» ni vídeos que se resuelven en el siguiente. Si hay reto o enigma, la solución va al final del mismo vídeo (tras una cuenta atrás).
 1. Gancho en el 1.er segundo (personaje + texto grande), sin pantallas de título.
 2. Cambio visual cada 1-2 s.
