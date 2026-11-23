@@ -51,3 +51,11 @@ Con el escenario de día aprobado, súbelo como referencia y pide:
 ```
 Same scene, exact same layout, tall vertical 9:16 image, at 2 a.m.: dark blue night lighting, only the ceiling light on, long black shadows, mysterious atmosphere.
 ```
+
+## OPCIÓN RECOMENDADA · Mismo dibujo que ya aprobamos
+Las imágenes de referencia están en `docs/comunidad13/escenarios_ref/` (un fotograma de cada clip horizontal).
+En Grok: sube la imagen de referencia del escenario y pega SOLO esto:
+```
+Recreate this exact same scene in a TALL VERTICAL PORTRAIT image, 9:16 aspect ratio (like a phone screen). Keep exactly the same art style, colors, objects, layout and lighting. Extend the scene upwards (ceiling) and downwards (floor) instead of cropping it. No people, no extra text.
+```
+Extras: en el ascensor añade «with a huge mirror on the back wall»; en el piso de Sonia, «with the photo wall in the centre».
