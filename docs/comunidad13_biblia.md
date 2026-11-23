@@ -42,3 +42,14 @@ Pistas y acertijos dentro de los capítulos (Pasatiempos tóxicos) y especial de
 
 ## Plan
 Fichas de los 8 (frente, perfil, cuerpo entero, 5 expresiones) → escenarios → episodios 1-3 → publicar lunes, miércoles y viernes → medir → resto.
+
+## Episodios 4-7 (recibidos 23 nov)
+- **Ep. 4 · El pijama de Rafa:** Vane: «¡Este hombre tiene más vidas sexuales que recibos de autónomo!» → pijama de cuadros azules talla XL (Manolo) → libreta de Manolo: «No, hijo. Jubilado. Que es mucho peor.» / «Soy un hombre fiel.» «¿A cuál?» → Maruja: agua caliente de madrugada → foto de Rafa entrando en casa de Maruja a las 3:00 → «Estaba arreglando una persiana.» «Y yo soy el presidente de la comunidad.» *Queda:* Manolo tiene archivo de fotos; Maruja y Rafa, relación oculta.
+- **Ep. 5 · El trastero prohibido:** Paco: «esto lo abro yo en dos minutos» / tubería del tercero, «avería emocional» → Kevin: «Te etiqueto» → trastero de Eusebio (murió hace 3 años): silla, lámpara, foto del edificio → caja metálica con fotos de todos → foto de Amparo entrando de madrugada → cuaderno: «SI ESTÁS LEYENDO ESTO, ES QUE YA HAN EMPEZADO LAS NOTAS».
+- **Ep. 6 · El portero fantasma:** foto de vecinos con Eusebio; «Eusebio tenía una afición: saberlo todo» / «como tú, pero cobrando» → mujer de espaldas que no vivía allí; Manolo le abrió la puerta → ascensor con Sonia: «¿Sigues guardando las copias? Las fotografías que hiciste tú.» → sonido de obturador.
+- **Ep. 7 · Nadie es inocente:** Kevin graba «el edificio más tóxico de España» → montaje de frases de cada vecino → vídeo anónimo «LOS SECRETOS DE KEVIN» (23 años, 4.000 seguidores, su madre le paga el alquiler) → «Ahora entiendes cómo nos sentimos» → mensaje: foto de Kevin entrando en el trastero, «TÚ TAMBIÉN SALES EN EL ARCHIVO» → Sonia: «Bienvenido a la comunidad.»
+- **Próximo, Ep. 8 · La caja de Eusebio:** documentos de años; la carpeta de Amparo está vacía.
+
+### Avisos de continuidad
+- En el prompt del ep. 4, Vane lleva «leopard-print blouse»; en la ficha no figura. Decidir y dejarlo fijo.
+- En los ep. 5-7 sale escrito «Amaparo»: es Amparo.
