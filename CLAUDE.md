@@ -106,7 +106,8 @@ ACORTADOS (Bitly de Francisco, 20 nov): Mi primer dinero = bit.ly/3V2nbiR · Mi 
 - Estado «Publicado» en videos/calendario.md SOLO cuando Francisco lo confirme. Nunca suponer qué está publicado: preguntar.
 - ⏸ AVISOS PAUSADOS el 22 nov por Francisco (tareas de 13:13 y 19:13 desactivadas; reactivar solo si lo pide). ENTREGA EN EL MOMENTO (decisión de Francisco, 18 nov): cada vídeo se le entrega el mismo día justo antes de publicar, NO por adelantado. Tareas programadas: 13:13 (vídeo de las 13:30, libro 1) y 19:13 (vídeo de las 19:30, libro 2); leen la rama claude/new-session-ifjtrt. En el chat, al terminar un vídeo, solo decir «listo para el día X a las HH:MM» (sin mandarle el archivo salvo que lo pida).
 
-## REGLA DE ORO: NO INVENTAR ESCENAS
+## REGLA DE ORO: NO INVENTAR ESCENAS (MATIZADA el 25 nov)
+- DESDE EL 25 NOV (Francisco): se permiten SKETCHES DE HUMOR nuevos con los personajes (campaña de marca). Condición: lo que se diga del CONTENIDO del libro (qué trae, qué enseña, escenas citadas como «del libro») tiene que ser verdad y con página. No presentar un sketch como escena del libro. Duración objetivo: ≤20 s.
 - Toda escena, acción o frase de un clip o vídeo tiene que salir de los libros (citar página). Nada de escenas inventadas (error del 18 nov: R-04 cayendo sobre la hucha; Lía sirviendo sola). Bityn TRABAJA en el food truck (jefe de cuentas, p.77).
 - Hay DOS libros: «Mi primer dinero» (libro 1; Drive: MiPrimerDinero_interior_KDP.pdf, 228 MB, id 1RyXod5b34Lu-vleWCbatZi00a7lH7NhA) y «Mi goloso negocio» (libro 2). Leer AMBOS enteros antes de generar clips: guías en libro/guia_contenido.md (libro 2) y libro1/guia_contenido.md (libro 1, LEÍDO 18 nov).
 - V04 rehecho solo con escenas reales (viñeta p.3, GK2 p.4, viñeta p.4). GK1 (hucha) = escena inventada: NO usar.
