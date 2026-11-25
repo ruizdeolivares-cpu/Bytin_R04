@@ -24,14 +24,17 @@ def shot(fr, i, z=1.0, cx=.5, cy=.45):
     x0 = (w - nw) * cx; y0 = (h - nh) * cy
     return f.crop((int(x0), int(y0), int(x0 + nw), int(y0 + nh))).resize((W, H), Image.LANCZOS).convert('RGBA')
 
-def voz(name, a, b, tempo=1.0):
+def voz(name, a, b, tempo=1.0, quitar_pausas=False):
     t = os.path.abspath(OUT + f'.{len(TMPS)}.wav'); TMPS.append(t)
-    af = f'atrim={a}:{b},asetpts=PTS-STARTPTS' + (f',atempo={tempo}' if tempo != 1 else '')
+    af = f'atrim={a}:{b},asetpts=PTS-STARTPTS'
+    if quitar_pausas: af += ',silenceremove=stop_periods=-1:stop_duration=0.18:stop_threshold=-38dB'
+    if tempo != 1: af += f',atempo={tempo}'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', os.path.join(V, name), '-vn', '-af', af, '-ac', '2', '-ar', '44100', t], check=True)
-    return t, (b - a) / tempo
+    d = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', t], capture_output=True, text=True).stdout)
+    return t, d + .15
 
 # 1 · Gancho con la voz del narrador (V1) sobre P1 en tres encuadres
-v1, d1 = voz('V1_narrador.mp4', 0.40, 9.10, 1.2)
+v1, d1 = voz('V1_narrador.mp4', 0.40, 9.10, 1.35, quitar_pausas=True)  # Francisco: hablaba muy lento
 a1 = frames('A1.mp4', d1)
 t1a = kit.text([('¿Tu peque sabe lo que', BLANCO), ('cuesta ganar dinero?', AMARILLO)], 80)
 t1b = kit.text([('…¿o cree que sale', BLANCO), ('solo de tu cartera?', AMARILLO)], 80)
@@ -60,7 +63,7 @@ def s3(i, n):
 t = kit.t0(2); kit.add(d3, s3); kit.sfx_at(t, v3, 1.0); kit.sfx_at(t + d3 - .5, 'arcade/error.mp3', .6)
 
 # 4 · La solución: páginas REALES del libro 1 (V4)
-v4, d4 = voz('V4_narrador.mp4', 0.0, 9.30, 1.2)
+v4, d4 = voz('V4_narrador.mp4', 0.0, 9.30, 1.25, quitar_pausas=True)
 paginas = [(6, 'Un cómic con humor'), (17, 'Decisiones de compra'), (41, 'Trabajos y beneficios'), (79, 'Juego de mesa recortable'), (81, 'Para jugar en familia'), (57, 'Aventura «elige tu camino»')]
 pags = [Image.open(os.path.join(PG, f'pag_{n:03d}.jpg')).convert('RGB') for n, _ in paginas]
 labs = [kit.pill(l, 40, NARANJA) for _, l in paginas]

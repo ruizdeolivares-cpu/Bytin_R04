@@ -1,5 +1,5 @@
 # L1-04 · ¿Tu peque sabe lo que cuesta ganar dinero? — «Mi primer dinero» (campaña 25 nov, vídeo 1)
-**Vídeo:** l1_04_ganar_dinero.mp4 (26 s) · **Portada:** fotograma 1,0 s (l1_04_portada.jpg) · **Hora:** 13:30
+**Vídeo:** l1_04_ganar_dinero.mp4 (24,5 s) · **Portada:** fotograma 1,0 s (l1_04_portada.jpg) · **Hora:** 13:30
 **Material:** imágenes de Grok P1-P3 animadas + voces de Grok (narrador, Bityn, R-04) + páginas reales del libro 1 (cómic págs. 2, 13, 37; juego de mesa recortable; misión extra). Sketch inventado permitido (25 nov).
 
 ## Descripción

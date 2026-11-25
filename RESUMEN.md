@@ -1,50 +1,35 @@
-# Resumen del canal · @bityn.y.r04 (18 nov 2026, noche)
-Para arrancar un chat nuevo: «Lee RESUMEN.md, PROMPT_MAESTRO.md y CLAUDE.md y sigue». Rama de trabajo: `claude/new-session-ifjtrt` (main está desfasada).
+# Resumen del canal · @bityn.y.r04 (25 nov 2026)
+Para arrancar un chat nuevo: «Lee RESUMEN.md, videos/CAMPANA.md, PROMPT_MAESTRO.md y CLAUDE.md y sigue». Rama de trabajo: `claude/new-session-ifjtrt` (main está desfasada).
 
-## Ritmo
-- **DOS vídeos al día, uno de cada libro: 13:30 «Mi primer dinero» (L1-NN, enlace https://amzn.eu/d/0iJJEIrT) y 19:30 «Mi goloso negocio» (VNN)**. Se pueden mezclar escenas de los dos libros. Portada real del libro 1: libro1/portada_frontal.png (todoterreno verde). La hucha dorada es su portadilla interior (vale usarla).
-- **Entrega en el momento**: tareas programadas a las 13:13 y 19:13 mandan SOLO el vídeo que toca a esa hora (mp4 + portada + descripción). Nunca por adelantado. El 18 nov la tarea falló por límite de uso de la cuenta.
-- Estado «Publicado» en `videos/calendario.md` SOLO cuando Francisco lo confirme. Nunca suponer.
+## Estrategia vigente (25 nov) → `videos/CAMPANA.md` manda sobre todo
+- Lema: «Aventuras que entretienen. Aprendizajes que permanecen.»
+- Los vídeos ENTRETIENEN y convencen a los PADRES (no vendemos «aprende a ahorrar» a los niños).
+- Fórmula: problema de los padres → sketch divertido → solución del libro → producto → Amazon.
+- Dos campañas separadas: «Mi primer dinero» (descubrir el dinero; juego de mesa recortable) y «Mi goloso negocio» (aventura de crear un negocio; 30 días para salvar a R-04; escape room, recetas, retos).
+- No prometer de más (nada de «será experto financiero»).
+- Sketches de humor inventados PERMITIDOS desde el 25 nov, siempre que lo que se diga del contenido del libro sea verdad.
+- Duración: ≤20-25 s. Datos del 23 nov: L1-03 (31 s) → media 5 s vistos, 4,5 % completo. Cifra/sorpresa en el 1.er segundo, nada quieto.
 
-## Publicado
-- 17 nov V01 · Reto de los batidos (p.69)
-- 18 nov V02 · Respuesta del reto (sale Bityn en la hucha dorada = portada del libro 1: vale)
+## Método de producción que FUNCIONA (25 nov)
+1. **Imágenes en Grok** (sí funcionan con el prompt nuevo; las 3 del vídeo 1 salieron fieles): imagen 9:16 adjuntando `kling/ficha_bityn_r4.jpg`, describiendo cada detalle (Bityn: 1 antena izq., 1 oreja naranja dcha., ojos en arco, sin boca; R-04: 1 ojo-anillo, alas grandes, gorrito, sin boca ni antena) y las siguientes «en el mismo chat» con «same characters».
+2. **Animación en Grok** 6 s, cámara fija, movimiento pequeño, FACE LOCK (prompts en `videos/PLANTILLA_V1.md` y en el chat del 25 nov).
+3. **Voces en Grok** solo audio (clip de 10 s, la imagen da igual). Narrador: generar todas sus frases seguidas. Al montar: quitar pausas (silenceremove) y acelerar ×1,25-1,35 (Francisco: «habla muy lento»).
+4. **Montaje mío** (`montaje/l1_04_ganar_dinero.py` = plantilla): clips + voces + páginas reales del libro + textos grandes + cierre con portada. Comprimir <3 MB (crf 26, maxrate 900k).
+- Grok cambia a los personajes si hay gestos grandes o cambios de plano: siempre plano fijo y movimiento mínimo.
+- Revisar SIEMPRE las imágenes antes de animar.
 
-## Listos (en `videos/` y en Drive, carpeta «Bityn y R-04 · Vídeos TikTok»)
-| Día | Hora | Vídeo | Cierre |
-|---|---|---|---|
-| 19 nov | 13:30 | L1-01 · ¿En qué se le va el dinero a tu peque? (libro 1, págs. 13-16) | 0 |
-| 20 nov | 13:30 | L1-02 · «CARIÑO DETECTADO» (libro 1, págs. 33-36, clip GK6) | 1 |
-| 19 nov | 19:30 | V03 · ¿A quién se parece tu hijo o hija? (personajes) | 2 |
-| 20 nov | 19:30 | V04 · La batería de R-04 (p.3, GK2 p.4, p.4) | 0 |
-| 21 nov | 19:30 | V05 · Enigma de X: ¿qué precio salió peor? (p.16-18) | 1 |
-| 22 nov | 19:30 | V06 · QR secreto y base de R-04 (p.94, web, 4 PDF) | 2 |
-| 23 nov | 19:30 | V07 · ¿Todo el dinero que entra es tuyo? (p.41-42) | 0 |
+## Vídeos
+- Publicados: V01, V02 (17-18 nov), L1-03 «carta a los Reyes» (22 nov, 78 vistas).
+- Listos sin publicar: L1-01, L1-02 «CARIÑO DETECTADO», V03-V07, L1-03b (versión corta 15 s), **L1-04 «¿Tu peque sabe lo que cuesta ganar dinero?» (vídeo 1 de la campaña nueva, 24,5 s)**. Todo en `videos/` y en Drive.
+- Siguiente: vídeo 3 de la campaña «30 días para salvar a un robot» (Mi goloso negocio), luego 2, 4 y 5 (guiones en el chat del 25 nov y resumen en CAMPANA.md). Necesitan fichas de Lía, Sr. Tornillo y Brillo (las tarjetas de `kling/personajes` son pequeñas).
+- Propuesto y pendiente de respuesta: vídeo con el LIBRO FÍSICO en las manos de Francisco + voz (formato que más vende; Black Friday 27 nov).
 
-## Por hacer
-- URGENTE libro 1 (13:30): L1-03 del 21 nov en adelante… (ojo: archivo pag_NNN = página impresa NNN−4). Script de ejemplo: montaje/l1_01_caprichos.py (viñetas grandes con barrido; cierre con portada=libro1/portada_frontal.png (portada real)).
-- 24 nov 19:30 V08 · Regalo de Navidad (usar GK3b Cohete Goloso + voz de R-04, p.14). Cierre 1.
-- Libro 2 a partir del 24 nov: V08 Navidad y siguientes (clips premium de Grok p.3 si llegan).
-- Ideas reales del libro aún sin usar: reto pulsera p.20 (2 € vs 3 €), tarta-reloj de X p.24/p.42, Don Gruñón p.29, MegaSnack «¡Todo a 1 €!» p.33, contrato con Brillo p.37, tres botes p.52, escape room p.56-61, recetas p.75.
-
-## Reglas nuevas del 18 nov
-- **Solo 5 hashtags** por vídeo: #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04.
-- **Cada vídeo se resuelve en sí mismo**: nunca «mañana la respuesta» (no le gusta a Francisco).
-- Decir siempre **«tu hijo o hija»** (o «tu peque»), nunca solo «tu hijo».
-- No usar formato «Mi hijo me ha enseñado…» como testimonio inventado.
-- Grok SIEMPRE en **2D** («2D cartoon animation, flat 2D, NOT 3D, NOT CGI»). Imagen inicial montada por mí con recortes de la ficha oficial (kling/recorte_*.png); Grok solo anima.
-- Clips SOLO con **Grok** (Kling aparcado). Método premium: imagen nueva 9:16 en Grok adjuntando la ficha oficial `kling/ficha_bityn_r4.jpg` + escena real con página; luego animar con poco movimiento. Editar viñetas en Grok NO funciona (cambia personajes). Imagen inicial siempre 9:16 (si no, sale apaisado). No escribir «drone» (pone hélices). Voz de R-04: «tiny toy robot, high-pitched, metallic, NOT a human voice, NOT a child's voice».
-- Pendientes de Grok: GK4 = p.3 voltereta y caída («¡Mira, Bityn! ¡Triple voltereta con tirabuzón!» / «Bip… bip… bi…»), GK5 = p.3 rescate («¡¡R-04!!»). Prompts en el chat del 18 nov (también resumidos en CLAUDE.md).
-- Errata del libro p.16 (nota de X): «vendréis» → «venderéis».
-
-## Reglas de siempre (detalle en CLAUDE.md)
-Público: padres (no niños) · Gancho en el 1.er segundo · Sin música · Edad 8-12 en cierre y descripción · Zonas seguras (y≤1047, x≤620) · Variedad total (no repetir clips ni cierre seguidos) · NO inventar escenas: todo con página del libro · Revisar hoja de fotogramas antes de entregar.
-
-## Material
-- Clips: `kling/clips` (G1-G3, GK2 Sr. Tornillo p.4, GK3b Cohete Goloso p.14). GK1 (hucha) = inventado, no usar.
-- Montaje: `montaje/lib.py` (3 cierres) y `montaje/v01…v07_*.py`. Fuentes/SFX: `npm pack @fontsource/baloo-2@5.3.0 uisfx@0.4.0`.
-- Libros leídos: `libro/guia_contenido.md` (libro 2) y `libro1/guia_contenido.md` (libro 1).
-
-## Otros pendientes
-- Seguridad: dejar privados en Drive los PDF/carpetas compartidos por enlace.
-- Tras 1-2 semanas: pedir estadísticas de TikTok y ajustar horas y formatos.
+## Reglas fijas
+- «Tu hijo o hija» / «tu peque», nunca solo «tu hijo».
+- Cada vídeo se resuelve en sí mismo (nada de «mañana la respuesta»).
+- Siempre 2D. Solo 5 hashtags: #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04.
+- Enlaces con seguimiento (Amazon Attribution + Bitly): Mi primer dinero = bit.ly/3V2nbiR · Mi goloso negocio = bit.ly/4j5lAko (bio). Escritos en TODAS las descripciones.
+- Portada real del libro 1: `libro1/portada_frontal.png`. Cierre del libro 1 con su portada y variante 0 o 1 (la 2 dice «enlace en el perfil»).
+- Avisos automáticos de 13:13 y 19:13 PAUSADOS (reactivar solo si Francisco lo pide). Entregar en el momento, no por adelantado. «Publicado» solo si Francisco lo confirma.
+- No puedo escuchar audio: identificar voces por duración/tono y pedir a Francisco que lo compruebe.
+- Nunca mezclar con «Pasatiempos tóxicos».
