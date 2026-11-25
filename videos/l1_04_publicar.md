@@ -5,7 +5,7 @@
 ## Descripción
 ¿Tu peque sabe lo que cuesta ganar dinero… o cree que sale solo de tu cartera? 😅 «Mi primer dinero» es un cómic con humor, retos, una aventura de elige tu camino y un juego de mesa recortable. Una aventura para aprender jugando. Para niños de 8 a 12 años.
 📚 Búscalo en Amazon: Mi primer dinero (Bityn y R-04) 👉 bit.ly/3V2nbiR
-#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
+#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #regalosnavidad
 
 ## Primer comentario (fíjalo)
 ¿Tu peque pide cosas sin mirar el precio o ya pregunta cuánto cuestan? 👇

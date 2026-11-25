@@ -5,7 +5,7 @@
 ## Descripción
 Tu peque te da la carta a los Reyes… y R-04 la escanea 🤖📜 Total: demasiado. En «Mi primer dinero», Bityn quería un vehículo de 280 € y solo tenía 50: no pidió más, hizo un plan. El truco: una meta con su número. Para niños de 8 a 12 años.
 📚 Búscalo en Amazon: Mi primer dinero (Bityn y R-04) 👉 bit.ly/3V2nbiR
-#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
+#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #regalosnavidad
 
 ## Primer comentario (fíjalo)
 ¿Cuántas cosas pide tu peque en la carta este año? 😅 ¿Le ponéis límite? 👇

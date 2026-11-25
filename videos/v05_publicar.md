@@ -5,7 +5,7 @@
 ## Descripción
 Un misterioso X les avisó: «Si cobráis mucho, no venderéis nada; si cobráis poco, trabajaréis gratis». Bityn probó a 50 € y a 10 céntimos… ¿cuál salió peor? 🤔 Así aprenden los niños qué es el precio justo, en cómic y con retos de cuentas. Para niños de 8 a 12 años.
 📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 bit.ly/4j5lAko
-#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
+#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #regalosnavidad
 
 ## Primer comentario (fíjalo)
 ¿A cuánto vendería tu peque un batido? 🥤 Que lo diga él y lo comentáis 👇

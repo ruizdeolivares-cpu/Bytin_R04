@@ -5,7 +5,7 @@
 ## Descripción
 Una bebida, un trayecto, una partida… 2 € cada cosa. «6 € parecen poco… hasta que recuerdas que voy camino de 280» 🤖 Así aprende Bityn que los gastos pequeños también suman: no se trata de prohibírselo todo, sino de elegir en qué gastar. Para niños de 8 a 12 años.
 📚 Búscalo en Amazon: Mi primer dinero (Bityn y R-04) 👉 bit.ly/3V2nbiR
-#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
+#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #regalosnavidad
 
 ## Primer comentario (fíjalo)
 ¿Tu hijo o hija lleva la cuenta de lo que gasta? ¿Qué edad tiene? 👇

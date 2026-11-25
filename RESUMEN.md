@@ -27,7 +27,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, videos/CAMPANA.md, PROMPT_MAESTRO
 ## Reglas fijas
 - «Tu hijo o hija» / «tu peque», nunca solo «tu hijo».
 - Cada vídeo se resuelve en sí mismo (nada de «mañana la respuesta»).
-- Siempre 2D. Solo 5 hashtags: #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04.
+- Siempre 2D. Solo 5 hashtags: #librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #regalosnavidad.
 - Enlaces con seguimiento (Amazon Attribution + Bitly): Mi primer dinero = bit.ly/3V2nbiR · Mi goloso negocio = bit.ly/4j5lAko (bio). Escritos en TODAS las descripciones.
 - Portada real del libro 1: `libro1/portada_frontal.png`. Cierre del libro 1 con su portada y variante 0 o 1 (la 2 dice «enlace en el perfil»).
 - Avisos automáticos de 13:13 y 19:13 PAUSADOS (reactivar solo si Francisco lo pide). Entregar en el momento, no por adelantado. «Publicado» solo si Francisco lo confirma.

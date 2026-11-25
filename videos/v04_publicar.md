@@ -4,7 +4,7 @@
 ## Descripción
 A R-04 se le acaba la batería y solo lo salva un Chip Estelar de 150 €… ¡y Bityn solo tiene 18! ¿Lo conseguirán en 30 días con un food truck de batidos? 🚀 Una aventura en cómic que enseña a los niños a hacer cuentas de verdad. Para niños de 8 a 12 años.
 📚 Búscalo en Amazon: Mi goloso negocio (Bityn y R-04) 👉 bit.ly/4j5lAko
-#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #bitynyr04
+#librosinfantiles #educacionfinanciera #regalosniños #booktokespaña #regalosnavidad
 
 ## Primer comentario (fíjalo)
 ¿Tu peque sabría ahorrar 150 € en 30 días? 🤔 ¿Qué haría él? 👇
