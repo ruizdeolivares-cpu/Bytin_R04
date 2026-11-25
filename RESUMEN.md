@@ -1,5 +1,5 @@
 # Resumen del canal · @bityn.y.r04 (25 nov 2026)
-Para arrancar un chat nuevo: «Lee RESUMEN.md, videos/CAMPANA.md, PROMPT_MAESTRO.md y CLAUDE.md y sigue». Rama de trabajo: `claude/new-session-ifjtrt` (main está desfasada).
+Para arrancar un chat nuevo: «Lee RESUMEN.md, videos/CAMPANA.md, PROMPT_MAESTRO.md y CLAUDE.md y sigue». Rama de trabajo: `claude/narrator-videos-ready-zdga76` (main está desfasada).
 
 ## Estrategia vigente (25 nov) → `videos/CAMPANA.md` manda sobre todo
 - Lema: «Aventuras que entretienen. Aprendizajes que permanecen.»
@@ -21,7 +21,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, videos/CAMPANA.md, PROMPT_MAESTRO
 ## Vídeos
 - Publicados: V01, V02 (17-18 nov), L1-03 «carta a los Reyes» (22 nov, 78 vistas).
 - Listos sin publicar: L1-01, L1-02 «CARIÑO DETECTADO», V03-V07, L1-03b (versión corta 15 s), **L1-04 «¿Tu peque sabe lo que cuesta ganar dinero?» (vídeo 1 de la campaña nueva, 24,5 s)**. Todo en `videos/` y en Drive.
-- Siguiente: vídeo 3 de la campaña «30 días para salvar a un robot» (Mi goloso negocio), luego 2, 4 y 5 (guiones en el chat del 25 nov y resumen en CAMPANA.md). Necesitan fichas de Lía, Sr. Tornillo y Brillo (las tarjetas de `kling/personajes` son pequeñas).
+- Siguiente: vídeo 3 «30 días para salvar a un robot» → plan y prompts en `videos/PLANTILLA_V3.md` (esperando imágenes y voces de Grok), luego 2, 4 y 5 (guiones en el chat del 25 nov y resumen en CAMPANA.md). Necesitan fichas de Lía, Sr. Tornillo y Brillo (las tarjetas de `kling/personajes` son pequeñas).
 - Propuesto y pendiente de respuesta: vídeo con el LIBRO FÍSICO en las manos de Francisco + voz (formato que más vende; Black Friday 27 nov).
 
 ## Reglas fijas
