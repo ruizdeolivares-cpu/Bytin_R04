@@ -11,7 +11,7 @@ Formatos en rotación: Reto · Escena Bityn/R-04 · «Mi hijo me ha enseñado…
 | 2026-11-20 | 19:30 | v04_bateria_r04 | Escena real: batería de R-04 (viñeta p.3 + GK2 Sr. Tornillo p.4 + viñeta p.4) | p.3, GK2, G2d, p.4 | 0 portada desenfocada | Listo |
 | 2026-11-21 | 13:30 | l1_03_carta_reyes | Libro 1 · La carta a los Reyes, pasada por R-04 (premium) | GK9, GK11, voz GK10, pág. 2 y pág. 96 | 0 portada libro 1 | Listo |
 | 2026-11-21 | 19:30 | v05_enigma_x_precio | Enigma de X A/B: ¿qué precio salió peor? (p.16-18) | nota X p.16, viñetas p.17 y p.18 (sin IA) | 1 color con rayos (morado) | Listo |
-| 2026-11-22 | 13:30 | l1_04 | Libro 1 · Por hacer |  |  | Por hacer |
+| 2026-11-22 | 13:30 | l1_04_ganar_dinero | Campaña 25 nov · V1 «¿Sabe lo que cuesta ganar dinero?» (26 s) | kling/v1 (P1-P3, voces) + págs. libro 1 | 1 rayos naranja, portada libro 1 | Listo |
 | 2026-11-22 | 19:30 | v06_base_secreta | Descargables y base secreta: QR secreto (p.94) + web + 4 PDF (gancho con edad) | G3c, p.94, capturas web, PDF | 2 degradado | Listo |
 | 2026-11-23 | 13:30 | l1_05 | Libro 1 · Por hacer |  |  | Por hacer |
 | 2026-11-23 | 19:30 | v07_beneficio | Beneficio: «¿Todo el dinero que entra es tuyo?» (p.41-42) | viñetas p.41 y p.42, pizarra con la cuenta (sin IA) | 0 portada desenfocada | Listo |
