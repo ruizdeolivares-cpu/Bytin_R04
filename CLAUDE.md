@@ -1,6 +1,7 @@
 # Canal TikTok · Bityn y R-04 · «Mi goloso negocio» (Francisco Ruiz)
 
 > Prompt de rol y método: `PROMPT_MAESTRO.md` (leerlo siempre primero).
+> ⚠️ NUEVA ESTRATEGIA (25 nov): `videos/CAMPANA.md` manda sobre todo lo anterior: entretener primero, convencer a los PADRES, fórmula problema→situación divertida→solución del libro→producto→Amazon, dos campañas separadas por libro, no prometer de más.
 
 ## Cómo trabajar
 - Español de España, directo, corto, legible en móvil.
