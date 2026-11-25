@@ -1,56 +1,39 @@
-# RESUMEN · Pasatiempos tóxicos (Francisco Ruiz) · 23 nov 2026
+# RESUMEN · Pasatiempos tóxicos (Francisco Ruiz) · 25 nov 2026
 
 ## 1. Cómo trabajar
-- Español de España. Respuestas **cortas** para el móvil. No inventar; si no sé algo, decirlo.
-- No subir ni programar nada sin permiso de Francisco. No puedo oír el audio: preguntar qué dicen los personajes.
-- Antes de proponer ideas o guiones: aplicar el **prompt maestro** (`docs/prompt_maestro_guionista.md`): investigar referentes, escribir 30 ideas, puntuarlas y presentar solo las mejores, con el remate escrito primero.
-- **Hashtags:** máximo 5 y siempre **#retos**.
-- NUNCA mezclar con el canal de Bityn.
+- Español de España, respuestas cortas para el móvil. No inventar: usar el guion que dé Francisco y los datos de los libros.
+- Calidad PREMIUM siempre (prompts largos y detallados, no básicos).
+- No puedo oír audio: Francisco revisa voces y cortes.
+- No publicar ni programar sin permiso. Hashtags: máximo 5 y siempre #retos.
+- NUNCA mezclar con Bityn. Rama: `claude/pasatiempos-toxicos-navidad-4ysz82` (repo Bytin_R04).
 
-## 2. Repositorio y archivos
-- Rama de trabajo: **`claude/pasatiempos-toxicos-navidad-4ysz82`** (contiene todo lo de Pasatiempos; antes estaba en `claude/pasatiempos-turron-fix-kv1aqb`).
-- `scripts/`: montajes (Python + PIL + ffmpeg). Los más recientes:
-  - `dios_navidad_build.py`: fábula con medallas y palabra a palabra.
-  - `abuela_gordo_build.py`: pegatinas emoji y zooms en los remates.
-- `skill/editor-reels-libros`: skill de método.
-- `docs/comunidad13_biblia.md`: **serie actual**.
-- `docs/serie_operacion_turron.md`: serie de Navidad (aparcada).
-- `docs/prompt_maestro_guionista.md`: método.
-- Fuentes: Baloo 2 (`npm pack @fontsource/baloo-2`), Anton en Drive.
+## 2. Los dos libros
+### Libro 1 · «Pasatiempos tóxicos · para gente con mala leche»
+- Calle del Rencor, 13. Notas anónimas en el espejo del ascensor; 8 pistas; nunca destripar al culpable. Guía en `libro_pt1/guia.md`, texto en `libro_pt1/texto.txt`.
+- Interior auditado SIN errores y versión fácil lista: `libro_pt1/Pasatiempos_toxicos_INTERIOR_v3_facil.pdf` (100 págs). Informe: `libro_pt1/AUDITORIA.md`.
+- Cubierta NUEVA lista: `libro_pt1/Pasatiempos_toxicos_CUBIERTA_KDP_v3.pdf` (edificio con los 9 vecinos + título con lupa). Vista previa `libro_pt1/portada_nueva_mockup.jpg`. Script `scripts/libro1_portada_nueva.py`.
+- PENDIENTE: subir interior y cubierta a KDP; enlace de Amazon del libro 1 (no lo tengo).
+### Libro 2 · «Pasatiempos tóxicos · Edición Navidad»
+- Misterio del último turrón (23:30, despensa). 6 sospechosos: abuela Paqui, suegra Mari Carmen, cuñado Toni, tía Encarna, primo Iván, perro Chispas. Culpable: no decirlo nunca. Cuñadoku = sudoku con números falsos.
+- Interior auditado SIN errores y versión fácil corregida (márgenes OK): `libro_navidad/Pasatiempos_toxicos_Navidad_INTERIOR_KDP_v2_facil.pdf`. Informe: `libro_navidad/AUDITORIA.md`.
+- Amazon: https://amzn.eu/d/0gNeRQi6
 
-## 3. Drive
-- Carpeta de vídeos: `1vRiDiSiXd5rmt731jQ8YasHl_sqIUZGb`
-- Interior del libro de Navidad (KDP, 106 págs.): `1oW3lFtOle3s-UMZjvDc2JTGGtncMPwxe`
-- Portada de Navidad: `1QVDdzDoXlCnO8lnglUTmlnGgNCXY2otS` · Cubierta: `1mX4HZcqezTpoG0g5oKpI2b8o5gukud8G`
-- Anton-Regular.ttf: `17BxchMl4qAGlNFvUO3JS9eJv7ufdvvjD` · Música: `1Noy3aVNVMTXt_8DqwBevzGOe3iEcmEFT`
-- **Falta:** el primer libro, «Pasatiempos tóxicos» (calle del Rencor, 13). Pedir el ID para leerlo.
+## 3. Personajes (fichas aprobadas)
+- Libro 1 / serie: `docs/libro1_reparto/` → 1.ºA Doña Remedios · 1.ºB Paco «el del taladro» · 2.ºA Vanessa · 2.ºB Don Anselmo · 3.ºA Marisa + su marido Manolo · 3.ºB Iker · 4.ºA Charo y Satanás · 4.ºB misterio. Imagen conjunta `reparto_libro1.png`. Hoja por pisos `libro_pt1/portada_referencia_pisos.png`.
+- Navidad: `libro_navidad/fichas/` → Toni, Mari Carmen, abuela Paqui, Iván (Encarna y Chispas sin crear: salen como «?»).
+- Fondos: salón de Nochebuena (`libro_navidad/fondo_salon.png`), ascensor y portal (`libro_pt1/v_vecino/`).
 
-## 4. Libro de Navidad
-- «Pasatiempos tóxicos · Edición Navidad». 9,99 € (se valora 8,99 €). Regalía de unos 4-5 €. 2 reseñas.
-- Amazon: https://amzn.eu/d/0gNeRQi6 · TikTok @pasatiempostoxico · Metricool brandId 8123021.
-- Personajes: abuela Paqui, Mari Carmen, Toni, Encarna, Iván, abuelo Paco, Lucía, Rocío, Chispas.
-- Misterio del turrón: el culpable es **Toni** (no destriparlo nunca). Pistas: videollamada con Pura, dentadura de Encarna, consola de Iván, huella del 44.
+## 4. Vídeos hechos
+- V01 Navidad «El asesinato del último turrón» (29,6 s): `libro_navidad/V01_ultimo_turron.mp4` + portada + `V01_publicar.md`. Publicado. Medir: retención seg. 1 (>50 %), visionado medio (>10 s), completos, comentarios.
+- Libro 1 «El vecino que todos tenemos» (39 s, guion de Francisco): `libro_pt1/V_vecino_que_todos_tenemos.mp4` + portada + `V_vecino_publicar.md`. Pendiente: que Francisco revise audio (Remedios, 4.ºB, Marisa), enlace de Amazon, y cambiar el cierre por la portada nueva.
+- Método de producción: fichas → imagen de inicio (personaje recortado sobre fondo, scripts `scripts/cut.py`, `scripts/frames.py`) → Grok vídeo con 1 frase por clip y voz descrita → montaje con `scripts/navidad_v01_build.py` / `scripts/libro1_vecino_build.py` (subtítulos amarillos, SFX, tablero, portada, <3 MB, sin música).
 
-## 5. Lo aprendido en TikTok
-- Unas 700 visualizaciones por vídeo. **La gente se va en el segundo 1.**
-- Reseña de la abuela promocionada con 3 €: 2.574 visualizaciones, **1,6 s de media**, 1,4 % la ve entera. **Promocionar no arregla un mal gancho.** Regla: solo promocionar si más del 50 % sigue en el segundo 1 y el visionado medio pasa del 30 %.
-- No funcionan: parecer un anuncio, la abuela como protagonista (Francisco no la ve viral), los chistes flojos, el cuñado como monotema, la Navidad como único tema.
-- Referentes que gustan: fábula animada de Dios (204.000 me gusta), chistes animados de caricatura (56.000), microseries de IA (Fruit Love Island). Humor corto: menos de 20 s. Serie: 40-55 s con gancho y continuidad.
-- Descartados por Francisco: el vídeo del Gordo, la v2 de Dios (sin gracia) y las ideas de abuela, nevera y perro.
+## 5. Próximos pasos
+1. Subir a KDP los interiores fáciles de los dos libros y la cubierta nueva del libro 1.
+2. Mirar estadísticas del V01 y decidir.
+3. Vídeo del vecino: revisar audio, cerrar con portada nueva, publicar.
+4. Siguiente vídeo Navidad: V02 «Cuñadoku» (Toni + Mari Carmen + página real del Cuñadoku).
+5. Más adelante: serie «La Comunidad del 13» con los vecinos del libro 1 (piloto «El cuñado ahorrador» en `docs/comunidad13_piloto_cunado.md`).
 
-## 6. PROYECTO ACTUAL · «LA COMUNIDAD DEL 13»
-- Serie animada pop art (amarillo limón, fucsia, cian, contornos negros), 9:16, 40-55 s, una voz fija por personaje y un misterio que avanza.
-- 8 vecinos: Maruja, Manolo, Rafa, Vane, Kevin, Amparo, Sonia y Paco. Misterio: notas anónimas en el ascensor y el archivo de Eusebio, el portero muerto.
-- Francisco ya ha escrito los episodios 1-7 y el mapa de 4 temporadas (todo en `docs/comunidad13_biblia.md`).
-- **Siguiente paso:** fichas de imagen de los 8 personajes en Grok (frente, cuerpo entero, fondo amarillo) → las reviso → planos de 3-6 s, una acción y una voz por clip → yo monto (cabecera, textos y notas en edición, efectos, «continuará»).
-- Pendiente de decidir: si Vane lleva blusa de leopardo. Corregir «Amaparo» → Amparo.
-
-## 7. Amazon Ads
-- Automática «Navidad auto ES»: añadir las negativas (murdle, murdoku, asesino, asesinato, crimenes, adviento, devir, semana santa, educar, color by numbers; exacta «navidad»), presupuesto 2-3 €/día, parte superior al 0-30 %.
-- Manual nueva (Francisco la estaba creando): 5 €/día, 8 palabras en frase (0,40 €) y exacta (0,50 €; 0,60 € las dos de «pasatiempos navidad»), «solo reducir», parte superior +30 %, «Amazon y más allá». Sin el grupo «Palabras clave relacionadas».
-- Revisar los términos de búsqueda en 5-7 días.
-
-## 8. Técnico
-- 720×1280, 30 fps, H.264 en dos pasadas para quedar por debajo de 3 MB, AAC, loudnorm I=-14.
-- Texto entre y=130 e y=1047 y a la izquierda de x=620. Revisar una hoja de fotogramas antes de entregar.
-- Grok: clips de unos 6-10 s, imagen a vídeo desde una ficha, voz descrita siempre igual, sin texto. El libro con la tapa amarilla lisa: pongo encima la portada real (detección del amarillo).
+## 6. Técnico
+720×1280, 30 fps, H.264 a dos pasadas (<3 MB), AAC. Texto entre y=130 y 1047, x<620. Fuentes en scratchpad: Anton, Baloo 2, Poppins, Bangers, Permanent Marker (`npm pack @fontsource/...`). Grok: imagen 9:16 en el prompt; vídeo desde imagen de inicio; sin texto generado.
