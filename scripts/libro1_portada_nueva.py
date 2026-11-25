@@ -1,6 +1,8 @@
 import sys, numpy as np, pymupdf
 from PIL import Image
 S=sys.argv[1]; SRC=sys.argv[2]
+TITLEFONT=sys.argv[3] if len(sys.argv)>3 else 'bangers/package/files/bangers-latin-400-normal.woff'
+OUTPDF=sys.argv[4] if len(sys.argv)>4 else 'libro_pt1/Pasatiempos_toxicos_CUBIERTA_KDP_v3.pdf'
 K=300/72; Y=np.array([255,242,0])
 full=np.asarray(Image.open(S+'/cub300.png').convert('RGB')).astype(int)
 x0=round(457.2144*K); PW=full.shape[1]-x0; PH=full.shape[0]
@@ -15,6 +17,7 @@ panel=Image.new('RGB',(PW,PH),tuple(Y)); panel.paste(art,((PW-Wa)//2,PH-Ha))
 # --- título nuevo, estilo pop art
 from PIL import ImageDraw, ImageFont
 FD=S+'/fonts/'
+TF=lambda n: ImageFont.truetype(FD+TITLEFONT,n)
 ANT=lambda n: ImageFont.truetype(FD+'fontsource-anton-5.3.0/package/files/anton-latin-400-normal.woff',n)
 PMK=lambda n: ImageFont.truetype(FD+'pm/package/files/permanent-marker-latin-400-normal.woff',n)
 BLACK=(10,10,10); PINK=(255,40,150); WHITE=(255,255,255)
@@ -33,7 +36,7 @@ def word(text,font,fill,stroke,shadow,maxw,rot,center,spacing=0):
 CX=(PW-37)/2  # centro del área visible (sin sangrado derecho)
 dr=ImageDraw.Draw(panel)
 dr.text((CX,118),'F  R  A  N  C  I  S  C  O     R  U  I  Z',font=ANT(60),fill=BLACK,anchor='mm')
-word('PASATIEMPOS',ANT(420),WHITE,16,22,1560,2,(CX,370))
+word('PASATIEMPOS',TF(420),WHITE,16,22,1560,2,(CX,370))
 word('TÓXICOS',ANT(560),PINK,20,28,1300,2,(CX,770))
 # subtítulo sobre pegatina negra
 sub='para gente con mala leche'
@@ -53,5 +56,5 @@ panel.save('libro_pt1/portada_nueva_frontal.png')
 doc=pymupdf.open(SRC); pg=doc[0]; r=pymupdf.Rect(457.2144,0,pg.rect.width,pg.rect.height)
 pg.add_redact_annot(r); pg.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_REMOVE,graphics=pymupdf.PDF_REDACT_LINE_ART_REMOVE_IF_TOUCHED)
 pg.insert_image(r,filename='libro_pt1/portada_nueva_frontal.png')
-doc.save('libro_pt1/Pasatiempos_toxicos_CUBIERTA_KDP_v3.pdf',garbage=4,deflate=True)
+doc.save(OUTPDF,garbage=4,deflate=True)
 print('panel',PW,PH,'art',Wa,Ha)
