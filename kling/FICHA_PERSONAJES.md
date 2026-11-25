@@ -59,3 +59,16 @@ AUDIO: [VOZ]
 Speaking NEVER changes the faces: no mouth movement, no new facial features.
 STRICTLY FORBIDDEN: 3D, redesign, extra antenna, missing ear, mouths, lip sync, smiles with teeth, noses, second eye, antenna on the small robot, propellers, extra limbs, morphing, melting, flicker, new characters, humans, text, letters, subtitles, logos, watermark, music, background change, style change.
 ```
+
+## Fichas de Lía, Sr. Tornillo y Brillo (para los vídeos 2, 4 y 5 de la campaña)
+Base: `kling/personajes/ficha_secundarios.png` (1774×887, cuerpo entero y nítido) + fichas secretas p.77-78 del libro 2.
+Prompt de Grok (imagen, horizontal 16:9, máxima calidad; adjuntar ficha_secundarios.png; una ficha por personaje):
+```
+Character model sheet of [LÍA = the blue alien girl with chef hat / SR. TORNILLO = the golden clockmaker robot / BRILLO = the silver egg robot] from the attached image. Copy the character EXACTLY: same shapes, colours, clothes and accessories, nothing added, nothing removed.
+2D cartoon, flat colours, clean lines, white background.
+Left: full body front view, 3/4 view, side view and back view, same size, standing neutral.
+Right: 6 head close-ups with different expressions (happy, laughing, surprised, curious, worried, proud).
+Bottom: 4 small colour swatches of the palette.
+No text, no letters, no labels, no logos, no watermark, no other characters.
+```
+Detalles a comprobar: Lía = 2 antenas con bolas rosas, gorro de chef, peto vaquero, tiritas naranjas en las rodillas, zapatillas rosas, batidora rosa · Sr. Tornillo = cuerpo redondo dorado, bigote de muelles blanco, monóculo dcho., chaleco de cuero con herramientas, engranajes en la barriga, pomo arriba · Brillo = huevo plateado, gafas de sol negras, sonrisa enorme, brazos y piernas metálicos, megáfono rojo/blanco.
