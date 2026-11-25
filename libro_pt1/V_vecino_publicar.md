@@ -1,6 +1,6 @@
 # «El vecino que todos tenemos» · libro 1 · publicar
 
-- Archivo: `V_vecino_que_todos_tenemos.mp4` (39 s, 720×1280, 2,9 MB). Portada: `V_vecino_portada.jpg` (en TikTok, fotograma del segundo 3,2: Marisa gritando).
+- Archivo: `V_vecino_que_todos_tenemos.mp4` (39 s, 720×1280, 2,9 MB). Cierre con la portada NUEVA (v3) desde el 25 nov. Portada: `V_vecino_portada.jpg` (en TikTok, fotograma del segundo 3,2: Marisa gritando).
 - Música: sin música. Añade en TikTok una pista de suspense o comedia al 20-30 %.
 
 ## Descripción

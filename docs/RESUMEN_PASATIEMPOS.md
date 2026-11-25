@@ -25,7 +25,7 @@
 
 ## 4. Vídeos hechos
 - V01 Navidad «El asesinato del último turrón» (29,6 s): `libro_navidad/V01_ultimo_turron.mp4` + portada + `V01_publicar.md`. Publicado. Medir: retención seg. 1 (>50 %), visionado medio (>10 s), completos, comentarios.
-- Libro 1 «El vecino que todos tenemos» (39 s, guion de Francisco): `libro_pt1/V_vecino_que_todos_tenemos.mp4` + portada + `V_vecino_publicar.md`. Pendiente: que Francisco revise audio (Remedios, 4.ºB, Marisa), enlace de Amazon, y cambiar el cierre por la portada nueva.
+- Libro 1 «El vecino que todos tenemos» (39 s, guion de Francisco): `libro_pt1/V_vecino_que_todos_tenemos.mp4` + portada + `V_vecino_publicar.md`. Cierre ya cambiado a la portada nueva (`scripts/libro1_vecino_cierre_v2.py`). Pendiente: que Francisco revise audio (Remedios, 4.ºB, Marisa) y enlace de Amazon.
 - Método de producción: fichas → imagen de inicio (personaje recortado sobre fondo, scripts `scripts/cut.py`, `scripts/frames.py`) → Grok vídeo con 1 frase por clip y voz descrita → montaje con `scripts/navidad_v01_build.py` / `scripts/libro1_vecino_build.py` (subtítulos amarillos, SFX, tablero, portada, <3 MB, sin música).
 
 ## 5. Próximos pasos
