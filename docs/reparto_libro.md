@@ -8,7 +8,7 @@ Las fichas de Grok se reaprovechan. Los nombres y rasgos salen de `libro_pt1/gui
 | 2.º A | VANESSA (influencer, 1.200 seguidores) | 4_vane.png | ninguno |
 | 2.º B | DON ANSELMO (presidente 19 años, firma y sella) | 2_manolo.png | sello de goma y carpeta de actas |
 | 3.º A | MARISA GÓMEZ (gritos con el marido, salsa, cruceros) | NUEVA | crear |
-| 3.º A | su marido = RAFA (cuñado) | 3_rafa.png | ninguno (propuesta) |
+| 3.º A | su marido = MANOLO (así se llama en el libro, p. 93) | 3_rafa.png | se reaprovecha la ficha de Rafa con el nombre de Manolo |
 | 3.º B | IKER (opositor a notarías) | NUEVA | crear |
 | 4.º A | CHARO (Y SATANÁS, chihuahua) | 1_maruja.png | chihuahua en brazos |
 | 4.º B | ¿¿?? (nadie lo ha visto) | 7_sonia.png | casi no se ve: sombra, puerta, gafas |

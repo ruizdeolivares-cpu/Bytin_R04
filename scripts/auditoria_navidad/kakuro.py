@@ -58,3 +58,24 @@ def solve(T,R,limit=2):
             if all(okrun(r) for r in byc[c]): rec(k+1)
             del sol[c]
     rec(0); return cnt[0], last[0]
+
+def read_kakuro2(pg, xs, ys):
+    n=len(xs)-1; m=len(ys)-1; s=(xs[-1]-xs[0])/n
+    T=[['W']*n for _ in range(m)]
+    for x in pg.get_drawings():
+        f=x.get('fill'); r=x['rect']
+        if f is not None and sum(f)<1.5 and abs(r.width-s)<2:
+            cx=(r.x0+r.x1)/2; cy=(r.y0+r.y1)/2
+            if xs[0]<cx<xs[-1] and ys[0]<cy<ys[-1]: T[int((cy-ys[0])/s)][int((cx-xs[0])/s)]='B'
+    A=[[None]*n for _ in range(m)]; D=[[None]*n for _ in range(m)]; V=[[None]*n for _ in range(m)]
+    for w in pg.get_text('words'):
+        if not w[4].isdigit(): continue
+        cx=(w[0]+w[2])/2; cy=(w[1]+w[3])/2
+        if not (xs[0]<cx<xs[-1] and ys[0]<cy<ys[-1]): continue
+        j=int((cx-xs[0])/s); i=int((cy-ys[0])/s)
+        if T[i][j]=='W': V[i][j]=int(w[4])
+        else:
+            ry=cy-ys[0]-i*s; rx=cx-xs[0]-j*s
+            if ry<s/2 and rx>s/2: A[i][j]=int(w[4])
+            else: D[i][j]=int(w[4])
+    return T,A,D,V
