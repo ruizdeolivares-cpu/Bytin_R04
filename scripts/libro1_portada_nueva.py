@@ -10,7 +10,7 @@ x0=round(457.2144*K); PW=full.shape[1]-x0; PH=full.shape[0]
 art=np.asarray(Image.open('libro_pt1/portada_nueva_arte.png').convert('RGB')).astype(float)
 src=np.array([253,196,5]); dist=np.sqrt(((art-src)**2).sum(2)); w=np.clip(1-dist/70,0,1)[...,None]
 art=np.clip(art+w*(Y-src),0,255).astype('uint8'); art=Image.fromarray(art)
-title_bottom=round(316*K)
+title_bottom=round(320*K)
 roof=300/1728; Ha=int((PH-title_bottom)/(1-roof)); Wa=int(Ha*art.width/art.height)
 art=art.resize((Wa,Ha),Image.LANCZOS)
 panel=Image.new('RGB',(PW,PH),tuple(Y)); panel.paste(art,((PW-Wa)//2,PH-Ha))
@@ -36,21 +36,18 @@ def word(text,font,fill,stroke,shadow,maxw,rot,center,spacing=0):
 CX=(PW-37)/2  # centro del área visible (sin sangrado derecho)
 dr=ImageDraw.Draw(panel)
 dr.text((CX,118),'F  R  A  N  C  I  S  C  O     R  U  I  Z',font=ANT(60),fill=BLACK,anchor='mm')
-word('PASATIEMPOS',TF(420),WHITE,16,22,1560,2,(CX,370))
-word('TÓXICOS',ANT(560),PINK,20,28,1300,2,(CX,770))
-# subtítulo sobre pegatina negra
-sub='para gente con mala leche'
-fs=PMK(84); bb=dr.textbbox((0,0),sub,font=fs)
-tw=bb[2]-bb[0]; th=bb[3]-bb[1]
-st=Image.new('RGBA',(tw+90,th+60),(0,0,0,0)); sd=ImageDraw.Draw(st)
-sd.rectangle([0,0,st.width,st.height],fill=BLACK); sd.text((45-bb[0],30-bb[1]),sub,font=fs,fill=(255,242,0))
-st=st.rotate(-2,expand=True,resample=Image.BICUBIC); panel.paste(st,(int(CX-st.width/2),1075-st.height//2),st)
+# logotipo del título (generado con IA), fondo amarillo recoloreado al de la cubierta
+lg=np.asarray(Image.open('libro_pt1/titulo_lupa.png').convert('RGB')).astype(float)
+src2=np.array([252,193,1]); dd2=np.sqrt(((lg-src2)**2).sum(2)); w2=np.clip(1-dd2/60,0,1)[...,None]
+lg=np.clip(lg+w2*(Y-src2),0,255).astype('uint8'); lg=Image.fromarray(lg)
+LW=1820; lg=lg.resize((LW,int(lg.height*LW/lg.width)),Image.LANCZOS)
+panel.paste(lg,(int(CX-LW/2),150))
 # franja rosa original (recortada del PDF, amarillo fuera)
 y1=round(262*K); y2=round(305*K)
 tb=full[y1:y2, x0:]
 dd=np.sqrt(((tb-Y)**2).sum(2)); alpha=np.clip((dd-25)*6,0,255).astype('uint8')
 t=Image.fromarray(tb.astype('uint8')).convert('RGBA'); t.putalpha(Image.fromarray(alpha))
-panel.paste(t,(0,y1+30),t)
+panel.paste(t,(0,y1+55),t)
 panel.save('libro_pt1/portada_nueva_frontal.png')
 # KDP cover pdf
 doc=pymupdf.open(SRC); pg=doc[0]; r=pymupdf.Rect(457.2144,0,pg.rect.width,pg.rect.height)
