@@ -26,6 +26,10 @@
 ## 4. Vídeos hechos
 - V01 Navidad «El asesinato del último turrón» (29,6 s): `libro_navidad/V01_ultimo_turron.mp4` + portada + `V01_publicar.md`. Publicado. Medir: retención seg. 1 (>50 %), visionado medio (>10 s), completos, comentarios.
 - Libro 1 «El vecino que todos tenemos» (39 s, guion de Francisco): `libro_pt1/V_vecino_que_todos_tenemos.mp4` + portada + `V_vecino_publicar.md`. Cierre ya cambiado a la portada nueva (`scripts/libro1_vecino_cierre_v2.py`). Pendiente: que Francisco revise audio (Remedios, 4.ºB, Marisa) y enlace de Amazon.
+- Vecino CORTO (20 s, recomendado): `libro_pt1/V_vecino_20s.mp4` (`scripts/libro1_vecino_20s.py`).
+- «Cuñadoku exprés» (7,3 s, Toni + Cuñadoku n.º 1 pág. 9): `libro_navidad/V_cunadoku_expres.mp4` + portada + `V_cunadoku_expres_publicar.md` (`scripts/cunadoku_expres_build.py`). Solución: fila 4, col. 4 (6 → 3).
+- OJO libro Navidad: Cuñadoku n.º 2 (pág. 9) tiene dos 4 a la vista en la fila 6 (incumple la regla «nunca repite a la vista»).
+- Datos (Metricool, hasta 22 nov): casi todo 700-800 vistas; turrón 2.805 pero solo 3 % lo ve entero → vídeos más cortos.
 - Método de producción: fichas → imagen de inicio (personaje recortado sobre fondo, scripts `scripts/cut.py`, `scripts/frames.py`) → Grok vídeo con 1 frase por clip y voz descrita → montaje con `scripts/navidad_v01_build.py` / `scripts/libro1_vecino_build.py` (subtítulos amarillos, SFX, tablero, portada, <3 MB, sin música).
 
 ## 5. Próximos pasos
