@@ -20,6 +20,7 @@ Para arrancar un chat nuevo: «Lee RESUMEN.md, videos/CAMPANA.md, PROMPT_MAESTRO
 
 ## Vídeos
 - Publicados: V01, V02 (17-18 nov), L1-03 «carta a los Reyes» (22 nov, 78 vistas).
+- V08 «libro físico» Black Friday (27 nov 19:30, sin IA, 14,5 s): montado con los vídeos de Francisco (IMG_7477/7478 → libro_fisico/*_720.mp4). Datos L1-04 (26 nov): 70 vistas, 2,5 s media, 1,16 % completo → el gancho falla: texto en el fotograma 0, acción desde el 1.er segundo, 10-15 s.
 - Listos sin publicar: L1-01, L1-02 «CARIÑO DETECTADO», V03-V07, L1-03b (versión corta 15 s), **L1-04 «¿Tu peque sabe lo que cuesta ganar dinero?» (vídeo 1 de la campaña nueva, 24,5 s)**. Todo en `videos/` y en Drive.
 - Siguiente: vídeo 3 «30 días para salvar a un robot» → plan y prompts en `videos/PLANTILLA_V3.md` (esperando imágenes y voces de Grok), luego 2, 4 y 5 (guiones en el chat del 25 nov y resumen en CAMPANA.md). Necesitan fichas de Lía, Sr. Tornillo y Brillo (las tarjetas de `kling/personajes` son pequeñas).
 - Propuesto y pendiente de respuesta: vídeo con el LIBRO FÍSICO en las manos de Francisco + voz (formato que más vende; Black Friday 27 nov).

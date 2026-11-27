@@ -16,4 +16,4 @@ Formatos en rotación: Reto · Escena Bityn/R-04 · «Mi hijo me ha enseñado…
 | 2026-11-23 | 13:30 | l1_05 | Libro 1 · Por hacer |  |  | Por hacer |
 | 2026-11-23 | 19:30 | v07_beneficio | Beneficio: «¿Todo el dinero que entra es tuyo?» (p.41-42) | viñetas p.41 y p.42, pizarra con la cuenta (sin IA) | 0 portada desenfocada | Listo |
 | 2026-11-24 | 13:30 | l1_06 | Libro 1 · Por hacer |  |  | Por hacer |
-| 2026-11-24 | 19:30 | v08 | Libro 2 · Regalo de Navidad (GK3b) |  |  | Por hacer |
+| 2026-11-27 | 19:30 | v08_libro_fisico | Black Friday: libro FÍSICO en manos de Francisco (hojeando) | IMG_7477 + IMG_7478 (grabados por Francisco, sin IA) | 2 degradado | Listo |
